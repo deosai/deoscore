@@ -17,6 +17,7 @@
 
 * `make all`
 * `make clean`
+* `make docs.start`
 * `make push` -- `make msg="add: make push" push`
 * `make venv`
 * `make wiki.pull`

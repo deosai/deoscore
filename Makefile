@@ -1,11 +1,11 @@
 include .deosrc
 
 .DEFAULT_GOAL := all
-.PHONY: all build docs.start push run venv wiki.pull wiki.push
+.PHONY: all build docs.start push run sync venv wiki.pull wiki.push
 .SUBLIME_TARGETS: all
 
 all: venv
-	$(MAKE) run
+	@-$(MAKE) run
 
 run:
 	@-$(ACTVENV) && $(CD) src && $(PY) graphviz.py
@@ -19,6 +19,10 @@ build:
 
 push:
 	@-git add . && git commit -S -m "$(msg)" && git push
+
+sync:
+	@-$(MAKE) wiki.pull
+	@-$(MAKE) msg="make sync" push
 
 venv:
 	@-$(RM) $(DOTVENV)
