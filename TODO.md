@@ -4,8 +4,6 @@
 
 * dns: `deos.ai`
 * dns: `deos.sh`
-* add: `.env`
-* add: `.env-example`
 * cmd: `make wiki.pull`
 * cmd: `make wiki.push`
 * build: `app/README.md`
