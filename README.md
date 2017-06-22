@@ -3,7 +3,7 @@
 
 # [ΔOS v0.8-alpha.9][000] | `deos-core` | [![Build Status][001]][002]
 
-[![var/assets/github/self-header.jpg][003]](https://github.com/libdeos/deos-graphviz/wiki)
+[![self-header.jpg][003]](https://github.com/libdeos/deos-graphviz/wiki)
 
 ---
 
