@@ -10,6 +10,7 @@
 
 * `make all`
 * `make clean`
+* `make push` -- `make msg="add: make push" push`
 * `make venv`
 * `make wiki.pull`
 * `make wiki.push`
