@@ -9,7 +9,6 @@ app/vault/ui_*py
 
 #[dotfolders]
 .backup/
-.dojo/
 
 #[folders]
 app/vault/src/atdlib/
