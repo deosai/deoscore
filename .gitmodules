@@ -1,3 +1,0 @@
-[submodule "app/tasks"]
-	path = app/tasks
-	url = https://github.com/libdeos/deos-tasks.git
