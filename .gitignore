@@ -10,6 +10,7 @@ app/vault/ui_*py
 #[dotfolders]
 .backup/
 .keychain/
+.swap/
 .venv/
 
 #[folders]
