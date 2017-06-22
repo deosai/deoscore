@@ -16,9 +16,12 @@
 ## Commands
 
 * `make all`
+* `make build`
 * `make clean`
 * `make docs.start`
 * `make push` -- `make msg="add: make push" push`
+* `make run`
+* `make sync`
 * `make venv`
 * `make wiki.pull`
 * `make wiki.push`
