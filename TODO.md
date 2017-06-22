@@ -2,6 +2,8 @@
 
 ## `v0.8-alpha.9`
 
+- [ ] cmd: `make wiki.pull`
+- [ ] cmd: `make wiki.push`
 - [ ] build: `app/README.md`
 - [ ] build: `bin/README.md`
 - [ ] build: `boot/README.md`
