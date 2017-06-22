@@ -8,6 +8,3 @@ build:
 
 push:
 	@-git add . && git commit -S -m "$(msg)" && git push
-
-pull:
-	@-git pull

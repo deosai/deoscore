@@ -9,6 +9,7 @@ app/vault/ui_*py
 
 #[dotfolders]
 .backup/
+.keychain/
 
 #[folders]
 app/vault/src/atdlib/
