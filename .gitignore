@@ -48,3 +48,5 @@ src/example.sh
 !var/backup/.gitprivate
 !var/log/deos/.gitprivate
 !var/privkey/.gitprivate
+
+#[endfi]
