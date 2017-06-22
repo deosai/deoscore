@@ -1,5 +1,20 @@
 include .env
 
-.DEFAULT_GOAL := all
-.SUBLIME_TARGETS: all
-.PHONY: all build clean venv
+#[path]
+DOTVENV  := $(V)/.venv
+DOTSWAP  := $(V)/.swap
+SWAPWIKI := $(DOTSWAP)/wiki
+VAR      := $(V)/var
+VARWIKI  := $(VAR)/wiki
+
+#[github]
+COREREPO := git@github.com:libdeos/deos-core.git
+COREWIKI := git@github.com:libdeos/deos-core.wiki.git
+WIKIMSG  := deos: wiki.sync
+
+#[python]
+ACTVENV  := source $(DOTVENV)/bin/activate
+PY       := python
+PYREQ    := etc/python/requirements.txt
+
+#[endfi]
