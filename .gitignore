@@ -14,7 +14,6 @@ app/vault/ui_*py
 
 #[folders]
 app/vault/src/atdlib/
-bin/
 etc/blockstack/*
 etc/zerotier/*
 ext/pyqt/
