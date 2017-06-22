@@ -1,20 +1,18 @@
 include .env
-
 #[path]
-DOTVENV  := $(V)/.venv
-DOTSWAP  := $(V)/.swap
-SWAPWIKI := $(DOTSWAP)/wiki
-VAR      := $(V)/var
-VARWIKI  := $(VAR)/wiki
-
+DOTVENV    := $(V)/.venv
+DOTSWAP    := $(V)/.swap
+SWAPWIKI   := $(DOTSWAP)/wiki
+VAR        := $(V)/var
+VARWIKI    := $(VAR)/wiki
 #[github]
-COREREPO := git@github.com:libdeos/deos-core.git
-COREWIKI := git@github.com:libdeos/deos-core.wiki.git
-WIKIMSG  := deos: wiki.sync
-
+COREREPO   := git@github.com:libdeos/deos-core.git
+COREWIKI   := git@github.com:libdeos/deos-core.wiki.git
+WIKIMSG    := deos: wiki.sync
 #[python]
-ACTVENV  := source $(DOTVENV)/bin/activate
-PY       := python
-PYREQ    := etc/python/requirements.txt
-
+ACTVENV    := source $(DOTVENV)/bin/activate
+PIPINSTALL := pip install
+PY         := python
+PYREQ      := etc/python/requirements.txt
+VENV       := virtualenv --always-copy --no-site-packages
 #[endfi]
