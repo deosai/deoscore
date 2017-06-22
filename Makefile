@@ -12,7 +12,7 @@ push:
 	@-git add . && git commit -S -m "$(msg)" && git push
 wiki.pull:
 	@-$(RM) $(VARWIKI)
-	@-$(CD) $(VAR) && $(GITCLONE) $(GITWIKI) wiki
+	@-$(CD) $(VAR) && $(GITCLONE) $(COREWIKI) wiki
 	@-$(RM) $(VARWIKI)/.git
 
 #[endfi]
