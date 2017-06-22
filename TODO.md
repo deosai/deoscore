@@ -4,8 +4,6 @@
 
 * dns: `deos.ai`
 * dns: `deos.sh`
-* init: `git-crypt`
-* export-key: `git-crypt`
 * add: `.env`
 * add: `.env-example`
 * cmd: `make wiki.pull`

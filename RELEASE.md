@@ -4,6 +4,8 @@
 
 * add: `LICENSE.txt`
 * cmd: `make push`
+* init: `git-crypt`
+* export-key: `git-crypt`
 
 ---
 
