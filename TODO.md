@@ -2,7 +2,6 @@
 
 ## `v0.8-alpha.9`
 
-* add: `LICENSE.txt`
 * cmd: `make git.pull`
 * cmd: `make git.push`
 * cmd: `make git.commit`

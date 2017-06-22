@@ -2,7 +2,7 @@
 
 ## `v0.8-alpha.9`
 
-* migrate: codebase -> `dojo`
+* add: `LICENSE.txt`
 
 ---
 

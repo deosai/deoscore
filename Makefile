@@ -3,3 +3,6 @@ all:
 
 build:
 	cd docs && $(MAKE) build
+
+push:
+	@-git add . && git commit -S -m "$(msg)" && git push
