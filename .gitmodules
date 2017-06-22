@@ -1,3 +1,6 @@
 [submodule "app/deos-graphviz"]
 	path = app/deos-graphviz
 	url = https://github.com/libdeos/deos-graphviz.git
+[submodule "dev/pyboard"]
+	path = dev/pyboard
+	url = https://github.com/libdeos/deos-pyboard.git
