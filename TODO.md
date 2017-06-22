@@ -2,10 +2,7 @@
 
 ## `v0.8-alpha.9`
 
-* cmd: `make git.pull`
-* cmd: `make git.push`
-* cmd: `make git.commit`
-* cmd: `make git.release`
+* cmd: `make pull`
 * dns: `deos.ai`
 * dns: `deos.sh`
 * init: `git-crypt`
@@ -25,5 +22,6 @@
 * build: `var/README.md`
 * convert: `docs/web/*.rst` -> `*.md`
 * restore: release notes
+* cmd: `make git.release`
 
 ---

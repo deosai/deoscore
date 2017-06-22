@@ -3,6 +3,7 @@
 ## `v0.8-alpha.9`
 
 * add: `LICENSE.txt`
+* cmd: `make push`
 
 ---
 
