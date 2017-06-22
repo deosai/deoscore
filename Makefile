@@ -4,7 +4,8 @@ include .deosrc
 .PHONY: all build docs.start push run sync venv wiki.pull wiki.push
 .SUBLIME_TARGETS: all
 
-all: venv
+all:
+	@-$(MAKE) build
 	@-$(MAKE) run
 
 run:
@@ -12,13 +13,18 @@ run:
 	@-dot -Tpng var/dot/g.dot > var/img/g.png
 
 docs.start:
-	@-cd docs && $(MAKE)
+	$(MAKE) docs.build
+	@-$(CD) docs && $(MAKE)
+
+docs.build:
+	@-$(CD) docs && $(MAKE) build
 
 build:
-	@-cd docs && $(MAKE) build
+	@-$(MAKE) venv
+	@-$(MAKE) docs.build
 
 push:
-	@-git add . && git commit -S -m "$(msg)" && git push
+	@-$(GITADD) && $(GITCOMMIT) "$(msg)" && $(GITPUSH)
 
 sync:
 	@-$(MAKE) wiki.pull
