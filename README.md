@@ -19,7 +19,7 @@
 * `make build`
 * `make clean`
 * `make docs.start`
-* `make push` -- `make msg="add: make push" push`
+* `make msg="add: var/asset/img/*.png" push`
 * `make run`
 * `make sync`
 * `make venv`
