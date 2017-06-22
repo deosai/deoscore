@@ -1,10 +1,17 @@
+
+---
+
 # [ΔOS v0.8-alpha.9][000] | `deos-core` | [![Build Status][001]][002]
 
 [![var/assets/github/self-header.jpg][003]](https://github.com/libdeos/deos-graphviz/wiki)
 
+---
+
 > *The languages of intelligence (writing) and self-interest (money) are the*
 > *mind's greatest creations; both must be decentralized or all is lost.*
 > **[—DeSantis][004]**
+
+---
 
 ## Commands
 
