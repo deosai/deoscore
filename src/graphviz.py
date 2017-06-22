@@ -4,7 +4,7 @@
 import web
 import json
 
-templates = "../templates/dot/"
+templates = "../templates/graphviz/"
 state = {
     'fontname': 'Arial',
 }
@@ -13,7 +13,7 @@ def load():
     i = 0
     store = []
     keys = None
-    with open("../data/ethereum/root.csv") as f:
+    with open("../data/csv/eth-000.csv") as f:
         for line in f:
             data = line.split('","')[1:-2]
             if i == 0:
@@ -24,7 +24,7 @@ def load():
                     d[keys[j]] = data[j]
                 store += [d]
             i += 1
-    with open('../var/json/root.json', 'w') as f:
+    with open('../var/json/eth-000.json', 'w') as f:
         f.write(json.dumps(store, sort_keys=True, indent=4))
     return store
 

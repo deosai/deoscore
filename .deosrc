@@ -13,6 +13,6 @@ WIKIMSG    := deos: wiki.sync
 ACTVENV    := source $(DOTVENV)/bin/activate
 PIPINSTALL := pip install
 PY         := python
-PYREQ      := etc/python/requirements.txt
+PYREQ      := requirements.txt
 VENV       := virtualenv --always-copy --no-site-packages
 #[endfi]
