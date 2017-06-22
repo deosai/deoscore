@@ -19,6 +19,7 @@
 * `make build`
 * `make clean`
 * `make docs.start`
+* `make graphviz`
 * `make msg="add: var/asset/img/*.png" push`
 * `make run`
 * `make sync`

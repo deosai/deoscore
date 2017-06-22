@@ -1,30 +1,34 @@
 include .deosrc
 
 .DEFAULT_GOAL := all
-.PHONY: all build docs.start push run sync venv wiki.pull wiki.push
+.PHONY: all build docs.build docs.start graphviz push run sync venv \
+	wiki.pull wiki.push
 .SUBLIME_TARGETS: all
 
 all:
 	@-$(MAKE) build
 	@-$(MAKE) run
 
-run:
-	@-$(ACTVENV) && $(CD) src && $(PY) graphviz.py
-	@-dot -Tpng var/dot/g.dot > var/img/g.png
+build:
+	@-$(MAKE) venv
+	@-$(MAKE) docs.build
+
+docs.build:
+	@-$(CD) docs && $(MAKE) build
 
 docs.start:
 	$(MAKE) docs.build
 	@-$(CD) docs && $(MAKE)
 
-docs.build:
-	@-$(CD) docs && $(MAKE) build
-
-build:
-	@-$(MAKE) venv
-	@-$(MAKE) docs.build
+graphviz:
+	@-$(ACTVENV) && $(CD) src && $(PY) graphviz.py
+	@-dot -Tpng var/dot/g.dot > var/img/g.png
 
 push:
 	@-$(GITADD) && $(GITCOMMIT) "$(msg)" && $(GITPUSH)
+
+run:
+	@-$(MAKE) graphviz
 
 sync:
 	@-$(MAKE) wiki.pull
