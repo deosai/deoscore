@@ -1,6 +1,6 @@
 # TODO
 
-## `v0.8-alpha.9`
+## `v0.8-alpha.10`
 
 * dns: `deos.ai`
 * dns: `deos.sh`
