@@ -2,8 +2,6 @@
 
 ## `v0.8-alpha.10`
 
-* dns: `deos.ai`
-* dns: `deos.sh`
 * build: `app/README.md`
 * build: `bin/README.md`
 * build: `boot/README.md`
