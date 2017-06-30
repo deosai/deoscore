@@ -47,6 +47,10 @@ wiki.pull:
 	@-$(RM) $(VARWIKI)
 	@-$(CD) $(VAR) && $(GITCLONE) $(COREWIKI) wiki
 	@-$(RM) $(VARWIKI)/.git
+	@-$(RM) meta/wikid/templates/static/
+	@-$(MKDIR) meta/wikid/templates/static/
+	@-$(CD) meta/wikid/templates/static && $(GITCLONE) $(COREWIKI) .
+	@-$(RM) meta/wikid/templates/static/.git
 
 wiki.push:
 	@-$(RM) $(DOTSWAP)
