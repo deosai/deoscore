@@ -25,10 +25,10 @@ venv:
 	@echo $(call line,\n${GREEN},venv: init)
 	@-$(VENV) -p /usr/bin/python2.7 $(VENV_MAC_DIR) --no-site-packages
 	@echo $(call line,${GREEN},venv: created)
-	@echo $(call line,\n${PURPLE},python: install packages)
+	@echo $(call line,\n${PURPLE},python: install exec)
 	@-$(SH) -c "source $(VENV_MAC_DIR)/bin/activate && \
 		pip install -r $(CONFIG_DIR)/python/requirements.txt"
-	@echo $(call line,${PURPLE},python: install complete)
+	@echo $(call line,${PURPLE},python: install exit)
 
 clean:
 	@echo $(call line,\n${BLUE},clean: exec)
