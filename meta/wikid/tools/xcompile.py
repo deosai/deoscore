@@ -11,7 +11,7 @@ def replace_tab(s):
     return r
 
 def main():
-    fp = open('../.swap/macros/python.def', 'w')
+    fp = open('../macros/python.def', 'w')
     with open('../main.py') as f:
         data = f.read()
     lines = replace_tab(data).split('\n')

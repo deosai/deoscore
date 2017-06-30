@@ -1,0 +1,13 @@
+X("#!/usr/bin/env python\n" \
+  "# -*- coding: utf-8 -*-\n" \
+  "import os\n" \
+  "import web\n" \
+  "import yaml\n" \
+  "render = web.template.render('./templates/')\n" \
+  "render._add_global(render, 'render')\n" \
+  "def main():\n" \
+  "    print render\n" \
+  "    print os.getenv('MAKEFLAGS', None)\n" \
+  "if __name__ == \"__main__\":\n" \
+  "    main()\n") 
+#undef X

@@ -26,17 +26,17 @@ venv:
 	@-$(VENV) -p /usr/bin/python2.7 $(VENV_MAC_DIR) --no-site-packages
 	@echo $(call line,${GREEN},venv: created)
 	@echo $(call line,\n${PURPLE},python: install packages)
-	$(SH) -c "source $(VENV_MAC_DIR)/bin/activate && \
+	@-$(SH) -c "source $(VENV_MAC_DIR)/bin/activate && \
 		pip install -r $(CONFIG_DIR)/python/requirements.txt"
 	@echo $(call line,${PURPLE},python: install complete)
 
 clean:
-	@echo $(call line,\n${BLUE},make clean: exec)
+	@echo $(call line,\n${BLUE},clean: exec)
 	@-$(RM) -r $(BASE_PATH)/__pycache__/ $(BASE_PATH)/*.pyc
 	@-$(RM) -r $(VENV_MAC_DIR)/ && mkdir $(VENV_MAC_DIR)/
-	@-cp $(MACRO_DIR)/.gitignore $(VENV_MAC_DIR)/.gitignore
+	@-cp ./templates/special/gitignore.txt $(VENV_MAC_DIR)/.gitignore
 	@-$(RM) -r $(VENV_LINUX_DIR)/ && mkdir $(VENV_LINUX_DIR)/
-	@-cp $(MACRO_DIR)/.gitignore $(VENV_LINUX_DIR)/.gitignore
-	@echo $(call line,${BLUE},make clean: exit)
+	@-cp ./templates/special/gitignore.txt $(VENV_LINUX_DIR)/.gitignore
+	@echo $(call line,${BLUE},clean: exit)
 
 #[endfi]
