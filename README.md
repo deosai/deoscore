@@ -1,3 +1,5 @@
+[this:author:name]:  # (Andrew DeSantis)
+[this:author:email]: # (atd@bitcoin.sh)
 
 ---
 
@@ -28,6 +30,8 @@
 * `make wiki.pull`
 * `make wiki.push`
 * `make wikid`
+
+---
 
 ## `.env` Example
 
