@@ -9,4 +9,4 @@
 	url = https://github.com/libdeos/__urbit-arvo.git
 [submodule "ext/urbit-docs"]
 	path = ext/urbit-docs
-	url = git@github.com:libdeos/__urbit-docs.git
+	url = https://github.com/libdeos/__urbit-docs.git
