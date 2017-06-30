@@ -21,6 +21,7 @@
 * `make docs.build`
 * `make docs.start`
 * `make graphviz`
+* `make meta.wiki`
 * `make msg="add: var/asset/img/*.png" push`
 * `make run`
 * `make sync`
