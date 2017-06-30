@@ -36,7 +36,7 @@
 ## `.env` Example
 
 ```bash
-include make/deos.mk
+include src/make/deos.mk
 export MAKEFLAGS := --no-print-directory
 VOLUME           := /example/example
 VOLMOD           := example/example/example
