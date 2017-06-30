@@ -10,3 +10,6 @@
 [submodule "ext/urbit-docs"]
 	path = ext/urbit-docs
 	url = https://github.com/libdeos/__urbit-docs.git
+[submodule "src/pyboard"]
+	path = src/pyboard
+	url = git@github.com:libdeos/__pyboard.git
