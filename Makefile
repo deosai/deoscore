@@ -24,8 +24,8 @@ graphviz:
 	@-$(ACTVENV) && $(CD) src && $(PY) graphviz.py
 	@-dot -Tpng var/dot/g.dot > var/img/g.png
 
-wikid:
-	@-$(CD) meta/wikid && $(MAKE)
+#wikid:
+	#@$(CD) meta/wikid && $(MAKE)
 
 push:
 	@-$(GITADD) && $(GITCOMMIT) "$(msg)" && $(GITPUSH)
@@ -47,10 +47,10 @@ wiki.pull:
 	@-$(RM) $(VARWIKI)
 	@-$(CD) $(VAR) && $(GITCLONE) $(COREWIKI) wiki
 	@-$(RM) $(VARWIKI)/.git
-	@-$(RM) meta/wikid/static/
-	@-$(MKDIR) meta/wikid/static/
-	@-$(CD) meta/wikid/static && $(GITCLONE) $(COREWIKI) .
-	@-$(RM) meta/wikid/static/.git
+	@#$(RM) meta/wikid/static/
+	@#$(MKDIR) meta/wikid/static/
+	@#$(CD) meta/wikid/static && $(GITCLONE) $(COREWIKI) .
+	@#$(RM) meta/wikid/static/.git
 
 wiki.push:
 	@-$(RM) $(DOTSWAP)

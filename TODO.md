@@ -2,6 +2,7 @@
 
 ## `v0.8-alpha.10`
 
+* add: `schemas/`
 * add: `config.py`
 * add: `install.sh`
 * build: `app/README.md`
