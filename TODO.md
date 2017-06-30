@@ -2,6 +2,8 @@
 
 ## `v0.8-alpha.10`
 
+* add: `config.py`
+* add: `install.sh`
 * build: `app/README.md`
 * build: `bin/README.md`
 * build: `boot/README.md`

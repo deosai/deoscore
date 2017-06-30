@@ -29,6 +29,17 @@
 * `make wiki.push`
 * `make wikid`
 
+## `.env` Example
+
+```bash
+include make/deos.mk
+export MAKEFLAGS := --no-print-directory
+VOLUME           := /example/example
+VOLMOD           := example/example/example
+V                := $(VOLUME)/$(VOLMOD)
+#[endfi]
+```
+
 ---
 
 [000]: https://libdeos.github.io/deos-graphviz/
