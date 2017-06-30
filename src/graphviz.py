@@ -13,7 +13,7 @@ def load():
     i = 0
     store = []
     keys = None
-    with open("../data/csv/eth-000.csv") as f:
+    with open("../var/data/csv/eth-000.csv") as f:
         for line in f:
             data = line.split('","')[1:-2]
             if i == 0:
