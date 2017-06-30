@@ -1,12 +1,9 @@
-[submodule "ext/urbit"]
-	path = ext/urbit
-	url = https://github.com/libdeos/__urbit.git
-[submodule "ext/urbit-arvo"]
-	path = ext/urbit-arvo
-	url = https://github.com/libdeos/__urbit-arvo.git
-[submodule "ext/urbit-docs"]
-	path = ext/urbit-docs
-	url = https://github.com/libdeos/__urbit-docs.git
 [submodule "src/pyboard"]
 	path = src/pyboard
 	url = https://github.com/libdeos/__pyboard.git
+[submodule "src/urbit/urbit"]
+	path = src/urbit/urbit
+	url = https://github.com/libdeos/__urbit.git
+[submodule "src/urbit/urbit-arvo"]
+	path = src/urbit/urbit-arvo
+	url = https://github.com/libdeos/__urbit-arvo.git
