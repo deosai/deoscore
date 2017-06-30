@@ -1,3 +1,6 @@
 [submodule "dev/pyboard"]
 	path = dev/pyboard
 	url = https://github.com/libdeos/deos-pyboard.git
+[submodule "ext/urbit"]
+	path = ext/urbit
+	url = https://github.com/libdeos/__urbit.git
