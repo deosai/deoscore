@@ -1,7 +1,0 @@
-#[ignore]
-*
-#[except]
-!wiki/*
-!.gitignore
-!README.md
-#[end]
