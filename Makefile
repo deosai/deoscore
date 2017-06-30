@@ -1,8 +1,8 @@
 include .deosrc
 
 .DEFAULT_GOAL := all
-.PHONY: all build docs.build docs.start graphviz push run sync venv \
-	wiki.pull wiki.push
+.PHONY: all build docs.build docs.start graphviz meta.wiki push run sync \
+	venv wiki.pull wiki.push
 .SUBLIME_TARGETS: all
 
 all:
@@ -23,6 +23,9 @@ docs.start:
 graphviz:
 	@-$(ACTVENV) && $(CD) src && $(PY) graphviz.py
 	@-dot -Tpng var/dot/g.dot > var/img/g.png
+
+meta.wiki:
+	@-$(CD) meta/wiki && $(MAKE)
 
 push:
 	@-$(GITADD) && $(GITCOMMIT) "$(msg)" && $(GITPUSH)
