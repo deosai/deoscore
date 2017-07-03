@@ -41,13 +41,9 @@ app/vault/src/ui_mainwindow.py
 app/vault/Crypto
 app/vault/trezorlib
 app/vault/TrezorPass.pro.user
-src/example.sh
 
 #[except]
 !etc/blockstack/.gitprivate
 !etc/zerotier/.gitprivate
-!var/backup/.gitprivate
-!var/log/deos/.gitprivate
-!var/privkey/.gitprivate
 
 #[endfi]
