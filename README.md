@@ -10,6 +10,27 @@
 > **[—DeSantis][004]**
 ---
 
+### Getting Started
+
+***`.env-this`***
+
+```bash
+VOLUME := /Volumes/<volume>
+VOLMOD := <unixtime>/deoscore
+V      := $(VOLUME)/$(VOLMOD)
+```
+---
+
+### Configuration
+
+***`git-encrypt`***
+
+```bash
+$ git-crypt init
+$ git-crypt add-gpg-user <email>
+```
+---
+
 ### Commands
 
 * [ ] `make all`
@@ -26,27 +47,6 @@
 * [ ] `make wiki.push`
 * [ ] `make wikid`
 
----
-
-### Initialization
-
-***`.env-this`***
-
-```bash
-VOLUME := /Volumes/<volume>
-VOLMOD := <unixtime>/deoscore
-V      := $(VOLUME)/$(VOLMOD)
-```
----
-
-### Setup
-
-***`git-encrypt`***
-
-```bash
-$ git-crypt init
-$ git-crypt add-gpg-user <email>
-```
 ---
 
 ### Tips & Tricks
