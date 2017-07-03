@@ -1,22 +1,16 @@
 [this:author:email]: # (atd@bitcoin.sh )
 [this:author:name ]: # (Andrew DeSantis)
-
 ---
-
 # [ΔOS v0.8-alpha.11][000] :/: `deoscore` :/: [![Build Status][001]][002]
-
 [![self-header.jpg][003]](https://github.com/libdeos/deos-graphviz/wiki)
 
 ---
-
 > *The languages of intelligence (writing) and self-interest (money) are the*
 > *mind's greatest creations; both must be decentralized or all is lost.*
 > **[—DeSantis][004]**
-
 ---
 
 ## Commands
-
 * `make all`
 * `make build`
 * `make clean`
@@ -36,35 +30,22 @@
 ## Initialization
 
 ### `.env-this`
-
 ```bash
 VOLUME := /Volumes/<volume>
 VOLMOD := <unixtime>/deoscore
 V      := $(VOLUME)/$(VOLMOD)
 ```
-
 ---
 
-## macOS
-
-### Disable Spotlight Volume Indexer
-
+## Setup
+### `git-encrypt`
 ```bash
-$ mdutil -i off /Volumes/<volume>
-
-$ cd /Volumes/<volume>
-
-$ rm -rf .{,_.}{fseventsd,Spotlight-V*,Trashes}
-
-$ mkdir .fseventsd
-
-$ touch .fseventsd/no_log .metadata_never_index .Trashes
+$ git-crypt init
+$ git-crypt add-gpg-user <email>
 ```
-
 ---
 
 ## Milestones
-
 [comment]: # (<a href="https://deoscore.metaptr.com"><img src="https://github.com/zerotier/ZeroTierOne/raw/master/artwork/AppIcon_87x87.png" align="right" hspace="20" vspace="6"></a>)
 * [ ] **`ΔOS`** `v0.8.11` :/: [**Due:** `July 03, 2017`](#) :/: [`0/0` **Tasks**](#)
 * [ ] **`ΔOS`** `v0.8.12` :/: [**Due:** `July 03, 2017`](#) :/: [`0/0` **Tasks**](#)
@@ -81,18 +62,16 @@ $ touch .fseventsd/no_log .metadata_never_index .Trashes
 
 ---
 
-## Setup
-
-### `git-encrypt`
-
+## macOS
+### Disable Spotlight Volume Indexer
 ```bash
-$ git-crypt init
-
-$ git-crypt add-gpg-user <email>
+$ mdutil -i off /Volumes/<volume>
+$ cd /Volumes/<volume>
+$ rm -rf .{,_.}{fseventsd,Spotlight-V*,Trashes}
+$ mkdir .fseventsd
+$ touch .fseventsd/no_log .metadata_never_index .Trashes
 ```
-
 ---
-
 [000]: https://libdeos.github.io/deos-graphviz/
 [001]: https://travis-ci.org/libdeos/deos-graphviz.svg?branch=master
 [002]: https://travis-ci.org/libdeos/deos-graphviz
