@@ -6,8 +6,8 @@ SWAPWIKI   := $(DOTSWAP)/wiki
 VAR        := $(V)/var
 VARWIKI    := $(VAR)/wiki
 #[github]
-COREREPO   := git@github.com:libdeos/deos-core.git
-COREWIKI   := git@github.com:libdeos/deos-core.wiki.git
+COREREPO   := git@github.com:libdeos/deoscore.git
+COREWIKI   := git@github.com:libdeos/deoscore.wiki.git
 WIKIMSG    := deos: wiki.sync
 #[python]
 ACTVENV    := source $(DOTVENV)/bin/activate
