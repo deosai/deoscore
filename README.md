@@ -70,18 +70,18 @@ $ touch .fseventsd/no_log .metadata_never_index .Trashes
 ## Milestones
 
 <a href="https://deoscore.metaptr.com"><img src="https://github.com/zerotier/ZeroTierOne/raw/master/artwork/AppIcon_87x87.png" align="right" hspace="20" vspace="6"></a>
-* [ ] **`ΔOS`** `v0.8.11` --- [**Due:** `July 03, 2017`](#) --- [`0/0` **Tasks**](https://github.com/libdeos/deoscore/milestone/1)
-* [ ] **`ΔOS`** `v0.8.12` --- [**Due:** `July 03, 2017`](#) --- [`0/0` **Tasks**](https://github.com/libdeos/deoscore/milestone/2)
-* [ ] **`ΔOS`** `v0.8.13` --- [**Due:** `July 03, 2017`](#) --- [`0/0` **Tasks**](#)
-* [ ] **`ΔOS`** `v0.8.14` --- [**Due:** `July 03, 2017`](#) --- [`0/0` **Tasks**](#)
-* [ ] **`ΔOS`** `v0.8.15` --- [**Due:** `July 03, 2017`](#) --- [`0/0` **Tasks**](#)
-* [ ] **`ΔOS`** `v0.8.16` --- [**Due:** `July 04, 2017`](#) --- [`0/0` **Tasks**](#)
-* [ ] **`ΔOS`** `v0.8.17` --- [**Due:** `July 04, 2017`](#) --- [`0/0` **Tasks**](#)
-* [ ] **`ΔOS`** `v0.8.18` --- [**Due:** `July 04, 2017`](#) --- [`0/0` **Tasks**](#)
-* [ ] **`ΔOS`** `v0.8.19` --- [**Due:** `July 04, 2017`](#) --- [`0/0` **Tasks**](#)
-* [ ] **`ΔOS`** `v0.8.20` --- [**Due:** `July 04, 2017`](#) --- [`0/0` **Tasks**](#)
-* [ ] **`ΔOS`** `v0.8.21` --- [**Due:** `July 04, 2017`](#) --- [`0/0` **Tasks**](#)
-* [ ] **`ΔOS`** `v0.8.22` --- [**Due:** `July 04, 2017`](#) --- [`0/0` **Tasks**](#)
+* [ ] **`ΔOS`** `v0.8.11` --- [**Due:** `July 03, 2017`](https://github.com/libdeos/deoscore/milestone/1) --- [`0/0` **Tasks**](https://github.com/libdeos/deoscore/milestone/1)
+* [ ] **`ΔOS`** `v0.8.12` --- [**Due:** `July 03, 2017`](https://github.com/libdeos/deoscore/milestone/2) --- [`0/0` **Tasks**](https://github.com/libdeos/deoscore/milestone/2)
+* [ ] **`ΔOS`** `v0.8.13` --- [**Due:** `July 03, 2017`](https://github.com/libdeos/deoscore/milestone/1) --- [`0/0` **Tasks**](https://github.com/libdeos/deoscore/milestone/1)
+* [ ] **`ΔOS`** `v0.8.14` --- [**Due:** `July 03, 2017`](https://github.com/libdeos/deoscore/milestone/1) --- [`0/0` **Tasks**](https://github.com/libdeos/deoscore/milestone/1)
+* [ ] **`ΔOS`** `v0.8.15` --- [**Due:** `July 03, 2017`](https://github.com/libdeos/deoscore/milestone/1) --- [`0/0` **Tasks**](https://github.com/libdeos/deoscore/milestone/1)
+* [ ] **`ΔOS`** `v0.8.16` --- [**Due:** `July 04, 2017`](https://github.com/libdeos/deoscore/milestone/1) --- [`0/0` **Tasks**](https://github.com/libdeos/deoscore/milestone/1)
+* [ ] **`ΔOS`** `v0.8.17` --- [**Due:** `July 04, 2017`](https://github.com/libdeos/deoscore/milestone/1) --- [`0/0` **Tasks**](https://github.com/libdeos/deoscore/milestone/1)
+* [ ] **`ΔOS`** `v0.8.18` --- [**Due:** `July 04, 2017`](https://github.com/libdeos/deoscore/milestone/1) --- [`0/0` **Tasks**](https://github.com/libdeos/deoscore/milestone/1)
+* [ ] **`ΔOS`** `v0.8.19` --- [**Due:** `July 04, 2017`](https://github.com/libdeos/deoscore/milestone/1) --- [`0/0` **Tasks**](https://github.com/libdeos/deoscore/milestone/1)
+* [ ] **`ΔOS`** `v0.8.20` --- [**Due:** `July 04, 2017`](https://github.com/libdeos/deoscore/milestone/1) --- [`0/0` **Tasks**](https://github.com/libdeos/deoscore/milestone/1)
+* [ ] **`ΔOS`** `v0.8.21` --- [**Due:** `July 04, 2017`](https://github.com/libdeos/deoscore/milestone/1) --- [`0/0` **Tasks**](https://github.com/libdeos/deoscore/milestone/1)
+* [ ] **`ΔOS`** `v0.8.22` --- [**Due:** `July 04, 2017`](https://github.com/libdeos/deoscore/milestone/1) --- [`0/0` **Tasks**](https://github.com/libdeos/deoscore/milestone/1)
 
 ---
 
