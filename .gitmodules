@@ -1,6 +1,6 @@
 [submodule "src/pyboard"]
 	path = src/pyboard
-	url = https://github.com/libdeos/driver-pyboard.git
+	url = https://github.com/libdeos/deos-driver-pyboard.git
 [submodule "src/urbit/urbit"]
 	path = src/urbit/urbit
 	url = https://github.com/libdeos/__urbit.git
