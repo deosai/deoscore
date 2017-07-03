@@ -73,17 +73,20 @@ include             src/make/deos-unix.mk
 
 ## Milestones
 
-* [ ] `deos0.000` **Release** --- **Due:** `June 06, 2017` --- `000` **Tasks**
-* [ ] `deos0.001` **Release** --- **Due:** `June 07, 2017` --- `000` **Tasks**
-* [ ] `deos0.002` **Release** --- **Due:** `June 08, 2017` --- `000` **Tasks**
-* [ ] `deos0.003` **Release** --- **Due:** `June 09, 2017` --- `000` **Tasks**
-* [ ] `deos0.004` **Release** --- **Due:** `June 10, 2017` --- `000` **Tasks**
-* [ ] `deos0.005` **Release** --- **Due:** `June 11, 2017` --- `000` **Tasks**
-* [ ] `deos0.006` **Release** --- **Due:** `June 12, 2017` --- `000` **Tasks**
-* [ ] `deos0.007` **Release** --- **Due:** `June 13, 2017` --- `000` **Tasks**
-* [ ] `deos0.008` **Release** --- **Due:** `June 14, 2017` --- `000` **Tasks**
-* [ ] `deos0.009` **Release** --- **Due:** `June 15, 2017` --- `000` **Tasks**
-* [ ] `deos0.010` **Release** --- **Due:** `June 16, 2017` --- `000` **Tasks**
+* [ ] `ΔOS v0.8.11` **Release** --- **Due:** `July 03, 2017` --- `00` **Tasks**
+* [ ] `ΔOS v0.8.12` **Release** --- **Due:** `July 04, 2017` --- `00` **Tasks**
+* [ ] `ΔOS v0.8.13` **Release** --- **Due:** `July 05, 2017` --- `00` **Tasks**
+* [ ] `ΔOS v0.8.14` **Release** --- **Due:** `July 06, 2017` --- `00` **Tasks**
+* [ ] `ΔOS v0.8.15` **Release** --- **Due:** `July 07, 2017` --- `00` **Tasks**
+* [ ] `ΔOS v0.8.16` **Release** --- **Due:** `July 08, 2017` --- `00` **Tasks**
+* [ ] `ΔOS v0.8.17` **Release** --- **Due:** `July 09, 2017` --- `00` **Tasks**
+* [ ] `ΔOS v0.8.18` **Release** --- **Due:** `July 10, 2017` --- `00` **Tasks**
+* [ ] `ΔOS v0.8.19` **Release** --- **Due:** `July 11, 2017` --- `00` **Tasks**
+* [ ] `ΔOS v0.8.20` **Release** --- **Due:** `July 12, 2017` --- `00` **Tasks**
+* [ ] `ΔOS v0.8.21` **Release** --- **Due:** `July 13, 2017` --- `00` **Tasks**
+* [ ] `ΔOS v0.8.22` **Release** --- **Due:** `July 14, 2017` --- `00` **Tasks**
+* [ ] `ΔOS v0.8.23` **Release** --- **Due:** `July 15, 2017` --- `00` **Tasks**
+* [ ] `ΔOS v0.8.24` **Release** --- **Due:** `July 16, 2017` --- `00` **Tasks**
 
 ## Setup
 
