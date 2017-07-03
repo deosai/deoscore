@@ -31,6 +31,20 @@
 * `make wiki.push`
 * `make wikid`
 
+## Milestones
+
+* [ ] `deos0.000` **Release** --- **Due:** `June 06, 2017` --- `000` **Tasks**
+* [ ] `deos0.001` **Release** --- **Due:** `June 07, 2017` --- `000` **Tasks**
+* [ ] `deos0.002` **Release** --- **Due:** `June 08, 2017` --- `000` **Tasks**
+* [ ] `deos0.003` **Release** --- **Due:** `June 09, 2017` --- `000` **Tasks**
+* [ ] `deos0.004` **Release** --- **Due:** `June 10, 2017` --- `000` **Tasks**
+* [ ] `deos0.005` **Release** --- **Due:** `June 11, 2017` --- `000` **Tasks**
+* [ ] `deos0.006` **Release** --- **Due:** `June 12, 2017` --- `000` **Tasks**
+* [ ] `deos0.007` **Release** --- **Due:** `June 13, 2017` --- `000` **Tasks**
+* [ ] `deos0.008` **Release** --- **Due:** `June 14, 2017` --- `000` **Tasks**
+* [ ] `deos0.009` **Release** --- **Due:** `June 15, 2017` --- `000` **Tasks**
+* [ ] `deos0.010` **Release** --- **Due:** `June 16, 2017` --- `000` **Tasks**
+
 ## Initialization
 
 ### `.env-this` Example
