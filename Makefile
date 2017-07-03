@@ -1,17 +1,26 @@
 include .deosrc
 
 .DEFAULT_GOAL := all
-.PHONY: all build docs.build docs.start graphviz wikid push run sync venv \
-	wiki.pull wiki.push
+.PHONY: all atd.allbuild docs.build docs.start graphviz wikid push run sync \
+	venv wiki.pull wiki.push
 .SUBLIME_TARGETS: all
 
 all:
+	@echo $(call l,${BLUE},$@: new)
+	@-$(MAKE) atd.all
 	@-$(MAKE) build
 	@-$(MAKE) run
+	@echo $(call l,${BLUE},$@: end)
+
+atd.all:
+	@echo $(call l,${CYAN},$@: new)
+	@echo $(call l,${CYAN},$@: end)
 
 build:
+	@echo $(call l,${GREEN},$@: new)
 	@-$(MAKE) venv
 	@-$(MAKE) docs.build
+	@echo $(call l,${GREEN},$@: end)
 
 docs.build:
 	@-$(CD) docs && $(MAKE) build
@@ -21,17 +30,21 @@ docs.start:
 	@-$(CD) docs && $(MAKE)
 
 graphviz:
+	@echo $(call l,${PURPLE},$@: new)
 	@-$(ACTVENV) && $(CD) src && $(PY) graphviz.py
 	@-dot -Tpng var/dot/g.dot > var/img/g.png
+	@echo $(call l,${PURPLE},$@: end)
 
-#wikid:
-	#@$(CD) meta/wikid && $(MAKE)
+wikid:
+	@$(CD) meta/wikid && $(MAKE)
 
 push:
 	@-$(GITADD) && $(GITCOMMIT) "$(msg)" && $(GITPUSH)
 
 run:
+	@echo $(call l,${YELLOW},$@: new)
 	@-$(MAKE) graphviz
+	@echo $(call l,${YELLOW},$@: end)
 
 sync:
 	@-$(MAKE) wiki.pull
