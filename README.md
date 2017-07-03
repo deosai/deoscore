@@ -33,7 +33,9 @@
 
 ---
 
-## `.env` Example
+## Setup
+
+### `.env` Example
 
 ```bash
 include src/make/deos.mk
@@ -46,15 +48,15 @@ V                := $(VOLUME)/$(VOLMOD)
 
 ---
 
-## `git-encrypt` Config
+### `git-encrypt` Config
 
-### Initalize
+#### Initalize
 
 ```bash
 Δ git-crypt init
 ```
 
-### Add GPG
+#### Add GPG
 
 ```bash
 Δ git-crypt add-gpg-user <email>
