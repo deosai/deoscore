@@ -46,6 +46,22 @@ V                := $(VOLUME)/$(VOLMOD)
 
 ---
 
+## `git-encrypt` Config
+
+### Initalize
+
+```bash
+Δ git-crypt init
+```
+
+### Add GPG
+
+```bash
+Δ git-crypt add-gpg-user USER_ID
+```
+
+---
+
 [000]: https://libdeos.github.io/deos-graphviz/
 [001]: https://travis-ci.org/libdeos/deos-graphviz.svg?branch=master
 [002]: https://travis-ci.org/libdeos/deos-graphviz
