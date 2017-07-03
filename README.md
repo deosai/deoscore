@@ -44,16 +44,6 @@ V      := $(VOLUME)/$(VOLMOD)
 ```
 ---
 
-## Setup
-
-### `git-encrypt`
-
-```bash
-$ git-crypt init
-$ git-crypt add-gpg-user <email>
-```
----
-
 ## Issues
 
 ### Disable Spotlight Volume Indexer
@@ -77,6 +67,16 @@ $ touch .fseventsd/no_log .metadata_never_index .Trashes
 * [ ] **`ΔOS`** `v0.8.15` --- [**Due:** `July 03, 2017`](https://github.com/libdeos/deoscore/milestone/5) --- [`0/0` **Tasks**](#)
 * [ ] **`ΔOS`** `v0.8.16` --- [**Due:** `July 03, 2017`](https://github.com/libdeos/deoscore/milestone/6) --- [`0/0` **Tasks**](#)
 
+---
+
+## Setup
+
+### `git-encrypt`
+
+```bash
+$ git-crypt init
+$ git-crypt add-gpg-user <email>
+```
 ---
 
 [000]: https://libdeos.github.io/deos-graphviz/
