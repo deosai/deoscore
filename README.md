@@ -60,12 +60,12 @@ $ touch .fseventsd/no_log .metadata_never_index .Trashes
 ## Milestones
 
 <a href="https://deoscore.metaptr.com"><img src="https://github.com/zerotier/ZeroTierOne/raw/master/artwork/AppIcon_87x87.png" align="right" hspace="20" vspace="6"></a>
-* [x] **`ΔOS`** [`v0.8.11`](https://github.com/libdeos/deoscore/releases/tag/v0.8-alpha.11)
+* [x] **`ΔOS`** [`v0.8.11`](https://github.com/libdeos/deoscore/releases/tag/v0.8-alpha.11) --- **Complete**
 * [ ] **`ΔOS`** `v0.8.12` --- [**Due:** `Today`](https://github.com/libdeos/deoscore/milestone/2) --- [`0/0` **Tasks**](#)
-* [ ] **`ΔOS`** `v0.8.13` --- [**Due:** `Tomorrow`](https://github.com/libdeos/deoscore/milestone/3)
-* [ ] **`ΔOS`** `v0.8.14` --- [**Due:** `Wednesday`](https://github.com/libdeos/deoscore/milestone/4)
-* [ ] **`ΔOS`** `v0.8.15` --- [**Due:** `Thursday`](https://github.com/libdeos/deoscore/milestone/5)
-* [ ] **`ΔOS`** `v0.8.16` --- [**Due:** `Friday`](https://github.com/libdeos/deoscore/milestone/6)
+* [ ] **`ΔOS`** `v0.8.13` --- [**Due:** `Today`](https://github.com/libdeos/deoscore/milestone/3) --- [`0/0` **Tasks**](#)
+* [ ] **`ΔOS`** `v0.8.14` --- [**Due:** `Today`](https://github.com/libdeos/deoscore/milestone/4) --- [`0/0` **Tasks**](#)
+* [ ] **`ΔOS`** `v0.8.15` --- [**Due:** `Today`](https://github.com/libdeos/deoscore/milestone/5) --- [`0/0` **Tasks**](#)
+* [ ] **`ΔOS`** `v0.8.16` --- [**Due:** `Today`](https://github.com/libdeos/deoscore/milestone/6) --- [`0/0` **Tasks**](#)
 
 ---
 
