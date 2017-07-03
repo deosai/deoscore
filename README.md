@@ -74,20 +74,20 @@ include             src/make/deos-unix.mk
 ## Milestones
 
 <a href="https://deoscore.metaptr.com"><img src="https://github.com/zerotier/ZeroTierOne/raw/master/artwork/AppIcon_87x87.png" align="right" hspace="20" vspace="6"></a>
-* [ ] **`ΔOS`** `v0.8.11` --- **Due:** `July 03, 2017` --- `00` **Tasks**
-* [ ] **`ΔOS`** `v0.8.12` --- **Due:** `July 04, 2017` --- `00` **Tasks**
-* [ ] **`ΔOS`** `v0.8.13` --- **Due:** `July 05, 2017` --- `00` **Tasks**
-* [ ] **`ΔOS`** `v0.8.14` --- **Due:** `July 06, 2017` --- `00` **Tasks**
-* [ ] **`ΔOS`** `v0.8.15` --- **Due:** `July 07, 2017` --- `00` **Tasks**
+* [ ] **`ΔOS`** `v0.8.11` - **Due:** `July 03, 2017` - `00` **Tasks**
+* [ ] **`ΔOS`** `v0.8.12` - **Due:** `July 04, 2017` - `00` **Tasks**
+* [ ] **`ΔOS`** `v0.8.13` - **Due:** `July 05, 2017` - `00` **Tasks**
+* [ ] **`ΔOS`** `v0.8.14` - **Due:** `July 06, 2017` - `00` **Tasks**
+* [ ] **`ΔOS`** `v0.8.15` - **Due:** `July 07, 2017` - `00` **Tasks**
 <a href="https://deoscore.metaptr.com"><img src="https://github.com/zerotier/ZeroTierOne/raw/master/artwork/AppIcon_87x87.png" align="right" hspace="20" vspace="6"></a>
-* [ ] **`ΔOS`** `v0.8.16` --- **Due:** `July 08, 2017` --- `00` **Tasks**
-* [ ] **`ΔOS`** `v0.8.17` --- **Due:** `July 09, 2017` --- `00` **Tasks**
-* [ ] **`ΔOS`** `v0.8.18` --- **Due:** `July 10, 2017` --- `00` **Tasks**
-* [ ] **`ΔOS`** `v0.8.19` --- **Due:** `July 11, 2017` --- `00` **Tasks**
+* [ ] **`ΔOS`** `v0.8.16` - **Due:** `July 08, 2017` - `00` **Tasks**
+* [ ] **`ΔOS`** `v0.8.17` - **Due:** `July 09, 2017` - `00` **Tasks**
+* [ ] **`ΔOS`** `v0.8.18` - **Due:** `July 10, 2017` - `00` **Tasks**
+* [ ] **`ΔOS`** `v0.8.19` - **Due:** `July 11, 2017` - `00` **Tasks**
 <a href="https://deoscore.metaptr.com"><img src="https://github.com/zerotier/ZeroTierOne/raw/master/artwork/AppIcon_87x87.png" align="right" hspace="20" vspace="6"></a>
-* [ ] **`ΔOS`** `v0.8.20` --- **Due:** `July 12, 2017` --- `00` **Tasks**
-* [ ] **`ΔOS`** `v0.8.21` --- **Due:** `July 13, 2017` --- `00` **Tasks**
-* [ ] **`ΔOS`** `v0.8.22` --- **Due:** `July 14, 2017` --- `00` **Tasks**
+* [ ] **`ΔOS`** `v0.8.20` - **Due:** `July 12, 2017` - `00` **Tasks**
+* [ ] **`ΔOS`** `v0.8.21` - **Due:** `July 13, 2017` - `00` **Tasks**
+* [ ] **`ΔOS`** `v0.8.22` - **Due:** `July 14, 2017` - `00` **Tasks**
 
 ## Setup
 
