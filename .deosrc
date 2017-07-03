@@ -12,7 +12,7 @@ MAIN_PY          := main.py
 STD              := c89
 WARNINGS         := -Wno-int-to-pointer-cast
 OUTPUT           := -o $(BIN_DIR)/wikid
-include             src/make/deos
+include             src/make/deos.mk
 .DEFAULT_GOAL    := all
 .PHONY:             all        \
 	                atd.all    \
@@ -52,3 +52,4 @@ BLUE             := \x1b[34;01m
 PURPLE           := \x1b[35;01m
 CYAN             := \x1b[36;01m
 COLOR            := \x1b[0m
+l                 = "$(1)]> $(2) $(COLOR)"

@@ -1,59 +1,73 @@
 include .deosrc
 
-l = "$(1)[ $(2) ]$(COLOR)"
-
 all:
-	@echo $(call l,${GREEN},$@)
+	@echo $(call l,\n${BLUE},${GREEN}$@)
 	@-$(MAKE) build
-	@-$(MAKE) $(EXECUTABLE)
+	@#$(MAKE) $(EXECUTABLE)
+	@echo ":: $@"
 
-build:
-	@echo $(call l,${GREEN},$@)
+build: clean
+	@echo $(call l,${BLUE},${GREEN}$@)
 	@-$(MAKE) venv
 	@-$(MAKE) xcompile
 	@-$(MAKE) docs.build
+	@echo ":: $@"
+
+clean:
+	@echo $(call l,${BLUE},${GREEN}$@)
+	@echo ":: $@"
 
 docs.build:
-	@echo $(call l,${GREEN},$@)
-	@-$(CD) docs && $(MAKE) build
+	@echo $(call l,${BLUE},${GREEN}$@)
+	@#-$(CD) docs && $(MAKE) build
+	@echo ":: $@"
 
 docs.start:
-	$(MAKE) docs.build
-	@-$(CD) docs && $(MAKE)
+	@echo $(call l,${BLUE},${GREEN}$@)
+	@$(MAKE) docs.build
+	@#-$(CD) docs && $(MAKE)
+	@echo ":: $@"
 
 $(EXECUTABLE):
 	@echo $(call l,${PURPLE},$@: new)
-	@-$(CC) $(WARNINGS) -Wall -I. -I$(MACRO_DIR) -std=$(STD) \
+	@#-$(CC) $(WARNINGS) -Wall -I. -I$(MACRO_DIR) -std=$(STD) \
 		`$(VENV_MAC_DIR)/bin/python-config --cflags` \
 		./$(MAIN_C) $(OUTPUT) \
 		`$(VENV_MAC_DIR)/bin/python-config --ldflags`
-	@echo $(call l,${PURPLE},$@: end)
+	@echo ":: $@"
 
 graphviz:
 	@echo $(call l,${PURPLE},$@: new)
-	@-$(ACTVENV) && $(CD) src && $(PY) graphviz.py
-	-dot -Tpng var/dot/g.dot > var/img/g.png
-	@echo $(call l,${PURPLE},$@: end)
+	@#-$(ACTVENV) && $(CD) src && $(PY) graphviz.py
+	@#-dot -Tpng var/dot/g.dot > var/img/g.png
+	@echo ":: $@"
 
 push:
+	@echo $(call l,${BLUE},${GREEN}$@)
 	@-$(GITADD) && $(GITCOMMIT) "$(msg)" && $(GITPUSH)
+	@echo ":: $@"
 
 run:
 	@echo $(call l,${YELLOW},$@: new)
 	@-$(MAKE) graphviz
-	@echo $(call l,${YELLOW},$@: end)
+	@echo ":: $@"
 
 sync:
-	@-$(MAKE) wiki.pull
-	@-$(MAKE) msg="make sync" push
+	@echo $(call l,${BLUE},${GREEN}$@)
+	@#-$(MAKE) wiki.pull
+	@#-$(MAKE) msg="make sync" push
+	@echo ":: $@"
 
 venv:
-	@-$(RM) $(DOTVENV)
-	@-$(MKDIR) $(DOTVENV)
-	@-$(VENV) $(DOTVENV)
-	@-$(ACTVENV) && $(PIPINSTALL) -r $(PYREQ)
+	@echo $(call l,${BLUE},${GREEN}$@)
+	@#-$(RM) $(DOTVENV)
+	@#-$(MKDIR) $(DOTVENV)
+	@#-$(VENV) $(DOTVENV)
+	@#-$(ACTVENV) && $(PIPINSTALL) -r $(PYREQ)
+	@echo ":: $@"
 
 wiki.pull:
+	@echo $(call l,${BLUE},${GREEN}$@)
 	@-$(RM) $(VARWIKI)
 	@-$(CD) $(VAR) && $(GITCLONE) $(COREWIKI) wiki
 	@-$(RM) $(VARWIKI)/.git
@@ -61,8 +75,10 @@ wiki.pull:
 	@#$(MKDIR) meta/wikid/static/
 	@#$(CD) meta/wikid/static && $(GITCLONE) $(COREWIKI) .
 	@#$(RM) meta/wikid/static/.git
+	@echo ":: $@"
 
 wiki.push:
+	@echo $(call l,${BLUE},${GREEN}$@)
 	@-$(RM) $(DOTSWAP)
 	@-$(MKDIR) $(DOTSWAP)
 	@-$(CD) $(DOTSWAP) && $(GITCLONE) $(COREWIKI) wiki
@@ -72,7 +88,9 @@ wiki.push:
 	@-$(CP) -a $(VARWIKI)/img/. $(SWAPWIKI)/img/
 	@-$(CD) $(SWAPWIKI) && $(GITADD) && $(GITCOMMIT) "$(WIKIMSG)" && $(GITPUSH)
 	@-$(RM) $(DOTSWAP)
+	@echo ":: $@"
 
 xcompile:
-	@echo $(call l,${GREEN},$@)
-	-cd src && $(PYTHON) xcompile.py
+	@echo $(call l,${BLUE},${GREEN}$@)
+	@#-cd src && $(PYTHON) xcompile.py
+	@echo ":: $@"
