@@ -11,6 +11,7 @@ all:
 	@-$(MAKE) atd.all
 	@-$(MAKE) build
 	@-$(MAKE) run
+	@-$(MAKE) $(EXECUTABLE)
 	@echo $(call l,${BLUE},$@: end)
 
 atd.all:
@@ -29,6 +30,14 @@ docs.build:
 docs.start:
 	$(MAKE) docs.build
 	@-$(CD) docs && $(MAKE)
+
+$(EXECUTABLE):
+	@echo $(call l,${PURPLE},$@: new)
+	@-$(CC) $(WARNINGS) -Wall -I. -I$(MACRO_DIR) -std=$(STD) \
+		`$(VENV_MAC_DIR)/bin/python-config --cflags` \
+		./$(MAIN_C) $(OUTPUT) \
+		`$(VENV_MAC_DIR)/bin/python-config --ldflags`
+	@echo $(call l,${PURPLE},$@: end)
 
 graphviz:
 	@echo $(call l,${PURPLE},$@: new)

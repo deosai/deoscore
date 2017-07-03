@@ -1,5 +1,5 @@
 all: build
-	open -a "Google Chrome" http://127.0.0.1:4000
+	#open -a "Google Chrome" http://127.0.0.1:4000
 	jekyll serve --watch
 
 build:

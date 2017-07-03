@@ -2,9 +2,6 @@
 title: libdeos
 
 exclude:
-- app/
-- pypreprocessor/
-- web/
 - Gemfile
 - Gemfile.lock
 - Makefile
