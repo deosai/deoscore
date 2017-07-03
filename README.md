@@ -31,8 +31,6 @@
 * `make wiki.push`
 * `make wikid`
 
----
-
 ## Setup
 
 ### `.env` Example
