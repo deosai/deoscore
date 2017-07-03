@@ -42,8 +42,6 @@ include             src/make/deos-unix.mk
 #[endfi]
 ```
 
----
-
 ## Rules
 
 * `make all`
@@ -60,8 +58,6 @@ include             src/make/deos-unix.mk
 * `make wiki.push`
 * `make wikid`
 
----
-
 ## Setup
 
 ### `git-encrypt`
@@ -70,8 +66,6 @@ include             src/make/deos-unix.mk
 
 * `git-crypt init`
 * `git-crypt add-gpg-user <email>`
-
----
 
 ## Help
 
