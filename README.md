@@ -44,32 +44,6 @@ include             src/make/deos-unix.mk
 
 ---
 
-### `git-encrypt` Setup
-
-#### Initalize
-
-```bash
-Δ git-crypt init
-```
-
-#### Add GPG
-
-```bash
-Δ git-crypt add-gpg-user <email>
-```
-
----
-
-### Disable Spotlight Volume Indexer
-
-* __1__: `mdutil -i off /Volumes/<volume>`
-* __2__: `cd /Volumes/<volume>`
-* __3__: `rm -rf .{,_.}{fseventsd,Spotlight-V*,Trashes}`
-* __4__: `mkdir .fseventsd`
-* __5__: `touch .fseventsd/no_log .metadata_never_index .Trashes`
-
----
-
 ## Rules
 
 * `make all`
@@ -85,6 +59,29 @@ include             src/make/deos-unix.mk
 * `make wiki.pull`
 * `make wiki.push`
 * `make wikid`
+
+---
+
+## Setup
+
+### `git-encrypt`
+
+#### Initalize
+
+* `git-crypt init`
+* `git-crypt add-gpg-user <email>`
+
+---
+
+## Help
+
+### Disable Spotlight Volume Indexer
+
+* `mdutil -i off /Volumes/<volume>`
+* `cd /Volumes/<volume>`
+* `rm -rf .{,_.}{fseventsd,Spotlight-V*,Trashes}`
+* `mkdir .fseventsd`
+* `touch .fseventsd/no_log .metadata_never_index .Trashes`
 
 ---
 
