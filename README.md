@@ -2,7 +2,7 @@
 [this:author:name ]: # (Andrew DeSantis)
 
 ---
-# [`Δ://deoscore`][000] [![status][001]][002] [![version][010]](#)
+# [`Δ://deoscore`][000] [![status][001]][002] [![version][010]](#) [![wiki][011]](#)
 
 [![self-header.jpg][003]](https://github.com/libdeos/deos-graphviz/wiki)
 
@@ -80,3 +80,4 @@ $ touch .fseventsd/no_log .metadata_never_index .Trashes
 [003]: var/assets/github/self-header-1499073266.png
 [004]: https://twitter.com/desantis/status/795023340704595968
 [010]: https://img.shields.io/badge/release-v0.8--alpha.11-blue.svg
+[011]: https://img.shields.io/badge/github-wiki-orange.svg
