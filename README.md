@@ -62,7 +62,7 @@ $ git-crypt add-gpg-user <email>
 
 ---
 
-## macOS
+## Issues
 ### Disable Spotlight Volume Indexer
 ```bash
 $ mdutil -i off /Volumes/<volume>
