@@ -45,6 +45,17 @@ $ git-crypt add-gpg-user <email>
 ```
 ---
 
+## Issues
+### Disable Spotlight Volume Indexer
+```bash
+$ mdutil -i off /Volumes/<volume>
+$ cd /Volumes/<volume>
+$ rm -rf .{,_.}{fseventsd,Spotlight-V*,Trashes}
+$ mkdir .fseventsd
+$ touch .fseventsd/no_log .metadata_never_index .Trashes
+```
+---
+
 ## Milestones
 [comment]: # (<a href="https://deoscore.metaptr.com"><img src="https://github.com/zerotier/ZeroTierOne/raw/master/artwork/AppIcon_87x87.png" align="right" hspace="20" vspace="6"></a>)
 * [ ] **`ΔOS`** `v0.8.11` :/: [**Due:** `July 03, 2017`](#) :/: [`0/0` **Tasks**](#)
@@ -60,17 +71,6 @@ $ git-crypt add-gpg-user <email>
 * [ ] **`ΔOS`** `v0.8.21` :/: [**Due:** `July 04, 2017`](#) :/: [`0/0` **Tasks**](#)
 * [ ] **`ΔOS`** `v0.8.22` :/: [**Due:** `July 04, 2017`](#) :/: [`0/0` **Tasks**](#)
 
----
-
-## Issues
-### Disable Spotlight Volume Indexer
-```bash
-$ mdutil -i off /Volumes/<volume>
-$ cd /Volumes/<volume>
-$ rm -rf .{,_.}{fseventsd,Spotlight-V*,Trashes}
-$ mkdir .fseventsd
-$ touch .fseventsd/no_log .metadata_never_index .Trashes
-```
 ---
 [000]: https://libdeos.github.io/deos-graphviz/
 [001]: https://travis-ci.org/libdeos/deos-graphviz.svg?branch=master
