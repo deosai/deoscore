@@ -52,9 +52,21 @@ $ touch .fseventsd/no_log .metadata_never_index .Trashes
 ```
 ---
 
-### Milestones
-
+### ZeroTier Driver
 <a href="https://deoscore.metaptr.com"><img src="https://github.com/zerotier/ZeroTierOne/raw/master/artwork/AppIcon_87x87.png" align="right" hspace="20" vspace="6"></a>
+
+* [ ] `this: one`
+* [ ] `that: two`
+* [ ] `then: three`
+* [ ] `and: four`
+* [ ] `here: five`
+* [ ] `now: six`
+
+---
+
+### Milestones
+<a href="https://deoscore.metaptr.com"><img src="https://github.com/zerotier/ZeroTierOne/raw/master/artwork/AppIcon_87x87.png" align="right" hspace="20" vspace="6"></a>
+
 * [x] **`ΔOS`** [`v0.8.11`](https://github.com/libdeos/deoscore/releases/tag/v0.8-alpha.11) --- **Complete**
 * [ ] **`ΔOS`** `v0.8.12` --- [**Due:** `Today`](https://github.com/libdeos/deoscore/milestone/2) --- [`0/0` **Tasks**](https://github.com/libdeos/deoscore/milestone/2)
 * [ ] **`ΔOS`** `v0.8.13` --- [**Due:** `Today`](https://github.com/libdeos/deoscore/milestone/3) --- [`0/0` **Tasks**](https://github.com/libdeos/deoscore/milestone/3)
