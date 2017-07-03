@@ -60,19 +60,6 @@ $ git-crypt add-gpg-user <email>
 
 ---
 
-### macOS Tips
-
-***Disable Spotlight Volume Indexer***
-
-```bash
-$ mdutil -i off /Volumes/<volume>
-$ cd /Volumes/<volume>
-$ rm -rf .{,_.}{fseventsd,Spotlight-V*,Trashes}
-$ mkdir .fseventsd
-$ touch .fseventsd/no_log .metadata_never_index .Trashes
-```
----
-
 ### Blockstack Driver
 <a href="https://deoscore.metaptr.com"><img src="https://github.com/zerotier/ZeroTierOne/raw/master/artwork/AppIcon_87x87.png" align="right" hspace="20" vspace="6"></a>
 
@@ -95,6 +82,19 @@ $ touch .fseventsd/no_log .metadata_never_index .Trashes
 * [ ] `here: five`
 * [ ] `now: six`
 
+---
+
+### Tips & Tricks
+
+***Disable Spotlight Volume Indexer***
+
+```bash
+$ mdutil -i off /Volumes/<volume>
+$ cd /Volumes/<volume>
+$ rm -rf .{,_.}{fseventsd,Spotlight-V*,Trashes}
+$ mkdir .fseventsd
+$ touch .fseventsd/no_log .metadata_never_index .Trashes
+```
 ---
 
 [000]: https://libdeos.github.io/deos-graphviz/
