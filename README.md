@@ -74,22 +74,17 @@ include             src/make/deos-unix.mk
 ## Milestones
 
 <a href="https://www.zerotier.com"><img src="https://github.com/zerotier/ZeroTierOne/raw/master/artwork/AppIcon_87x87.png" align="right" hspace="20" vspace="6"></a>
-
 * [ ] `ΔOS v0.8.11` **Release** --- **Due:** `July 03, 2017` --- `00` **Tasks**
 * [ ] `ΔOS v0.8.12` **Release** --- **Due:** `July 04, 2017` --- `00` **Tasks**
 * [ ] `ΔOS v0.8.13` **Release** --- **Due:** `July 05, 2017` --- `00` **Tasks**
 * [ ] `ΔOS v0.8.14` **Release** --- **Due:** `July 06, 2017` --- `00` **Tasks**
 * [ ] `ΔOS v0.8.15` **Release** --- **Due:** `July 07, 2017` --- `00` **Tasks**
-
 <a href="https://www.zerotier.com"><img src="https://github.com/zerotier/ZeroTierOne/raw/master/artwork/AppIcon_87x87.png" align="right" hspace="20" vspace="6"></a>
-
 * [ ] `ΔOS v0.8.16` **Release** --- **Due:** `July 08, 2017` --- `00` **Tasks**
 * [ ] `ΔOS v0.8.17` **Release** --- **Due:** `July 09, 2017` --- `00` **Tasks**
 * [ ] `ΔOS v0.8.18` **Release** --- **Due:** `July 10, 2017` --- `00` **Tasks**
-* [ ] `ΔOS v0.8.19` **Release** --- **Due:** `July 11, 2017` --- `00` **Tasks**
-
 <a href="https://www.zerotier.com"><img src="https://github.com/zerotier/ZeroTierOne/raw/master/artwork/AppIcon_87x87.png" align="right" hspace="20" vspace="6"></a>
-
+* [ ] `ΔOS v0.8.19` **Release** --- **Due:** `July 11, 2017` --- `00` **Tasks**
 * [ ] `ΔOS v0.8.20` **Release** --- **Due:** `July 12, 2017` --- `00` **Tasks**
 * [ ] `ΔOS v0.8.21` **Release** --- **Due:** `July 13, 2017` --- `00` **Tasks**
 * [ ] `ΔOS v0.8.22` **Release** --- **Due:** `July 14, 2017` --- `00` **Tasks**
