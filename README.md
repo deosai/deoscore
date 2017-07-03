@@ -30,7 +30,7 @@
 
 ### Getting Started
 
-***`.env-this`***
+#### ***`.env-this`***
 
 ```bash
 VOLUME := /Volumes/<volume>
@@ -38,7 +38,7 @@ VOLMOD := <unixtime>/deoscore
 V      := $(VOLUME)/$(VOLMOD)
 ```
 
-***Disable Spotlight Volume Indexer***
+#### ***Disable Spotlight Volume Indexer***
 
 ```bash
 $ mdutil -i off /Volumes/<volume>
@@ -48,13 +48,12 @@ $ mkdir .fseventsd
 $ touch .fseventsd/no_log .metadata_never_index .Trashes
 ```
 
-***`git-encrypt`***
+#### ***`git-encrypt`***
 
 ```bash
 $ git-crypt init
 $ git-crypt add-gpg-user <email>
 ```
-
 ---
 
 ### Release Schedule
