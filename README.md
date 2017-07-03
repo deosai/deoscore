@@ -1,6 +1,5 @@
 
 ## `Δ://deoscore` [![s][001]][002] [![w][011]][012] [![v][010]][015] [![w][013]][014]
-
 [![self-header.jpg][003]][012]
 
 ---
@@ -8,8 +7,8 @@
 > *mind's greatest creations; both must be decentralized or all is lost.*
 > **[—DeSantis][004]**
 ---
-
 ### Commands
+---
 
 * `make all`
 * `make build`
@@ -25,9 +24,11 @@
 * `make wiki.push`
 * `make wikid`
 
+---
 ### Initialization
+---
 
-__*`.env-this`*__
+*__`.env-this`__*
 
 ```bash
 VOLUME := /Volumes/<volume>
@@ -35,9 +36,11 @@ VOLMOD := <unixtime>/deoscore
 V      := $(VOLUME)/$(VOLMOD)
 ```
 
+---
 ### Issues
+---
 
-__*Disable Spotlight Volume Indexer*__
+*__Disable Spotlight Volume Indexer__*
 
 ```bash
 $ mdutil -i off /Volumes/<volume>
