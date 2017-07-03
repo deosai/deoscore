@@ -122,7 +122,7 @@ $ touch .fseventsd/no_log .metadata_never_index .Trashes
 
 ---
 
-### `freebird.im` Driver
+### `freebird.im` Interface
 <a href="https://deoscore.metaptr.com"><img src="https://github.com/zerotier/ZeroTierOne/raw/master/artwork/AppIcon_87x87.png" align="right" hspace="20" vspace="6"></a>
 
 * [ ] `this: one`
@@ -206,7 +206,7 @@ $ touch .fseventsd/no_log .metadata_never_index .Trashes
 
 ---
 
-### `Vault` Driver
+### `Vault` Interface
 <a href="https://deoscore.metaptr.com"><img src="https://github.com/zerotier/ZeroTierOne/raw/master/artwork/AppIcon_87x87.png" align="right" hspace="20" vspace="6"></a>
 
 * [ ] `this: one`
@@ -218,7 +218,7 @@ $ touch .fseventsd/no_log .metadata_never_index .Trashes
 
 ---
 
-### `wikid` Driver for HTML
+### `wikid` Interface for HTML
 <a href="https://deoscore.metaptr.com"><img src="https://github.com/zerotier/ZeroTierOne/raw/master/artwork/AppIcon_87x87.png" align="right" hspace="20" vspace="6"></a>
 
 * [ ] `this: one`
@@ -230,7 +230,7 @@ $ touch .fseventsd/no_log .metadata_never_index .Trashes
 
 ---
 
-### `wikid` Driver for Markdown
+### `wikid` Interface for Markdown
 <a href="https://deoscore.metaptr.com"><img src="https://github.com/zerotier/ZeroTierOne/raw/master/artwork/AppIcon_87x87.png" align="right" hspace="20" vspace="6"></a>
 
 * [ ] `this: one`
