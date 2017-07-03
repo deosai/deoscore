@@ -1,5 +1,5 @@
 
-# `Δ://deoscore` [![s][001]][002] [![w][011]][012] [![v][010]][015] [![w][013]][014]
+## `Δ://deoscore` [![s][001]][002] [![w][011]][012] [![v][010]][015] [![w][013]][014]
 
 [![self-header.jpg][003]][012]
 
@@ -9,7 +9,7 @@
 > **[—DeSantis][004]**
 ---
 
-## Commands
+### Commands
 
 * `make all`
 * `make build`
@@ -25,7 +25,7 @@
 * `make wiki.push`
 * `make wikid`
 
-## Initialization
+### Initialization
 
 __*`.env-this`*__
 
@@ -35,7 +35,7 @@ VOLMOD := <unixtime>/deoscore
 V      := $(VOLUME)/$(VOLMOD)
 ```
 
-## Issues
+### Issues
 
 __*Disable Spotlight Volume Indexer*__
 
@@ -47,7 +47,7 @@ $ mkdir .fseventsd
 $ touch .fseventsd/no_log .metadata_never_index .Trashes
 ```
 
-## Milestones
+### Milestones
 
 <a href="https://deoscore.metaptr.com"><img src="https://github.com/zerotier/ZeroTierOne/raw/master/artwork/AppIcon_87x87.png" align="right" hspace="20" vspace="6"></a>
 * [x] **`ΔOS`** [`v0.8.11`](https://github.com/libdeos/deoscore/releases/tag/v0.8-alpha.11) --- **Complete**
@@ -57,7 +57,7 @@ $ touch .fseventsd/no_log .metadata_never_index .Trashes
 * [ ] **`ΔOS`** `v0.8.15` --- [**Due:** `Today`](https://github.com/libdeos/deoscore/milestone/5) --- [`0/0` **Tasks**](https://github.com/libdeos/deoscore/milestone/5)
 * [ ] **`ΔOS`** `v0.8.16` --- [**Due:** `Today`](https://github.com/libdeos/deoscore/milestone/6) --- [`0/0` **Tasks**](https://github.com/libdeos/deoscore/milestone/6)
 
-## Setup
+### Setup
 
 __*`git-encrypt`*__
 
