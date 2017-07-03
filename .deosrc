@@ -1,18 +1,22 @@
 include .env
+
 #[path]
 DOTVENV    := $(V)/.venv
 DOTSWAP    := $(V)/.swap
 SWAPWIKI   := $(DOTSWAP)/wiki
 VAR        := $(V)/var
 VARWIKI    := $(VAR)/wiki
+
 #[github]
 COREREPO   := git@github.com:libdeos/deoscore.git
 COREWIKI   := git@github.com:libdeos/deoscore.wiki.git
 WIKIMSG    := deos: wiki.sync
+
 #[python]
 ACTVENV    := source $(DOTVENV)/bin/activate
 PIPINSTALL := pip install
 PY         := python
 PYREQ      := requirements.txt
 VENV       := virtualenv --always-copy --no-site-packages
+
 #[endfi]
