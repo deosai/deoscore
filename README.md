@@ -19,9 +19,6 @@ VOLUME := /Volumes/<volume>
 VOLMOD := <unixtime>/deoscore
 V      := $(VOLUME)/$(VOLMOD)
 ```
----
-
-### Configuration
 
 ***`git-encrypt`***
 
