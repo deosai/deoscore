@@ -2,7 +2,6 @@
 [this:author:name ]: # (Andrew DeSantis)
 
 ## `Δ://deoscore` [![s][001]][002] [![w][011]][012] [![v][010]][015] [![w][013]][014]
-
 [![self-header.jpg][003]][012]
 
 ---
@@ -31,19 +30,18 @@
 
 ### Initialization
 
-*__`.env-this`__*
+***`.env-this`***
 
 ```bash
 VOLUME := /Volumes/<volume>
 VOLMOD := <unixtime>/deoscore
 V      := $(VOLUME)/$(VOLMOD)
 ```
-
 ---
 
 ### Issues
 
-*__Disable Spotlight Volume Indexer__*
+***Disable Spotlight Volume Indexer***
 
 ```bash
 $ mdutil -i off /Volumes/<volume>
@@ -52,7 +50,6 @@ $ rm -rf .{,_.}{fseventsd,Spotlight-V*,Trashes}
 $ mkdir .fseventsd
 $ touch .fseventsd/no_log .metadata_never_index .Trashes
 ```
-
 ---
 
 ### Milestones
@@ -69,13 +66,12 @@ $ touch .fseventsd/no_log .metadata_never_index .Trashes
 
 ### Setup
 
-*__`git-encrypt`__*
+***`git-encrypt`***
 
 ```bash
 $ git-crypt init
 $ git-crypt add-gpg-user <email>
 ```
-
 ---
 
 [000]: https://libdeos.github.io/deos-graphviz/
