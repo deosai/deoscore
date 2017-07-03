@@ -2,8 +2,8 @@
 [this:author:name ]: # (Andrew DeSantis)
 
 ---
-# [ΔOS v0.8-alpha.11][000] :/: `deoscore` :/: [![Build Status][001]][002]
-[![self-header.jpg][003]](https://github.com/libdeos/deos-graphviz/wiki) :/: ![Version][svgversion]
+# [ΔOS v0.8-alpha.11][000] :/: `deoscore` :/: [![Build Status][001]][002] :/: ![Version][svgversion]
+[![self-header.jpg][003]](https://github.com/libdeos/deos-graphviz/wiki)
 
 ---
 > *The languages of intelligence (writing) and self-interest (money) are the*
