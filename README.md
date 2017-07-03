@@ -27,7 +27,7 @@
 
 ## Initialization
 
-### `.env-this`
+__*`.env-this`*__
 
 ```bash
 VOLUME := /Volumes/<volume>
@@ -37,7 +37,7 @@ V      := $(VOLUME)/$(VOLMOD)
 
 ## Issues
 
-### Disable Spotlight Volume Indexer
+__*Disable Spotlight Volume Indexer*__
 
 ```bash
 $ mdutil -i off /Volumes/<volume>
@@ -59,7 +59,7 @@ $ touch .fseventsd/no_log .metadata_never_index .Trashes
 
 ## Setup
 
-### `git-encrypt`
+__*`git-encrypt`*__
 
 ```bash
 $ git-crypt init
