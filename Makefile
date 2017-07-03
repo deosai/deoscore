@@ -1,30 +1,20 @@
 include .deosrc
 
-.DEFAULT_GOAL := all
-.PHONY: all atd.allbuild docs.build docs.start graphviz wikid push run sync \
-	venv wiki.pull wiki.push xcompile
-.SUBLIME_TARGETS: all
+l = "$(1)[ $(2) ]$(COLOR)"
 
 all:
-	@echo $(call l,${BLUE},$@: new)
-	@-$(MAKE) xcompile
-	@-$(MAKE) atd.all
+	@echo $(call l,${GREEN},$@)
 	@-$(MAKE) build
-	@-$(MAKE) run
 	@-$(MAKE) $(EXECUTABLE)
-	@echo $(call l,${BLUE},$@: end)
-
-atd.all:
-	@echo $(call l,${CYAN},$@: new)
-	@echo $(call l,${CYAN},$@: end)
 
 build:
-	@echo $(call l,${GREEN},$@: new)
+	@echo $(call l,${GREEN},$@)
 	@-$(MAKE) venv
+	@-$(MAKE) xcompile
 	@-$(MAKE) docs.build
-	@echo $(call l,${GREEN},$@: end)
 
 docs.build:
+	@echo $(call l,${GREEN},$@)
 	@-$(CD) docs && $(MAKE) build
 
 docs.start:
@@ -44,9 +34,6 @@ graphviz:
 	@-$(ACTVENV) && $(CD) src && $(PY) graphviz.py
 	-dot -Tpng var/dot/g.dot > var/img/g.png
 	@echo $(call l,${PURPLE},$@: end)
-
-wikid:
-	@$(CD) meta/wikid && $(MAKE)
 
 push:
 	@-$(GITADD) && $(GITCOMMIT) "$(msg)" && $(GITPUSH)
@@ -87,8 +74,5 @@ wiki.push:
 	@-$(RM) $(DOTSWAP)
 
 xcompile:
-	@echo $(call l,${BLUE},$@: new)
+	@echo $(call l,${GREEN},$@)
 	-cd src && $(PYTHON) xcompile.py
-	@echo $(call l,${BLUE},$@: end)
-
-#[endfi]
