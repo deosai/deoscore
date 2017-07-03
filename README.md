@@ -62,11 +62,11 @@ include             src/make/deos-unix.mk
 
 ### Disable Spotlight Volume Indexer
 
-1. `mdutil -i off /Volumes/<volume>`
-2. `cd /Volumes/<volume>`
-3. `rm -rf .{,_.}{fseventsd,Spotlight-V*,Trashes}`
-4. `mkdir .fseventsd`
-5. `touch .fseventsd/no_log .metadata_never_index .Trashes`
+* __1__: `mdutil -i off /Volumes/<volume>`
+* __2__: `cd /Volumes/<volume>`
+* __3__: `rm -rf .{,_.}{fseventsd,Spotlight-V*,Trashes}`
+* __4__: `mkdir .fseventsd`
+* __5__: `touch .fseventsd/no_log .metadata_never_index .Trashes`
 
 ---
 
