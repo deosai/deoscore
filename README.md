@@ -36,29 +36,10 @@
 ### `.env-this` Example
 
 ```bash
-export MAKEFLAGS := --no-print-directory
+VOLUME := /Volumes/<volume>
+VOLMOD := <unixtime>/deoscore
+V      := $(VOLUME)/$(VOLMOD)
 
-VOLUME           := /Volumes/<volume>
-VOLMOD           := <unixtime>/deoscore
-V                := $(VOLUME)/$(VOLMOD)
-
-include             .env-common
-ifeq ($(OS_TYPE),   $(IS_MACOS))
-  include           .env-macos
-  include           make-macos.mk
-endif
-
-ifeq ($(OS_TYPE),   $(IS_LINUX))
-  include           .env-linux
-  include           make-linux.mk
-endif
-
-include             src/make/deos-boolean.mk
-include             src/make/deos-git.mk
-include             src/make/deos-host.mk
-include             src/make/deos-unix.mk
-
-#[endfi]
 ```
 
 ## macOS
