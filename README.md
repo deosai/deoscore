@@ -79,4 +79,4 @@ $ touch .fseventsd/no_log .metadata_never_index .Trashes
 [002]: https://travis-ci.org/libdeos/deos-graphviz
 [003]: var/assets/github/self-header-1499073266.png
 [004]: https://twitter.com/desantis/status/795023340704595968
-[010]: https://raw.githubusercontent.com/libdeos/deoscore/master/docs/assets/svg/version.svg
+[010]: https://deoscore.metaptr.com/assets/svg/version.svg
