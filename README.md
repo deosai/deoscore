@@ -98,7 +98,7 @@ $ touch .fseventsd/no_log .metadata_never_index .Trashes
 
 ---
 
-### Freebird Driver
+### freebird.im Driver
 <a href="https://deoscore.metaptr.com"><img src="https://github.com/zerotier/ZeroTierOne/raw/master/artwork/AppIcon_87x87.png" align="right" hspace="20" vspace="6"></a>
 
 * [ ] `this: one`
