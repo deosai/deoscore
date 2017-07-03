@@ -1,5 +1,8 @@
+[this:author:email]: # (atd@bitcoin.sh)
+[this:author:name ]: # (Andrew DeSantis)
 
 ## `Δ://deoscore` [![s][001]][002] [![w][011]][012] [![v][010]][015] [![w][013]][014]
+
 [![self-header.jpg][003]][012]
 
 ---
@@ -66,7 +69,7 @@ $ touch .fseventsd/no_log .metadata_never_index .Trashes
 
 ### Setup
 
-__*`git-encrypt`*__
+*__`git-encrypt`__*
 
 ```bash
 $ git-crypt init
@@ -74,6 +77,7 @@ $ git-crypt add-gpg-user <email>
 ```
 
 ---
+
 [000]: https://libdeos.github.io/deos-graphviz/
 [001]: https://travis-ci.org/libdeos/deos-graphviz.svg?branch=master
 [002]: https://travis-ci.org/libdeos/deos-graphviz
@@ -85,5 +89,3 @@ $ git-crypt add-gpg-user <email>
 [013]: https://img.shields.io/badge/website-deos.ai-red.svg
 [014]: https://deos.ai/
 [015]: https://github.com/libdeos/deoscore/releases/tag/v0.8-alpha.11
-[this:author:email]: # (atd@bitcoin.sh)
-[this:author:name ]: # (Andrew DeSantis)
