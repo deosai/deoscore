@@ -41,7 +41,6 @@
 VOLUME := /Volumes/<volume>
 VOLMOD := <unixtime>/deoscore
 V      := $(VOLUME)/$(VOLMOD)
-
 ```
 
 ---
@@ -50,11 +49,17 @@ V      := $(VOLUME)/$(VOLMOD)
 
 ### Disable Spotlight Volume Indexer
 
-* `mdutil -i off /Volumes/<volume>`
-* `cd /Volumes/<volume>`
-* `rm -rf .{,_.}{fseventsd,Spotlight-V*,Trashes}`
-* `mkdir .fseventsd`
-* `touch .fseventsd/no_log .metadata_never_index .Trashes`
+```bash
+$ mdutil -i off /Volumes/<volume>
+
+$ cd /Volumes/<volume>
+
+$ rm -rf .{,_.}{fseventsd,Spotlight-V*,Trashes}
+
+$ mkdir .fseventsd
+
+$ touch .fseventsd/no_log .metadata_never_index .Trashes
+```
 
 ---
 
@@ -80,8 +85,11 @@ V      := $(VOLUME)/$(VOLMOD)
 
 ### `git-encrypt`
 
-* `git-crypt init`
-* `git-crypt add-gpg-user <email>`
+```bash
+$ git-crypt init
+
+$ git-crypt add-gpg-user <email>
+```
 
 ---
 
