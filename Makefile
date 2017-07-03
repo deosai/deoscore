@@ -1,35 +1,35 @@
 include .deosrc
 
 all:
-	@echo $(call l,\n${BLUE},${GREEN}$@)
-	@-$(MAKE) build
-	@#$(MAKE) $(EXECUTABLE)
+	@echo $(call l,\n${cBl},${cGr}$@)
+	@-$(M) build
+	@#$(M) $(EXECUTABLE)
 	@echo ":: $@"
 
 build: clean
-	@echo $(call l,${BLUE},${GREEN}$@)
-	@-$(MAKE) venv
-	@-$(MAKE) xcompile
-	@-$(MAKE) docs.build
+	@echo $(call l,${cBl},${cGr}$@)
+	@-$(M) venv
+	@-$(M) xcompile
+	@-$(M) docs.build
 	@echo ":: $@"
 
 clean:
-	@echo $(call l,${BLUE},${GREEN}$@)
+	@echo $(call l,${cBl},${cGr}$@)
 	@echo ":: $@"
 
 docs.build:
-	@echo $(call l,${BLUE},${GREEN}$@)
-	@#-$(CD) docs && $(MAKE) build
+	@echo $(call l,${cBl},${cGr}$@)
+	@#-$(CD) docs && $(M) build
 	@echo ":: $@"
 
 docs.start:
-	@echo $(call l,${BLUE},${GREEN}$@)
-	@$(MAKE) docs.build
-	@#-$(CD) docs && $(MAKE)
+	@echo $(call l,${cBl},${cGr}$@)
+	@$(M) docs.build
+	@#-$(CD) docs && $(M)
 	@echo ":: $@"
 
 $(EXECUTABLE):
-	@echo $(call l,${PURPLE},$@: new)
+	@echo $(call l,${cBl},${cGr}$@)
 	@#-$(CC) $(WARNINGS) -Wall -I. -I$(MACRO_DIR) -std=$(STD) \
 		`$(VENV_MAC_DIR)/bin/python-config --cflags` \
 		./$(MAIN_C) $(OUTPUT) \
@@ -37,29 +37,29 @@ $(EXECUTABLE):
 	@echo ":: $@"
 
 graphviz:
-	@echo $(call l,${PURPLE},$@: new)
+	@echo $(call l,${cBl},${cGr}$@)
 	@#-$(ACTVENV) && $(CD) src && $(PY) graphviz.py
 	@#-dot -Tpng var/dot/g.dot > var/img/g.png
 	@echo ":: $@"
 
 push:
-	@echo $(call l,${BLUE},${GREEN}$@)
+	@echo $(call l,${cBl},${cGr}$@)
 	@-$(GITADD) && $(GITCOMMIT) "$(msg)" && $(GITPUSH)
 	@echo ":: $@"
 
 run:
-	@echo $(call l,${YELLOW},$@: new)
-	@-$(MAKE) graphviz
+	@echo $(call l,${cBl},${cGr}$@)
+	@-$(M) graphviz
 	@echo ":: $@"
 
 sync:
-	@echo $(call l,${BLUE},${GREEN}$@)
-	@#-$(MAKE) wiki.pull
-	@#-$(MAKE) msg="make sync" push
+	@echo $(call l,${cBl},${cGr}$@)
+	@#-$(M) wiki.pull
+	@#-$(M) msg="make sync" push
 	@echo ":: $@"
 
 venv:
-	@echo $(call l,${BLUE},${GREEN}$@)
+	@echo $(call l,${cBl},${cGr}$@)
 	@#-$(RM) $(DOTVENV)
 	@#-$(MKDIR) $(DOTVENV)
 	@#-$(VENV) $(DOTVENV)
@@ -67,7 +67,7 @@ venv:
 	@echo ":: $@"
 
 wiki.pull:
-	@echo $(call l,${BLUE},${GREEN}$@)
+	@echo $(call l,${cBl},${cGr}$@)
 	@-$(RM) $(VARWIKI)
 	@-$(CD) $(VAR) && $(GITCLONE) $(COREWIKI) wiki
 	@-$(RM) $(VARWIKI)/.git
@@ -78,7 +78,7 @@ wiki.pull:
 	@echo ":: $@"
 
 wiki.push:
-	@echo $(call l,${BLUE},${GREEN}$@)
+	@echo $(call l,${cBl},${cGr}$@)
 	@-$(RM) $(DOTSWAP)
 	@-$(MKDIR) $(DOTSWAP)
 	@-$(CD) $(DOTSWAP) && $(GITCLONE) $(COREWIKI) wiki
@@ -91,6 +91,6 @@ wiki.push:
 	@echo ":: $@"
 
 xcompile:
-	@echo $(call l,${BLUE},${GREEN}$@)
+	@echo $(call l,${cBl},${cGr}$@)
 	@#-cd src && $(PYTHON) xcompile.py
 	@echo ":: $@"
