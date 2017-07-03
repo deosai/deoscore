@@ -15,7 +15,7 @@
 
 ---
 
-## Setup
+## Initialization
 
 ### `.env` Example
 
@@ -46,7 +46,7 @@ V                := $(VOLUME)/$(VOLMOD)
 
 ---
 
-## Commands
+## Rules
 
 * `make all`
 * `make build`
