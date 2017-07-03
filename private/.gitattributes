@@ -1,4 +1,4 @@
 * text=auto
-*.env filter=git-crypt diff=git-crypt
+* filter=git-crypt diff=git-crypt
 .gitattributes !filter !diff
 #[endfi]
