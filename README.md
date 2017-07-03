@@ -2,9 +2,7 @@
 [this:author:name ]: # (Andrew DeSantis)
 
 ---
-# [ΔOS v0.8-alpha.11][000] :/: `deoscore` :/: [![Build Status][001]][002]
-
-:/: [![Version][svg:version]](#)
+# [ΔOS v0.8-alpha.11][000] :/: `deoscore` :/: [![Build Status][001]][002] :/: [![Version][010]][002]
 
 [![self-header.jpg][003]](https://github.com/libdeos/deos-graphviz/wiki)
 
@@ -81,4 +79,4 @@ $ touch .fseventsd/no_log .metadata_never_index .Trashes
 [002]: https://travis-ci.org/libdeos/deos-graphviz
 [003]: var/assets/github/self-header-1499073266.png
 [004]: https://twitter.com/desantis/status/795023340704595968
-[svg:version]: https://raw.githubusercontent.com/libdeos/deoscore/master/docs/assets/svg/version.svg
+[010]: https://raw.githubusercontent.com/libdeos/deoscore/master/docs/assets/svg/version.svg
