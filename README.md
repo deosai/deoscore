@@ -57,7 +57,7 @@ V                := $(VOLUME)/$(VOLMOD)
 ### Add GPG
 
 ```bash
-Δ git-crypt add-gpg-user USER_ID
+Δ git-crypt add-gpg-user <gpg-email>
 ```
 
 ---
