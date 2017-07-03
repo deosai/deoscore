@@ -133,31 +133,21 @@ wiki.pull:
 
 
 wiki.push:
-##
+#=============================================================================#
 #	Description: The wiki.push rule.
-#
 #	Usage: `make wiki.push`
-##
+#=============================================================================#
 	@echo $(call l,${cBl},${cGr}$@)
-
 	@-$(RM) $(DOTSWAP)
-
 	@-$(MKDIR) $(DOTSWAP)
-
 	@-$(CD) $(DOTSWAP) && $(GITCLONE) $(COREWIKI) wiki
-
 	@-$(RM) $(SWAPWIKI)/*.md
-
 	@-$(CP) $(VARWIKI)/*.md $(SWAPWIKI)/
-
 	@-$(CD) $(SWAPWIKI) && mkdir img
-
 	@-$(CP) -a $(VARWIKI)/img/. $(SWAPWIKI)/img/
-
 	@-$(CD) $(SWAPWIKI) && $(GITADD) && $(GITCOMMIT) "$(WIKIMSG)" && $(GITPUSH)
-
 	@-$(RM) $(DOTSWAP)
-##
+#=============================================================================#
 
 
 xcompile:
