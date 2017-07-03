@@ -35,7 +35,7 @@
 
 ## Initialization
 
-### `.env-this` Example
+### `.env-this`
 
 ```bash
 VOLUME := /Volumes/<volume>
