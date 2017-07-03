@@ -2,9 +2,9 @@
 [this:author:name ]: # (Andrew DeSantis)
 
 ---
-# `Δ://deoscore` [![status][001]][002] [![wiki][011]][012] [![version][010]](#) [![website][013]][014]
+# `Δ://deoscore` [![s][001]][002] [![w][011]][012] [![v][010]][015] [![w][013]][014]
 
-[![self-header.jpg][003]](https://github.com/libdeos/deos-graphviz/wiki)
+[![self-header.jpg][003]][012]
 
 ---
 > *The languages of intelligence (writing) and self-interest (money) are the*
@@ -84,3 +84,4 @@ $ touch .fseventsd/no_log .metadata_never_index .Trashes
 [012]: https://github.com/libdeos/deoscore/wiki
 [013]: https://img.shields.io/badge/website-deoscore.metaptr.com-red.svg
 [014]: https://deoscore.metaptr.com/
+[015]: https://github.com/libdeos/deoscore/releases/tag/v0.8-alpha.11
