@@ -1,7 +1,9 @@
 [this:author:email]: # (atd@bitcoin.sh)
 [this:author:name]:  # (Andrew DeSantis)
 
-### [Δ][000] | [![Build Status][001]][002]
+### [ΔOS][000] :/: [![Build Status][001]][002]
+
+---
 
 [![self-header.jpg][003]](https://github.com/libdeos/deos-graphviz/wiki)
 
