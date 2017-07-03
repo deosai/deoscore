@@ -67,5 +67,5 @@ V                := $(VOLUME)/$(VOLMOD)
 [000]: https://libdeos.github.io/deos-graphviz/
 [001]: https://travis-ci.org/libdeos/deos-graphviz.svg?branch=master
 [002]: https://travis-ci.org/libdeos/deos-graphviz
-[003]: var/assets/github/self-header.jpg
+[003]: var/assets/github/self-header-1499073266.jpg
 [004]: https://twitter.com/desantis/status/795023340704595968
