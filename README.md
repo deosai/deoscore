@@ -3,7 +3,7 @@
 
 ---
 
-# [ΔOS v0.8-alpha.10][000] | `deos-core` | [![Build Status][001]][002]
+# [ΔOS v0.8-alpha.10][000] | `deoscore` | [![Build Status][001]][002]
 
 ---
 
