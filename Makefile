@@ -19,7 +19,7 @@ clean:
 
 docs.build:
 	@echo $(call l,${cBl},${cGr}$@)
-	@#-$(CD) docs && $(M) build
+	@-$(CD) docs && $(M) build
 	@echo ":: $@"
 
 docs.start:
