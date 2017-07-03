@@ -182,7 +182,7 @@ $ touch .fseventsd/no_log .metadata_never_index .Trashes
 
 ---
 
-### `wikid` Driver (for HTML)
+### `wikid` Driver for HTML
 <a href="https://deoscore.metaptr.com"><img src="https://github.com/zerotier/ZeroTierOne/raw/master/artwork/AppIcon_87x87.png" align="right" hspace="20" vspace="6"></a>
 
 * [ ] `this: one`
@@ -194,7 +194,7 @@ $ touch .fseventsd/no_log .metadata_never_index .Trashes
 
 ---
 
-### `wikid` Driver (for Markdown)
+### `wikid` Driver for Markdown
 <a href="https://deoscore.metaptr.com"><img src="https://github.com/zerotier/ZeroTierOne/raw/master/artwork/AppIcon_87x87.png" align="right" hspace="20" vspace="6"></a>
 
 * [ ] `this: one`
