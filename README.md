@@ -31,19 +31,6 @@ $ git-crypt add-gpg-user <email>
 ```
 ---
 
-### Tips & Tricks
-
-***Disable Spotlight Volume Indexer***
-
-```bash
-$ mdutil -i off /Volumes/<volume>
-$ cd /Volumes/<volume>
-$ rm -rf .{,_.}{fseventsd,Spotlight-V*,Trashes}
-$ mkdir .fseventsd
-$ touch .fseventsd/no_log .metadata_never_index .Trashes
-```
----
-
 ### Commands
 
 * [ ] `make all`
@@ -60,6 +47,19 @@ $ touch .fseventsd/no_log .metadata_never_index .Trashes
 * [ ] `make wiki.push`
 * [ ] `make wikid`
 
+---
+
+### Tips & Tricks
+
+***Disable Spotlight Volume Indexer***
+
+```bash
+$ mdutil -i off /Volumes/<volume>
+$ cd /Volumes/<volume>
+$ rm -rf .{,_.}{fseventsd,Spotlight-V*,Trashes}
+$ mkdir .fseventsd
+$ touch .fseventsd/no_log .metadata_never_index .Trashes
+```
 ---
 
 ### Release Schedule
