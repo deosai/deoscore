@@ -2,7 +2,7 @@
 [this:author:name ]: # (Andrew DeSantis)
 
 ---
-# [ΔOS v0.8-alpha.11][000] :/: `deoscore` :/: [![Build Status][001]][002] [![Version][010]](#)
+# [ΔOS][000] :/: `deoscore` :/: [![version][010]](#) [![status][001]][002]
 
 [![self-header.jpg][003]](https://github.com/libdeos/deos-graphviz/wiki)
 
