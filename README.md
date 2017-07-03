@@ -2,17 +2,21 @@
 [this:author:name ]: # (Andrew DeSantis)
 
 ---
+
 # `Δ://deoscore` [![s][001]][002] [![w][011]][012] [![v][010]][015] [![w][013]][014]
 
 [![self-header.jpg][003]][012]
 
 ---
+
 > *The languages of intelligence (writing) and self-interest (money) are the*
 > *mind's greatest creations; both must be decentralized or all is lost.*
 > **[—DeSantis][004]**
+
 ---
 
 ## Commands
+
 * `make all`
 * `make build`
 * `make clean`
@@ -32,6 +36,7 @@
 ## Initialization
 
 ### `.env-this`
+
 ```bash
 VOLUME := /Volumes/<volume>
 VOLMOD := <unixtime>/deoscore
@@ -40,7 +45,9 @@ V      := $(VOLUME)/$(VOLMOD)
 ---
 
 ## Setup
+
 ### `git-encrypt`
+
 ```bash
 $ git-crypt init
 $ git-crypt add-gpg-user <email>
@@ -48,7 +55,9 @@ $ git-crypt add-gpg-user <email>
 ---
 
 ## Issues
+
 ### Disable Spotlight Volume Indexer
+
 ```bash
 $ mdutil -i off /Volumes/<volume>
 $ cd /Volumes/<volume>
@@ -59,9 +68,9 @@ $ touch .fseventsd/no_log .metadata_never_index .Trashes
 ---
 
 ## Milestones
-[comment]: # (<a href="https://deoscore.metaptr.com"><img src="https://github.com/zerotier/ZeroTierOne/raw/master/artwork/AppIcon_87x87.png" align="right" hspace="20" vspace="6"></a>)
-* [ ] **`ΔOS`** `v0.8.11` --- [**Due:** `July 03, 2017`](#) --- [`0/0` **Tasks**](#)
-* [ ] **`ΔOS`** `v0.8.12` --- [**Due:** `July 03, 2017`](#) --- [`0/0` **Tasks**](#)
+
+* [ ] **`ΔOS`** `v0.8.11` --- [**Due:** `July 03, 2017`](#) --- [`0/0` **Tasks**](https://github.com/libdeos/deoscore/milestone/1)
+* [ ] **`ΔOS`** `v0.8.12` --- [**Due:** `July 03, 2017`](#) --- [`0/0` **Tasks**](https://github.com/libdeos/deoscore/milestone/2)
 * [ ] **`ΔOS`** `v0.8.13` --- [**Due:** `July 03, 2017`](#) --- [`0/0` **Tasks**](#)
 * [ ] **`ΔOS`** `v0.8.14` --- [**Due:** `July 03, 2017`](#) --- [`0/0` **Tasks**](#)
 * [ ] **`ΔOS`** `v0.8.15` --- [**Due:** `July 03, 2017`](#) --- [`0/0` **Tasks**](#)
@@ -72,8 +81,10 @@ $ touch .fseventsd/no_log .metadata_never_index .Trashes
 * [ ] **`ΔOS`** `v0.8.20` --- [**Due:** `July 04, 2017`](#) --- [`0/0` **Tasks**](#)
 * [ ] **`ΔOS`** `v0.8.21` --- [**Due:** `July 04, 2017`](#) --- [`0/0` **Tasks**](#)
 * [ ] **`ΔOS`** `v0.8.22` --- [**Due:** `July 04, 2017`](#) --- [`0/0` **Tasks**](#)
+[comment]: # (<a href="https://deoscore.metaptr.com"><img src="https://github.com/zerotier/ZeroTierOne/raw/master/artwork/AppIcon_87x87.png" align="right" hspace="20" vspace="6"></a>)
 
 ---
+
 [000]: https://libdeos.github.io/deos-graphviz/
 [001]: https://travis-ci.org/libdeos/deos-graphviz.svg?branch=master
 [002]: https://travis-ci.org/libdeos/deos-graphviz
