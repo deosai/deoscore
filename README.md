@@ -152,6 +152,18 @@ $ git-crypt add-gpg-user <email>
 
 ---
 
+### `iPython` Interface
+<a href="https://deoscore.metaptr.com"><img src="https://github.com/zerotier/ZeroTierOne/raw/master/artwork/AppIcon_87x87.png" align="right" hspace="20" vspace="6"></a>
+
+* [ ] `this: one`
+* [ ] `that: two`
+* [ ] `then: three`
+* [ ] `and: four`
+* [ ] `here: five`
+* [ ] `now: six`
+
+---
+
 ### `Keybase` Driver
 <a href="https://deoscore.metaptr.com"><img src="https://github.com/zerotier/ZeroTierOne/raw/master/artwork/AppIcon_87x87.png" align="right" hspace="20" vspace="6"></a>
 
