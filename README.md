@@ -1,5 +1,5 @@
-[this:author:email]: #(atd@bitcoin.sh)
-[this:author:name]:  #(Andrew DeSantis)
+[this:author:email]: # (atd@bitcoin.sh)
+[this:author:name]:  # (Andrew DeSantis)
 [![self-header.jpg][003]](https://github.com/libdeos/deos-graphviz/wiki)
 
 ---
