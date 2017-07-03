@@ -25,8 +25,6 @@
 * `make wiki.push`
 * `make wikid`
 
----
-
 ## Initialization
 
 ### `.env-this`
@@ -36,7 +34,6 @@ VOLUME := /Volumes/<volume>
 VOLMOD := <unixtime>/deoscore
 V      := $(VOLUME)/$(VOLMOD)
 ```
----
 
 ## Issues
 
@@ -49,7 +46,6 @@ $ rm -rf .{,_.}{fseventsd,Spotlight-V*,Trashes}
 $ mkdir .fseventsd
 $ touch .fseventsd/no_log .metadata_never_index .Trashes
 ```
----
 
 ## Milestones
 
@@ -60,8 +56,6 @@ $ touch .fseventsd/no_log .metadata_never_index .Trashes
 * [ ] **`ΔOS`** `v0.8.14` --- [**Due:** `Today`](https://github.com/libdeos/deoscore/milestone/4) --- [`0/0` **Tasks**](https://github.com/libdeos/deoscore/milestone/4)
 * [ ] **`ΔOS`** `v0.8.15` --- [**Due:** `Today`](https://github.com/libdeos/deoscore/milestone/5) --- [`0/0` **Tasks**](https://github.com/libdeos/deoscore/milestone/5)
 * [ ] **`ΔOS`** `v0.8.16` --- [**Due:** `Today`](https://github.com/libdeos/deoscore/milestone/6) --- [`0/0` **Tasks**](https://github.com/libdeos/deoscore/milestone/6)
-
----
 
 ## Setup
 
