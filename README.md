@@ -65,8 +65,6 @@ include             src/make/deos-unix.mk
 
 ### `git-encrypt`
 
-#### Initalize
-
 * `git-crypt init`
 * `git-crypt add-gpg-user <email>`
 
