@@ -1,0 +1,11 @@
+---
+title: libdeos
+
+exclude:
+- Gemfile
+- Gemfile.lock
+- Makefile
+
+plugins:
+- jekyll-mentions
+---
