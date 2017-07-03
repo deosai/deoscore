@@ -16,5 +16,4 @@ indent_style             = tab
 
 [{Deosfile,Vagrantfile}]
 indent_size              = 2
-
 #[endfi]

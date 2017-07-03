@@ -15,18 +15,12 @@ app/vault/ui_*py
 
 #[folders]
 app/vault/src/atdlib/
-dojo/
 etc/blockstack/*
 etc/zerotier/*
-ext/pyqt/
-ext/sip/
 include/.macro/
 node_modules/
 src/atdlib/build/
 tests/blockstack/integration/*
-var/backup/*
-var/log/deos/*
-var/privkey/*
 
 #[dotfiles]
 .DS_Store
@@ -45,5 +39,4 @@ app/vault/TrezorPass.pro.user
 #[except]
 !etc/blockstack/.gitprivate
 !etc/zerotier/.gitprivate
-
 #[endfi]

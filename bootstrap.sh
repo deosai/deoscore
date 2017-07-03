@@ -12,5 +12,4 @@ EXIT_SUCCESS() {
 EXIT_FAILURE() {
   exit 1
 }
-
 #[endfi]

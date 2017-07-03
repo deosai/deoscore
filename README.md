@@ -17,7 +17,7 @@
 
 ## Initialization
 
-### `.env` Example
+### `.env-this` Example
 
 ```bash
 export MAKEFLAGS := --no-print-directory
