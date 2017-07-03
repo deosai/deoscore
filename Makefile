@@ -1,96 +1,171 @@
 include .deosrc
 
+
+
 all:
-	@echo $(call l,\n${cBl},${cGr}$@)
+#-----------------------------------------------------------------------------#
+#	Description: The default rule.
+#	Usage: `make` and/or `make all`
+#-----------------------------------------------------------------------------#
+	@echo $(call l,\n${cBl},${cGr}[${cPu}0${cGr}] ${cCy}$@)
 	@-$(M) build
-	@#$(M) $(EXECUTABLE)
-	@echo ":: $@"
+	@-$(M) $(EXECUTABLE)
+#-----------------------------------------------------------------------------#
+
+
 
 build: clean
-	@echo $(call l,${cBl},${cGr}$@)
+#-----------------------------------------------------------------------------#
+#	Description: The build rule.
+#	Usage: `make build`
+#-----------------------------------------------------------------------------#
+	@echo $(call l,${cBl},${cGr}[${cPu}2${cGr}] ${cCy}$@)
 	@-$(M) venv
 	@-$(M) xcompile
 	@-$(M) docs.build
-	@echo ":: $@"
+#-----------------------------------------------------------------------------#
+
+
 
 clean:
-	@echo $(call l,${cBl},${cGr}$@)
-	@echo ":: $@"
+#-----------------------------------------------------------------------------#
+#	Description: The clean rule.
+#	Usage: `make clean`
+#-----------------------------------------------------------------------------#
+	@echo $(call l,${cBl},${cGr}[${cPu}1${cGr}] ${cCy}$@)
+	@-rm -rf .venv/
+#-----------------------------------------------------------------------------#
+
+
 
 docs.build:
-	@echo $(call l,${cBl},${cGr}$@)
-	@-$(CD) docs && $(M) build
-	@echo ":: $@"
+#-----------------------------------------------------------------------------#
+#	Description: The `docs` build rule.
+#	Usage: `make docs.build`
+#-----------------------------------------------------------------------------#
+	@echo $(call l,${cBl},${cGr}[${cPu}5${cGr}] ${cCy}$@)
+	@#$(CD) docs && $(M) build
+#-----------------------------------------------------------------------------#
+
+
 
 docs.start:
+##
+#	Description: The `docs` start rule.
+#
+#	Usage: `make docs.start`
+##
 	@echo $(call l,${cBl},${cGr}$@)
-	@$(M) docs.build
+
+	@#$(M) docs.build
+
 	@#-$(CD) docs && $(M)
-	@echo ":: $@"
+##
+
 
 $(EXECUTABLE):
-	@echo $(call l,${cBl},${cGr}$@)
+	@echo $(call l,${cBl},${cGr}[${cPu}6${cGr}] ${cCy}$@)
 	@#-$(CC) $(WARNINGS) -Wall -I. -I$(MACRO_DIR) -std=$(STD) \
 		`$(VENV_MAC_DIR)/bin/python-config --cflags` \
 		./$(MAIN_C) $(OUTPUT) \
 		`$(VENV_MAC_DIR)/bin/python-config --ldflags`
-	@echo ":: $@"
+##
+
 
 graphviz:
 	@echo $(call l,${cBl},${cGr}$@)
 	@#-$(ACTVENV) && $(CD) src && $(PY) graphviz.py
 	@#-dot -Tpng var/dot/g.dot > var/img/g.png
-	@echo ":: $@"
+##
+
 
 push:
 	@echo $(call l,${cBl},${cGr}$@)
 	@-$(GITADD) && $(GITCOMMIT) "$(msg)" && $(GITPUSH)
-	@echo ":: $@"
+##
+
 
 run:
 	@echo $(call l,${cBl},${cGr}$@)
 	@-$(M) graphviz
-	@echo ":: $@"
+##
+
 
 sync:
 	@echo $(call l,${cBl},${cGr}$@)
 	@#-$(M) wiki.pull
 	@#-$(M) msg="make sync" push
-	@echo ":: $@"
+##
+
 
 venv:
-	@echo $(call l,${cBl},${cGr}$@)
+	@echo $(call l,${cBl},${cGr}[${cPu}3${cGr}] ${cCy}$@)
 	@#-$(RM) $(DOTVENV)
 	@#-$(MKDIR) $(DOTVENV)
 	@#-$(VENV) $(DOTVENV)
 	@#-$(ACTVENV) && $(PIPINSTALL) -r $(PYREQ)
-	@echo ":: $@"
+##
+
 
 wiki.pull:
+##
+#	Description: The wiki.pull rule.
+#
+#	Usage: `make wiki.pull`
+##
 	@echo $(call l,${cBl},${cGr}$@)
+
 	@-$(RM) $(VARWIKI)
+
 	@-$(CD) $(VAR) && $(GITCLONE) $(COREWIKI) wiki
+
 	@-$(RM) $(VARWIKI)/.git
+
 	@#$(RM) meta/wikid/static/
+
 	@#$(MKDIR) meta/wikid/static/
+
 	@#$(CD) meta/wikid/static && $(GITCLONE) $(COREWIKI) .
+
 	@#$(RM) meta/wikid/static/.git
-	@echo ":: $@"
+##
+
 
 wiki.push:
+##
+#	Description: The wiki.push rule.
+#
+#	Usage: `make wiki.push`
+##
 	@echo $(call l,${cBl},${cGr}$@)
+
 	@-$(RM) $(DOTSWAP)
+
 	@-$(MKDIR) $(DOTSWAP)
+
 	@-$(CD) $(DOTSWAP) && $(GITCLONE) $(COREWIKI) wiki
+
 	@-$(RM) $(SWAPWIKI)/*.md
+
 	@-$(CP) $(VARWIKI)/*.md $(SWAPWIKI)/
+
 	@-$(CD) $(SWAPWIKI) && mkdir img
+
 	@-$(CP) -a $(VARWIKI)/img/. $(SWAPWIKI)/img/
+
 	@-$(CD) $(SWAPWIKI) && $(GITADD) && $(GITCOMMIT) "$(WIKIMSG)" && $(GITPUSH)
+
 	@-$(RM) $(DOTSWAP)
-	@echo ":: $@"
+##
+
 
 xcompile:
-	@echo $(call l,${cBl},${cGr}$@)
+##
+#	Description: The xcompile rule.
+#
+#	Usage: `make xcompile`
+##
+	@echo $(call l,${cBl},${cGr}[${cPu}4${cGr}] ${cCy}$@)
+
 	@#-cd src && $(PYTHON) xcompile.py
-	@echo ":: $@"
+##
