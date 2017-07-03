@@ -58,8 +58,6 @@ V      := $(VOLUME)/$(VOLMOD)
 ## Milestones
 
 [comment]: # (<a href="https://deoscore.metaptr.com"><img src="https://github.com/zerotier/ZeroTierOne/raw/master/artwork/AppIcon_87x87.png" align="right" hspace="20" vspace="6"></a>)
-[comment]: # (<a href="https://deoscore.metaptr.com"><img src="https://github.com/zerotier/ZeroTierOne/raw/master/artwork/AppIcon_87x87.png" align="right" hspace="20" vspace="6"></a>)
-[comment]: # (<a href="https://deoscore.metaptr.com"><img src="https://github.com/zerotier/ZeroTierOne/raw/master/artwork/AppIcon_87x87.png" align="right" hspace="20" vspace="6"></a>)
 * [ ] **`ΔOS`** `v0.8.11` - **Due:** `July 03, 2017` - `000` **Tasks**
 * [ ] **`ΔOS`** `v0.8.12` - **Due:** `July 03, 2017` - `000` **Tasks**
 * [ ] **`ΔOS`** `v0.8.13` - **Due:** `July 03, 2017` - `000` **Tasks**
@@ -79,24 +77,6 @@ V      := $(VOLUME)/$(VOLMOD)
 
 * `git-crypt init`
 * `git-crypt add-gpg-user <email>`
-
-## Todo
-
-* add: `schemas/`
-* add: `config.py`
-* add: `install.sh`
-* build: `app/README.md`
-* build: `bin/README.md`
-* build: `boot/README.md`
-* build: `data/README.md`
-* build: `docs/README.md`
-* build: `src/README.md`
-* build: `static/README.md`
-* build: `templates/README.md`
-* build: `var/README.md`
-* convert: `docs/web/*.rst` -> `*.md`
-* restore: release notes
-* cmd: `make git.release`
 
 ---
 
