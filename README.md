@@ -1,18 +1,12 @@
-[this:author:email]: # (atd@bitcoin.sh )
-[this:author:name ]: # (Andrew DeSantis)
-
----
 
 # `Δ://deoscore` [![s][001]][002] [![w][011]][012] [![v][010]][015] [![w][013]][014]
 
 [![self-header.jpg][003]][012]
 
 ---
-
 > *The languages of intelligence (writing) and self-interest (money) are the*
 > *mind's greatest creations; both must be decentralized or all is lost.*
 > **[—DeSantis][004]**
-
 ---
 
 ## Commands
@@ -90,3 +84,5 @@ $ git-crypt add-gpg-user <email>
 [013]: https://img.shields.io/badge/website-deos.ai-red.svg
 [014]: https://deos.ai/
 [015]: https://github.com/libdeos/deoscore/releases/tag/v0.8-alpha.11
+[this:author:email]: # (atd@bitcoin.sh)
+[this:author:name ]: # (Andrew DeSantis)
