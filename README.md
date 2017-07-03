@@ -4,7 +4,7 @@
 
 ---
 
-# [ΔOS v0.8-alpha.9][000] | `deos-core` | [![Build Status][001]][002]
+# [Δ][000] | [![Build Status][001]][002]
 
 ---
 
