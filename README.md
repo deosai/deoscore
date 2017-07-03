@@ -31,6 +31,8 @@
 * `make wiki.push`
 * `make wikid`
 
+---
+
 ## Initialization
 
 ### `.env-this` Example
@@ -42,6 +44,8 @@ V      := $(VOLUME)/$(VOLMOD)
 
 ```
 
+---
+
 ## macOS
 
 ### Disable Spotlight Volume Indexer
@@ -51,6 +55,8 @@ V      := $(VOLUME)/$(VOLMOD)
 * `rm -rf .{,_.}{fseventsd,Spotlight-V*,Trashes}`
 * `mkdir .fseventsd`
 * `touch .fseventsd/no_log .metadata_never_index .Trashes`
+
+---
 
 ## Milestones
 
@@ -67,6 +73,8 @@ V      := $(VOLUME)/$(VOLMOD)
 * [ ] **`ΔOS`** `v0.8.20` - **Due:** `July 04, 2017` - `000` **Tasks**
 * [ ] **`ΔOS`** `v0.8.21` - **Due:** `July 04, 2017` - `000` **Tasks**
 * [ ] **`ΔOS`** `v0.8.22` - **Due:** `July 04, 2017` - `000` **Tasks**
+
+---
 
 ## Setup
 
