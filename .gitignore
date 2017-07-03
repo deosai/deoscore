@@ -6,13 +6,11 @@ app/vault/ui_*py
 *.o
 *.pyc
 *.pwdb
-
 #[dotfolders]
 .backup/
 .keychain/
 .swap/
 .venv/
-
 #[folders]
 app/vault/src/atdlib/
 etc/blockstack/*
@@ -20,11 +18,9 @@ etc/zerotier/*
 node_modules/
 src/atdlib/build/
 tests/blockstack/integration/*
-
 #[dotfiles]
 .DS_Store
 .nvmrc
-
 #[files]
 geckodriver.log
 npm-debug.log
@@ -34,7 +30,6 @@ app/vault/src/ui_mainwindow.py
 app/vault/Crypto
 app/vault/trezorlib
 app/vault/TrezorPass.pro.user
-
 #[except]
 !etc/blockstack/.gitprivate
 !etc/zerotier/.gitprivate

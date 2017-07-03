@@ -1,41 +1,41 @@
-include .env-this
-include .env-common
-.DEFAULT_GOAL  := all
-.PHONY:           all        \
-	              atd.all    \
-	              build      \
-	              docs.build \
-	              docs.start \
-	              graphviz   \
-	              wikid      \
-	              push       \
-	              run        \
-	              sync       \
-	              venv       \
-	              wiki.pull  \
-	              wiki.push  \
-	              xcompile
-.SUBLIME_TARGETS: all
-CC             := /usr/bin/clang
-PYTHON         := /usr/bin/python
-DOTVENV        := $(V)/.venv
-DOTSWAP        := $(V)/.swap
-SWAPWIKI       := $(DOTSWAP)/wiki
-VAR            := $(V)/var
-VARWIKI        := $(VAR)/wiki
-COREREPO       := git@github.com:libdeos/deoscore.git
-COREWIKI       := git@github.com:libdeos/deoscore.wiki.git
-WIKIMSG        := deos: wiki.sync
-ACTVENV        := source $(DOTVENV)/bin/activate
-PIPINSTALL     := pip install
-PY             := python
-PYREQ          := etc/python/requirements.txt
-VENV           := /usr/local/bin/virtualenv --always-copy --no-site-packages
-BLACK          := \x1b[30;01m
-RED            := \x1b[31;01m
-GREEN          := \x1b[32;01m
-YELLOW         := \x1b[33;01m
-BLUE           := \x1b[34;01m
-PURPLE         := \x1b[35;01m
-CYAN           := \x1b[36;01m
-COLOR          := \x1b[0m
+export MAKEFLAGS := --no-print-directory
+include             .env
+.DEFAULT_GOAL    := all
+.PHONY:             all        \
+	                atd.all    \
+	                build      \
+	                docs.build \
+	                docs.start \
+	                graphviz   \
+	                wikid      \
+	                push       \
+	                run        \
+	                sync       \
+	                venv       \
+	                wiki.pull  \
+	                wiki.push  \
+	                xcompile
+.SUBLIME_TARGETS:   all
+CC               := /usr/bin/clang
+PYTHON           := /usr/bin/python
+DOTVENV          := $(V)/.venv
+DOTSWAP          := $(V)/.swap
+SWAPWIKI         := $(DOTSWAP)/wiki
+VAR              := $(V)/var
+VARWIKI          := $(VAR)/wiki
+COREREPO         := git@github.com:libdeos/deoscore.git
+COREWIKI         := git@github.com:libdeos/deoscore.wiki.git
+WIKIMSG          := deos: wiki.sync
+ACTVENV          := source $(DOTVENV)/bin/activate
+PIPINSTALL       := pip install
+PY               := python
+PYREQ            := etc/python/requirements.txt
+VENV             := /usr/local/bin/virtualenv --always-copy --no-site-packages
+BLACK            := \x1b[30;01m
+RED              := \x1b[31;01m
+GREEN            := \x1b[32;01m
+YELLOW           := \x1b[33;01m
+BLUE             := \x1b[34;01m
+PURPLE           := \x1b[35;01m
+CYAN             := \x1b[36;01m
+COLOR            := \x1b[0m
