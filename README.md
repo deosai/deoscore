@@ -74,7 +74,7 @@ $ touch .fseventsd/no_log .metadata_never_index .Trashes
 
 ---
 
-### Bitcoin Driver
+### `Bitcoin` Driver
 <a href="https://deoscore.metaptr.com"><img src="https://github.com/zerotier/ZeroTierOne/raw/master/artwork/AppIcon_87x87.png" align="right" hspace="20" vspace="6"></a>
 
 * [ ] `this: one`
@@ -86,7 +86,7 @@ $ touch .fseventsd/no_log .metadata_never_index .Trashes
 
 ---
 
-### BitTorrent Driver
+### `BitTorrent` Driver
 <a href="https://deoscore.metaptr.com"><img src="https://github.com/zerotier/ZeroTierOne/raw/master/artwork/AppIcon_87x87.png" align="right" hspace="20" vspace="6"></a>
 
 * [ ] `this: one`
@@ -98,7 +98,7 @@ $ touch .fseventsd/no_log .metadata_never_index .Trashes
 
 ---
 
-### Blockstack Driver
+### `Blockstack` Driver
 <a href="https://deoscore.metaptr.com"><img src="https://github.com/zerotier/ZeroTierOne/raw/master/artwork/AppIcon_87x87.png" align="right" hspace="20" vspace="6"></a>
 
 * [ ] `this: one`
@@ -110,7 +110,7 @@ $ touch .fseventsd/no_log .metadata_never_index .Trashes
 
 ---
 
-### freebird.im Driver
+### `freebird.im` Driver
 <a href="https://deoscore.metaptr.com"><img src="https://github.com/zerotier/ZeroTierOne/raw/master/artwork/AppIcon_87x87.png" align="right" hspace="20" vspace="6"></a>
 
 * [ ] `this: one`
@@ -122,7 +122,7 @@ $ touch .fseventsd/no_log .metadata_never_index .Trashes
 
 ---
 
-### Lightning Driver
+### `Lightning` Driver
 <a href="https://deoscore.metaptr.com"><img src="https://github.com/zerotier/ZeroTierOne/raw/master/artwork/AppIcon_87x87.png" align="right" hspace="20" vspace="6"></a>
 
 * [ ] `this: one`
@@ -134,7 +134,7 @@ $ touch .fseventsd/no_log .metadata_never_index .Trashes
 
 ---
 
-### RSKSmart Driver
+### `RSKSmart` Driver
 <a href="https://deoscore.metaptr.com"><img src="https://github.com/zerotier/ZeroTierOne/raw/master/artwork/AppIcon_87x87.png" align="right" hspace="20" vspace="6"></a>
 
 * [ ] `this: one`
@@ -146,7 +146,7 @@ $ touch .fseventsd/no_log .metadata_never_index .Trashes
 
 ---
 
-### TREZOR Driver
+### `TREZOR` Driver
 <a href="https://deoscore.metaptr.com"><img src="https://github.com/zerotier/ZeroTierOne/raw/master/artwork/AppIcon_87x87.png" align="right" hspace="20" vspace="6"></a>
 
 * [ ] `this: one`
@@ -158,7 +158,7 @@ $ touch .fseventsd/no_log .metadata_never_index .Trashes
 
 ---
 
-### Urbit Driver
+### `Urbit` Driver
 <a href="https://deoscore.metaptr.com"><img src="https://github.com/zerotier/ZeroTierOne/raw/master/artwork/AppIcon_87x87.png" align="right" hspace="20" vspace="6"></a>
 
 * [ ] `this: one`
@@ -170,7 +170,7 @@ $ touch .fseventsd/no_log .metadata_never_index .Trashes
 
 ---
 
-### Vault Driver
+### `Vault` Driver
 <a href="https://deoscore.metaptr.com"><img src="https://github.com/zerotier/ZeroTierOne/raw/master/artwork/AppIcon_87x87.png" align="right" hspace="20" vspace="6"></a>
 
 * [ ] `this: one`
@@ -182,7 +182,7 @@ $ touch .fseventsd/no_log .metadata_never_index .Trashes
 
 ---
 
-### Wiki Driver (HTML)
+### `wikid` Driver for HTML
 <a href="https://deoscore.metaptr.com"><img src="https://github.com/zerotier/ZeroTierOne/raw/master/artwork/AppIcon_87x87.png" align="right" hspace="20" vspace="6"></a>
 
 * [ ] `this: one`
@@ -194,7 +194,7 @@ $ touch .fseventsd/no_log .metadata_never_index .Trashes
 
 ---
 
-### Wiki Driver (Markdown)
+### `wikid` Driver for Markdown
 <a href="https://deoscore.metaptr.com"><img src="https://github.com/zerotier/ZeroTierOne/raw/master/artwork/AppIcon_87x87.png" align="right" hspace="20" vspace="6"></a>
 
 * [ ] `this: one`
@@ -206,7 +206,7 @@ $ touch .fseventsd/no_log .metadata_never_index .Trashes
 
 ---
 
-### ZeroTier Driver
+### `ZeroTier` Driver
 <a href="https://deoscore.metaptr.com"><img src="https://github.com/zerotier/ZeroTierOne/raw/master/artwork/AppIcon_87x87.png" align="right" hspace="20" vspace="6"></a>
 
 * [ ] `this: one`
