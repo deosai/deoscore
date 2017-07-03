@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 WRITE_FILE = "../include/.macro/deos.def"
-READ_FILE  = "./deos.py"
+READ_FILE  = "../main.py"
 
 def main():
     fp = open(WRITE_FILE, 'w')

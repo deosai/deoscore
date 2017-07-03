@@ -17,7 +17,6 @@ app/vault/ui_*py
 app/vault/src/atdlib/
 etc/blockstack/*
 etc/zerotier/*
-include/.macro/
 node_modules/
 src/atdlib/build/
 tests/blockstack/integration/*

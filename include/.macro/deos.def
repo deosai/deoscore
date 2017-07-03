@@ -1,0 +1,15 @@
+X("#!/usr/bin/env python\n"\
+  "# -*- coding: utf-8 -*-\n"\
+  "from __future__ import division\n"\
+  "from __future__ import print_function\n"\
+  "import configobj\n"\
+  "import os\n"\
+  "import sys\n"\
+  "import simplejson as json\n"\
+  "import ruamel.yaml as yaml\n"\
+  "def main():\n"\
+  "    for module in (os, sys, configobj, json, yaml):\n"\
+  "        print(module)\n"\
+  "if __name__ == '__main__':\n"\
+  "    main()\n")
+#undef X

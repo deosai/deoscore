@@ -2,11 +2,12 @@ include .deosrc
 
 .DEFAULT_GOAL := all
 .PHONY: all atd.allbuild docs.build docs.start graphviz wikid push run sync \
-	venv wiki.pull wiki.push
+	venv wiki.pull wiki.push xcompile
 .SUBLIME_TARGETS: all
 
 all:
 	@echo $(call l,${BLUE},$@: new)
+	@-$(MAKE) xcompile
 	@-$(MAKE) atd.all
 	@-$(MAKE) build
 	@-$(MAKE) run
@@ -32,7 +33,7 @@ docs.start:
 graphviz:
 	@echo $(call l,${PURPLE},$@: new)
 	@-$(ACTVENV) && $(CD) src && $(PY) graphviz.py
-	@-dot -Tpng var/dot/g.dot > var/img/g.png
+	-dot -Tpng var/dot/g.dot > var/img/g.png
 	@echo $(call l,${PURPLE},$@: end)
 
 wikid:
@@ -75,5 +76,10 @@ wiki.push:
 	@-$(CP) -a $(VARWIKI)/img/. $(SWAPWIKI)/img/
 	@-$(CD) $(SWAPWIKI) && $(GITADD) && $(GITCOMMIT) "$(WIKIMSG)" && $(GITPUSH)
 	@-$(RM) $(DOTSWAP)
+
+xcompile:
+	@echo $(call l,${BLUE},$@: new)
+	-cd src && $(PYTHON) xcompile.py
+	@echo $(call l,${BLUE},$@: end)
 
 #[endfi]
