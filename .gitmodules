@@ -7,3 +7,6 @@
 [submodule "src/urbit/urbit-arvo"]
 	path = src/urbit/urbit-arvo
 	url = https://github.com/libdeos/__urbit-arvo.git
+[submodule "app/terminal"]
+	path = app/terminal
+	url = https://github.com/libdeos/deos-driver-hyper.git
