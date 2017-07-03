@@ -3,7 +3,7 @@
 
 ---
 
-#  `deoscore` :/: [ΔOS v0.8-alpha.10][000] :/: [![Build Status][001]][002]
+# [ΔOS v0.8-alpha.10][000] :/: `deoscore` :/: [![Build Status][001]][002]
 
 [![self-header.jpg][003]](https://github.com/libdeos/deos-graphviz/wiki)
 
