@@ -7,8 +7,8 @@
 > *mind's greatest creations; both must be decentralized or all is lost.*
 > **[—DeSantis][004]**
 ---
+
 ### Commands
----
 
 * `make all`
 * `make build`
@@ -25,8 +25,8 @@
 * `make wikid`
 
 ---
+
 ### Initialization
----
 
 *__`.env-this`__*
 
@@ -37,8 +37,8 @@ V      := $(VOLUME)/$(VOLMOD)
 ```
 
 ---
+
 ### Issues
----
 
 *__Disable Spotlight Volume Indexer__*
 
@@ -51,8 +51,8 @@ $ touch .fseventsd/no_log .metadata_never_index .Trashes
 ```
 
 ---
+
 ### Milestones
----
 
 <a href="https://deoscore.metaptr.com"><img src="https://github.com/zerotier/ZeroTierOne/raw/master/artwork/AppIcon_87x87.png" align="right" hspace="20" vspace="6"></a>
 * [x] **`ΔOS`** [`v0.8.11`](https://github.com/libdeos/deoscore/releases/tag/v0.8-alpha.11) --- **Complete**
@@ -63,8 +63,8 @@ $ touch .fseventsd/no_log .metadata_never_index .Trashes
 * [ ] **`ΔOS`** `v0.8.16` --- [**Due:** `Today`](https://github.com/libdeos/deoscore/milestone/6) --- [`0/0` **Tasks**](https://github.com/libdeos/deoscore/milestone/6)
 
 ---
+
 ### Setup
----
 
 __*`git-encrypt`*__
 
