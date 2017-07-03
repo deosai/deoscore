@@ -30,7 +30,7 @@ V                := $(VOLUME)/$(VOLMOD)
 
 ---
 
-### `git-encrypt` Config
+### `git-encrypt` Setup
 
 #### Initalize
 
