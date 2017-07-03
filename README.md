@@ -74,6 +74,8 @@ include             src/make/deos-unix.mk
 ## Milestones
 
 <a href="https://www.zerotier.com"><img src="https://github.com/zerotier/ZeroTierOne/raw/master/artwork/AppIcon_87x87.png" align="right" hspace="20" vspace="6"></a>
+<a href="https://www.zerotier.com"><img src="https://github.com/zerotier/ZeroTierOne/raw/master/artwork/AppIcon_87x87.png" align="right" hspace="20" vspace="6"></a>
+<a href="https://www.zerotier.com"><img src="https://github.com/zerotier/ZeroTierOne/raw/master/artwork/AppIcon_87x87.png" align="right" hspace="20" vspace="6"></a>
 
 * [ ] `ΔOS v0.8.11` **Release** --- **Due:** `July 03, 2017` --- `00` **Tasks**
 * [ ] `ΔOS v0.8.12` **Release** --- **Due:** `July 04, 2017` --- `00` **Tasks**
