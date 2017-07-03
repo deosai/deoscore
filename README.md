@@ -31,9 +31,6 @@
 * `make wiki.push`
 * `make wikid`
 
-### `make build`
-
-
 ## Initialization
 
 ### `.env-this` Example
