@@ -62,7 +62,7 @@ $ touch .fseventsd/no_log .metadata_never_index .Trashes
 ```
 ---
 
-### Milestones
+### Release Schedule
 
 * [x] **`ΔOS`** [`v0.8.11`](https://github.com/libdeos/deoscore/releases/tag/v0.8-alpha.11) --- **Complete**
 * [ ] **`ΔOS`** `v0.8.12` --- [**Due:** `Today`](https://github.com/libdeos/deoscore/milestone/2)
