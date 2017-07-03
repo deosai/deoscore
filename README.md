@@ -65,11 +65,11 @@ $ touch .fseventsd/no_log .metadata_never_index .Trashes
 ### Milestones
 
 * [x] **`ΔOS`** [`v0.8.11`](https://github.com/libdeos/deoscore/releases/tag/v0.8-alpha.11) --- **Complete**
-* [ ] **`ΔOS`** `v0.8.12` --- [**Due:** `Today`](https://github.com/libdeos/deoscore/milestone/2) --- [`0/0` **Tasks**](https://github.com/libdeos/deoscore/milestone/2)
-* [ ] **`ΔOS`** `v0.8.13` --- [**Due:** `Today`](https://github.com/libdeos/deoscore/milestone/3) --- [`0/0` **Tasks**](https://github.com/libdeos/deoscore/milestone/3)
-* [ ] **`ΔOS`** `v0.8.14` --- [**Due:** `Today`](https://github.com/libdeos/deoscore/milestone/4) --- [`0/0` **Tasks**](https://github.com/libdeos/deoscore/milestone/4)
-* [ ] **`ΔOS`** `v0.8.15` --- [**Due:** `Today`](https://github.com/libdeos/deoscore/milestone/5) --- [`0/0` **Tasks**](https://github.com/libdeos/deoscore/milestone/5)
-* [ ] **`ΔOS`** `v0.8.16` --- [**Due:** `Today`](https://github.com/libdeos/deoscore/milestone/6) --- [`0/0` **Tasks**](https://github.com/libdeos/deoscore/milestone/6)
+* [ ] **`ΔOS`** `v0.8.12` --- [**Due:** `Today`](https://github.com/libdeos/deoscore/milestone/2)
+* [ ] **`ΔOS`** `v0.8.13` --- [**Due:** `Today`](https://github.com/libdeos/deoscore/milestone/3)
+* [ ] **`ΔOS`** `v0.8.14` --- [**Due:** `Today`](https://github.com/libdeos/deoscore/milestone/4)
+* [ ] **`ΔOS`** `v0.8.15` --- [**Due:** `Today`](https://github.com/libdeos/deoscore/milestone/5)
+* [ ] **`ΔOS`** `v0.8.16` --- [**Due:** `Today`](https://github.com/libdeos/deoscore/milestone/6)
 
 ---
 
