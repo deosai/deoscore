@@ -88,8 +88,6 @@ include             src/make/deos-unix.mk
 * [ ] `ΔOS v0.8.20` **Release** --- **Due:** `July 12, 2017` --- `00` **Tasks**
 * [ ] `ΔOS v0.8.21` **Release** --- **Due:** `July 13, 2017` --- `00` **Tasks**
 * [ ] `ΔOS v0.8.22` **Release** --- **Due:** `July 14, 2017` --- `00` **Tasks**
-* [ ] `ΔOS v0.8.23` **Release** --- **Due:** `July 15, 2017` --- `00` **Tasks**
-* [ ] `ΔOS v0.8.24` **Release** --- **Due:** `July 16, 2017` --- `00` **Tasks**
 
 ## Setup
 
