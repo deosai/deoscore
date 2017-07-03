@@ -47,7 +47,9 @@ $ mkdir .fseventsd
 $ touch .fseventsd/no_log .metadata_never_index .Trashes
 ```
 
+---
 ### Milestones
+---
 
 <a href="https://deoscore.metaptr.com"><img src="https://github.com/zerotier/ZeroTierOne/raw/master/artwork/AppIcon_87x87.png" align="right" hspace="20" vspace="6"></a>
 * [x] **`ΔOS`** [`v0.8.11`](https://github.com/libdeos/deoscore/releases/tag/v0.8-alpha.11) --- **Complete**
@@ -57,7 +59,9 @@ $ touch .fseventsd/no_log .metadata_never_index .Trashes
 * [ ] **`ΔOS`** `v0.8.15` --- [**Due:** `Today`](https://github.com/libdeos/deoscore/milestone/5) --- [`0/0` **Tasks**](https://github.com/libdeos/deoscore/milestone/5)
 * [ ] **`ΔOS`** `v0.8.16` --- [**Due:** `Today`](https://github.com/libdeos/deoscore/milestone/6) --- [`0/0` **Tasks**](https://github.com/libdeos/deoscore/milestone/6)
 
+---
 ### Setup
+---
 
 __*`git-encrypt`*__
 
@@ -65,8 +69,8 @@ __*`git-encrypt`*__
 $ git-crypt init
 $ git-crypt add-gpg-user <email>
 ```
----
 
+---
 [000]: https://libdeos.github.io/deos-graphviz/
 [001]: https://travis-ci.org/libdeos/deos-graphviz.svg?branch=master
 [002]: https://travis-ci.org/libdeos/deos-graphviz
