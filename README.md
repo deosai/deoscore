@@ -110,6 +110,10 @@ $ git-crypt add-gpg-user <email>
   - `readme`
   - `wikid`
 * `test`
+  - `deAction.c`
+  - `deList.c`
+  - `functional_tests.py`
+  - `main.py`
 * `var`
   - `archive`
   - `assets`
