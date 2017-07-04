@@ -61,6 +61,7 @@ $ git-crypt add-gpg-user <email>
 * `Bitcoin`
 * `BitTorrent`
 * `Blockstack`
+* `GraphViz`
 * `Lightning`
 * `Monero`
 * `TREZOR`
