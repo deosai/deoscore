@@ -138,6 +138,11 @@ $ git-crypt add-gpg-user <email>
 * `freebird.im`
 * `readme.wiki`
 
+#### ***Languages***
+
+* `Lizard`
+* `SandCat`
+
 #### ***Layers***
 
 * `Information`
