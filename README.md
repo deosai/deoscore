@@ -73,6 +73,7 @@ $ git-crypt add-gpg-user <email>
 * `.git-crypt`
 * `.github`
 * `app`
+  - `wikid`
 * `docs`
   - `_site`
   - `assets`
@@ -97,6 +98,10 @@ $ git-crypt add-gpg-user <email>
   - `trezor-agent`
   - `urbit`
 * `templates`
+  - `graphviz`
+  - `pages`
+  - `readme`
+  - `wikid`
 * `test`
 * `var`
 
