@@ -92,6 +92,7 @@ $ git-crypt add-gpg-user <email>
 * `btc.slack.com`
 * `chain.wiki`
 * `deos.ai`
+* `freebird.im`
 * `readme.wiki`
 
 ---
