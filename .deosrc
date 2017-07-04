@@ -19,6 +19,7 @@ include             src/make/deos.mk
 	                build      \
 	                docs.build \
 	                docs.start \
+	                dojo       \
 	                graphviz   \
 	                wikid      \
 	                push       \
