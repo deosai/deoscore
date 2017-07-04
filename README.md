@@ -72,6 +72,7 @@ $ git-crypt add-gpg-user <email>
 <a href="https://deoscore.metaptr.com"><img src="https://github.com/zerotier/ZeroTierOne/raw/master/artwork/AppIcon_87x87.png" align="right" hspace="20" vspace="6"></a>
 
 * [ ] `create: wiki page`
+* [ ] `add: var/img/*-box-icon.[png,jpg,gif]`
 * [ ] `init-repo: deos-*`
 * [ ] `add: docs/*`
 * [ ] `set-dns: *.deos.ai`
@@ -83,6 +84,7 @@ $ git-crypt add-gpg-user <email>
 <a href="https://deoscore.metaptr.com"><img src="https://github.com/zerotier/ZeroTierOne/raw/master/artwork/AppIcon_87x87.png" align="right" hspace="20" vspace="6"></a>
 
 * [ ] `create: wiki page`
+* [ ] `add: var/img/*-box-icon.[png,jpg,gif]`
 * [ ] `init-repo: deos-*`
 * [ ] `add: docs/*`
 * [ ] `set-dns: *.deos.ai`
@@ -94,6 +96,7 @@ $ git-crypt add-gpg-user <email>
 <a href="https://deoscore.metaptr.com"><img src="https://github.com/zerotier/ZeroTierOne/raw/master/artwork/AppIcon_87x87.png" align="right" hspace="20" vspace="6"></a>
 
 * [ ] `create: wiki page`
+* [ ] `add: var/img/*-box-icon.[png,jpg,gif]`
 * [ ] `init-repo: deos-*`
 * [ ] `add: docs/*`
 * [ ] `set-dns: *.deos.ai`
@@ -105,6 +108,7 @@ $ git-crypt add-gpg-user <email>
 <a href="https://deoscore.metaptr.com"><img src="https://github.com/zerotier/ZeroTierOne/raw/master/artwork/AppIcon_87x87.png" align="right" hspace="20" vspace="6"></a>
 
 * [ ] `create: wiki page`
+* [ ] `add: var/img/*-box-icon.[png,jpg,gif]`
 * [ ] `init-repo: deos-*`
 * [ ] `add: docs/*`
 * [ ] `set-dns: *.deos.ai`
@@ -116,6 +120,7 @@ $ git-crypt add-gpg-user <email>
 <a href="https://deoscore.metaptr.com"><img src="https://github.com/zerotier/ZeroTierOne/raw/master/artwork/AppIcon_87x87.png" align="right" hspace="20" vspace="6"></a>
 
 * [ ] `create: wiki page`
+* [ ] `add: var/img/*-box-icon.[png,jpg,gif]`
 * [ ] `init-repo: deos-*`
 * [ ] `add: docs/*`
 * [ ] `set-dns: *.deos.ai`
@@ -127,6 +132,7 @@ $ git-crypt add-gpg-user <email>
 <a href="https://deoscore.metaptr.com"><img src="https://github.com/zerotier/ZeroTierOne/raw/master/artwork/AppIcon_87x87.png" align="right" hspace="20" vspace="6"></a>
 
 * [ ] `create: wiki page`
+* [ ] `add: var/img/*-box-icon.[png,jpg,gif]`
 * [ ] `init-repo: deos-*`
 * [ ] `add: docs/*`
 * [ ] `set-dns: *.deos.ai`
@@ -138,6 +144,7 @@ $ git-crypt add-gpg-user <email>
 <a href="https://deoscore.metaptr.com"><img src="https://github.com/zerotier/ZeroTierOne/raw/master/artwork/AppIcon_87x87.png" align="right" hspace="20" vspace="6"></a>
 
 * [ ] `create: wiki page`
+* [ ] `add: var/img/*-box-icon.[png,jpg,gif]`
 * [ ] `init-repo: deos-*`
 * [ ] `add: docs/*`
 * [ ] `set-dns: *.deos.ai`
@@ -149,6 +156,7 @@ $ git-crypt add-gpg-user <email>
 <a href="https://deoscore.metaptr.com"><img src="https://github.com/zerotier/ZeroTierOne/raw/master/artwork/AppIcon_87x87.png" align="right" hspace="20" vspace="6"></a>
 
 * [ ] `create: wiki page`
+* [ ] `add: var/img/*-box-icon.[png,jpg,gif]`
 * [ ] `init-repo: deos-*`
 * [ ] `add: docs/*`
 * [ ] `set-dns: *.deos.ai`
@@ -160,6 +168,7 @@ $ git-crypt add-gpg-user <email>
 <a href="https://deoscore.metaptr.com"><img src="https://github.com/zerotier/ZeroTierOne/raw/master/artwork/AppIcon_87x87.png" align="right" hspace="20" vspace="6"></a>
 
 * [ ] `create: wiki page`
+* [ ] `add: var/img/*-box-icon.[png,jpg,gif]`
 * [ ] `init-repo: deos-*`
 * [ ] `add: docs/*`
 * [ ] `set-dns: *.deos.ai`
@@ -171,6 +180,7 @@ $ git-crypt add-gpg-user <email>
 <a href="https://deoscore.metaptr.com"><img src="https://github.com/zerotier/ZeroTierOne/raw/master/artwork/AppIcon_87x87.png" align="right" hspace="20" vspace="6"></a>
 
 * [ ] `create: wiki page`
+* [ ] `add: var/img/*-box-icon.[png,jpg,gif]`
 * [ ] `init-repo: deos-*`
 * [ ] `add: docs/*`
 * [ ] `set-dns: *.deos.ai`
@@ -182,6 +192,7 @@ $ git-crypt add-gpg-user <email>
 <a href="https://deoscore.metaptr.com"><img src="https://github.com/zerotier/ZeroTierOne/raw/master/artwork/AppIcon_87x87.png" align="right" hspace="20" vspace="6"></a>
 
 * [ ] `create: wiki page`
+* [ ] `add: var/img/*-box-icon.[png,jpg,gif]`
 * [ ] `init-repo: deos-**
 * [ ] `add: docs/*`
 * [ ] `set-dns: *.deos.ai`
@@ -193,6 +204,7 @@ $ git-crypt add-gpg-user <email>
 <a href="https://deoscore.metaptr.com"><img src="https://github.com/zerotier/ZeroTierOne/raw/master/artwork/AppIcon_87x87.png" align="right" hspace="20" vspace="6"></a>
 
 * [ ] `create: wiki page`
+* [ ] `add: var/img/*-box-icon.[png,jpg,gif]`
 * [ ] `init-repo: deos-*`
 * [ ] `add: docs/*`
 * [ ] `set-dns: *.deos.ai`
@@ -204,6 +216,7 @@ $ git-crypt add-gpg-user <email>
 <a href="https://deoscore.metaptr.com"><img src="https://github.com/zerotier/ZeroTierOne/raw/master/artwork/AppIcon_87x87.png" align="right" hspace="20" vspace="6"></a>
 
 * [ ] `create: wiki page`
+* [ ] `add: var/img/*-box-icon.[png,jpg,gif]`
 * [ ] `init-repo: deos-*`
 * [ ] `add: docs/*`
 * [ ] `set-dns: *.deos.ai`
@@ -215,6 +228,7 @@ $ git-crypt add-gpg-user <email>
 <a href="https://deoscore.metaptr.com"><img src="https://github.com/zerotier/ZeroTierOne/raw/master/artwork/AppIcon_87x87.png" align="right" hspace="20" vspace="6"></a>
 
 * [ ] `create: wiki page`
+* [ ] `add: var/img/*-box-icon.[png,jpg,gif]`
 * [ ] `init-repo: deos-*`
 * [ ] `add: docs/*`
 * [ ] `set-dns: *.deos.ai`
@@ -226,6 +240,7 @@ $ git-crypt add-gpg-user <email>
 <a href="https://deoscore.metaptr.com"><img src="https://github.com/zerotier/ZeroTierOne/raw/master/artwork/AppIcon_87x87.png" align="right" hspace="20" vspace="6"></a>
 
 * [ ] `create: wiki page`
+* [ ] `add: var/img/*-box-icon.[png,jpg,gif]`
 * [ ] `init-repo: deos-*`
 * [ ] `add: docs/*`
 * [ ] `set-dns: *.deos.ai`
@@ -237,6 +252,7 @@ $ git-crypt add-gpg-user <email>
 <a href="https://deoscore.metaptr.com"><img src="https://github.com/zerotier/ZeroTierOne/raw/master/artwork/AppIcon_87x87.png" align="right" hspace="20" vspace="6"></a>
 
 * [ ] `create: wiki page`
+* [ ] `add: var/img/*-box-icon.[png,jpg,gif]`
 * [ ] `init-repo: deos-*`
 * [ ] `add: docs/*`
 * [ ] `set-dns: *.deos.ai`
@@ -248,6 +264,7 @@ $ git-crypt add-gpg-user <email>
 <a href="https://deoscore.metaptr.com"><img src="https://github.com/zerotier/ZeroTierOne/raw/master/artwork/AppIcon_87x87.png" align="right" hspace="20" vspace="6"></a>
 
 * [ ] `create: wiki page`
+* [ ] `add: var/img/*-box-icon.[png,jpg,gif]`
 * [ ] `init-repo: deos-*`
 * [ ] `add: docs/*`
 * [ ] `set-dns: *.deos.ai`
@@ -259,6 +276,7 @@ $ git-crypt add-gpg-user <email>
 <a href="https://deoscore.metaptr.com"><img src="https://github.com/zerotier/ZeroTierOne/raw/master/artwork/AppIcon_87x87.png" align="right" hspace="20" vspace="6"></a>
 
 * [ ] `create: wiki page`
+* [ ] `add: var/img/*-box-icon.[png,jpg,gif]`
 * [ ] `init-repo: deos-*`
 * [ ] `add: docs/*`
 * [ ] `set-dns: *.deos.ai`
@@ -270,6 +288,7 @@ $ git-crypt add-gpg-user <email>
 <a href="https://deoscore.metaptr.com"><img src="https://github.com/zerotier/ZeroTierOne/raw/master/artwork/AppIcon_87x87.png" align="right" hspace="20" vspace="6"></a>
 
 * [ ] `create: wiki page`
+* [ ] `add: var/img/*-box-icon.[png,jpg,gif]`
 * [ ] `init-repo: deos-*`
 * [ ] `add: docs/*`
 * [ ] `set-dns: *.deos.ai`
@@ -281,6 +300,7 @@ $ git-crypt add-gpg-user <email>
 <a href="https://deoscore.metaptr.com"><img src="https://github.com/zerotier/ZeroTierOne/raw/master/artwork/AppIcon_87x87.png" align="right" hspace="20" vspace="6"></a>
 
 * [ ] `create: wiki page`
+* [ ] `add: var/img/*-box-icon.[png,jpg,gif]`
 * [ ] `init-repo: deos-*`
 * [ ] `add: docs/*`
 * [ ] `set-dns: *.deos.ai`
@@ -292,6 +312,7 @@ $ git-crypt add-gpg-user <email>
 <a href="https://deoscore.metaptr.com"><img src="https://github.com/zerotier/ZeroTierOne/raw/master/artwork/AppIcon_87x87.png" align="right" hspace="20" vspace="6"></a>
 
 * [ ] `create: wiki page`
+* [ ] `add: var/img/*-box-icon.[png,jpg,gif]`
 * [ ] `init-repo: deos-*`
 * [ ] `add: docs/*`
 * [ ] `set-dns: *.deos.ai`
