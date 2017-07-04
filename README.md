@@ -64,19 +64,19 @@ $ git-crypt add-gpg-user <email>
 
 #### ***Filesystem***
 
-* `.git`
-* `.git-crypt`
-* `.github`
-* `app`
-* `docs`
-* `etc`
-* `include`
-* `lib`
-* `private`
-* `src`
-* `templates`
-* `test`
-* `var`
+* `.git/`
+* `.git-crypt/`
+* `.github/`
+* `app/`
+* `docs/`
+* `etc/`
+* `include/`
+* `lib/`
+* `private/`
+* `src/`
+* `templates/`
+* `test/`
+* `var/`
 
 #### ***Interfaces***
 
