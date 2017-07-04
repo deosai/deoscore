@@ -12,7 +12,7 @@
 
 ### Configuration
 
-#### ***`.env-this`***
+#### ***`.env`***
 
 ```bash
 VOLUME := /Volumes/<volume>
