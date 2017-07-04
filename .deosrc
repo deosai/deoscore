@@ -1,5 +1,7 @@
 export MAKEFLAGS := --no-print-directory
+
 include             .env
+
 BASE_PATH        := .
 BIN_DIR          := $(BASE_PATH)/bin
 MACRO_DIR        := $(BASE_PATH)/include/.macro
@@ -12,7 +14,9 @@ MAIN_PY          := main.py
 STD              := c89
 WARNINGS         := -Wno-int-to-pointer-cast
 OUTPUT           := -o $(BIN_DIR)/wikid
-include             src/make/deos.mk
+
+include             lib/make/deos.mk
+
 .DEFAULT_GOAL    := all
 .PHONY:             all        \
 	                atd.all    \
@@ -20,6 +24,7 @@ include             src/make/deos.mk
 	                docs.build \
 	                docs.start \
 	                dojo       \
+	                dojo.run   \
 	                graphviz   \
 	                wikid      \
 	                push       \
@@ -30,6 +35,7 @@ include             src/make/deos.mk
 	                wiki.push  \
 	                xcompile
 .SUBLIME_TARGETS:   all
+
 CC               := /usr/bin/clang
 PYTHON           := /usr/bin/python
 DOTVENV          := $(V)/.venv
@@ -37,8 +43,10 @@ DOTSWAP          := $(V)/.swap
 SWAPWIKI         := $(DOTSWAP)/wiki
 VAR              := $(V)/var
 VARWIKI          := $(VAR)/wiki
+
 COREREPO         := git@github.com:libdeos/deoscore.git
 COREWIKI         := git@github.com:libdeos/deoscore.wiki.git
+
 WIKIMSG          := deos: wiki.sync
 ACTVENV          := source $(DOTVENV)/bin/activate
 PIPINSTALL       := pip install
@@ -46,6 +54,7 @@ PY               := python
 PYREQ            := etc/python/requirements.txt
 VIRTUALENV       := /usr/local/bin/virtualenv
 VENV             := $(VIRTUALENV) --always-copy --no-site-packages
+
 BLACK            := \x1b[30;01m
 RED              := \x1b[31;01m
 GREEN            := \x1b[32;01m
@@ -54,7 +63,9 @@ BLUE             := \x1b[34;01m
 PURPLE           := \x1b[35;01m
 CYAN             := \x1b[36;01m
 COLOR            := \x1b[0m
+
 l                 = "$(1)]> $(2) $(COLOR)"
+
 cBk              := $(BLACK)
 cRd              := $(RED)
 cGr              := $(GREEN)
