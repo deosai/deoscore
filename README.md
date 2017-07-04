@@ -60,7 +60,7 @@ $ git-crypt add-gpg-user <email>
 <a href="https://deoscore.metaptr.com"><img src="https://github.com/zerotier/ZeroTierOne/raw/master/artwork/AppIcon_87x87.png" align="right" hspace="20" vspace="6"></a>
 
 * [x] **`ΔOS`** [`v0.8.11`](https://github.com/libdeos/deoscore/releases/tag/v0.8-alpha.11) -- **Complete**
-* [ ] **`ΔOS`** `v0.8.12` -- [**Due:** `Today`](https://github.com/libdeos/deoscore/milestone/2) -- `create: wiki page`
+* [ ] **`ΔOS`** `v0.8.12` -- [**Due:** `Today`](https://github.com/libdeos/deoscore/milestone/2) -- `create: label` && `create: wiki page`
 * [ ] **`ΔOS`** `v0.8.13` -- [**Due:** `Today`](https://github.com/libdeos/deoscore/milestone/3) -- `init-repo: deos-*` && `add-submodule: deos-*`
 * [ ] **`ΔOS`** `v0.8.14` -- [**Due:** `Today`](https://github.com/libdeos/deoscore/milestone/4) -- `add: docs/*` && `add: var/img/*-box-icon.[png,jpg,gif]`
 * [ ] **`ΔOS`** `v0.8.15` -- [**Due:** `Today`](https://github.com/libdeos/deoscore/milestone/5) -- `set-dns: *.deos.ai` && `assign: type`
@@ -71,6 +71,7 @@ $ git-crypt add-gpg-user <email>
 ### `Bitcoin` Driver
 <a href="https://deoscore.metaptr.com"><img src="https://github.com/zerotier/ZeroTierOne/raw/master/artwork/AppIcon_87x87.png" align="right" hspace="20" vspace="6"></a>
 
+* [ ] `create: label`
 * [ ] `create: wiki page`
 * [ ] `add: var/img/*-box-icon.[png,jpg,gif]`
 * [ ] `init-repo: deos-*`
@@ -85,6 +86,7 @@ $ git-crypt add-gpg-user <email>
 ### `BitTorrent` Driver
 <a href="https://deoscore.metaptr.com"><img src="https://github.com/zerotier/ZeroTierOne/raw/master/artwork/AppIcon_87x87.png" align="right" hspace="20" vspace="6"></a>
 
+* [ ] `create: label`
 * [ ] `create: wiki page`
 * [ ] `add: var/img/*-box-icon.[png,jpg,gif]`
 * [ ] `init-repo: deos-*`
@@ -99,6 +101,7 @@ $ git-crypt add-gpg-user <email>
 ### `Blockstack` Driver
 <a href="https://deoscore.metaptr.com"><img src="https://github.com/zerotier/ZeroTierOne/raw/master/artwork/AppIcon_87x87.png" align="right" hspace="20" vspace="6"></a>
 
+* [ ] `create: label`
 * [ ] `create: wiki page`
 * [ ] `add: var/img/*-box-icon.[png,jpg,gif]`
 * [ ] `init-repo: deos-*`
@@ -113,6 +116,7 @@ $ git-crypt add-gpg-user <email>
 ### `btc.slack.com` Interface
 <a href="https://deoscore.metaptr.com"><img src="https://github.com/zerotier/ZeroTierOne/raw/master/artwork/AppIcon_87x87.png" align="right" hspace="20" vspace="6"></a>
 
+* [ ] `create: label`
 * [ ] `create: wiki page`
 * [ ] `add: var/img/*-box-icon.[png,jpg,gif]`
 * [ ] `init-repo: deos-*`
@@ -127,6 +131,7 @@ $ git-crypt add-gpg-user <email>
 ### `chain.wiki` Interface
 <a href="https://deoscore.metaptr.com"><img src="https://github.com/zerotier/ZeroTierOne/raw/master/artwork/AppIcon_87x87.png" align="right" hspace="20" vspace="6"></a>
 
+* [ ] `create: label`
 * [ ] `create: wiki page`
 * [ ] `add: var/img/*-box-icon.[png,jpg,gif]`
 * [ ] `init-repo: deos-*`
@@ -141,6 +146,7 @@ $ git-crypt add-gpg-user <email>
 ### `deos.ai` Interface
 <a href="https://deoscore.metaptr.com"><img src="https://github.com/zerotier/ZeroTierOne/raw/master/artwork/AppIcon_87x87.png" align="right" hspace="20" vspace="6"></a>
 
+* [ ] `create: label`
 * [ ] `create: wiki page`
 * [ ] `add: var/img/*-box-icon.[png,jpg,gif]`
 * [ ] `init-repo: deos-*`
@@ -155,6 +161,7 @@ $ git-crypt add-gpg-user <email>
 ### `freebird.im` Interface
 <a href="https://deoscore.metaptr.com"><img src="https://github.com/zerotier/ZeroTierOne/raw/master/artwork/AppIcon_87x87.png" align="right" hspace="20" vspace="6"></a>
 
+* [ ] `create: label`
 * [ ] `create: wiki page`
 * [ ] `add: var/img/*-box-icon.[png,jpg,gif]`
 * [ ] `init-repo: deos-*`
@@ -169,6 +176,7 @@ $ git-crypt add-gpg-user <email>
 ### `iPython` Interface
 <a href="https://deoscore.metaptr.com"><img src="https://github.com/zerotier/ZeroTierOne/raw/master/artwork/AppIcon_87x87.png" align="right" hspace="20" vspace="6"></a>
 
+* [ ] `create: label`
 * [ ] `create: wiki page`
 * [ ] `add: var/img/*-box-icon.[png,jpg,gif]`
 * [ ] `init-repo: deos-*`
@@ -183,6 +191,7 @@ $ git-crypt add-gpg-user <email>
 ### `Keybase` Driver
 <a href="https://deoscore.metaptr.com"><img src="https://github.com/zerotier/ZeroTierOne/raw/master/artwork/AppIcon_87x87.png" align="right" hspace="20" vspace="6"></a>
 
+* [ ] `create: label`
 * [ ] `create: wiki page`
 * [ ] `add: var/img/*-box-icon.[png,jpg,gif]`
 * [ ] `init-repo: deos-*`
@@ -197,6 +206,7 @@ $ git-crypt add-gpg-user <email>
 ### `Lightning` Driver
 <a href="https://deoscore.metaptr.com"><img src="https://github.com/zerotier/ZeroTierOne/raw/master/artwork/AppIcon_87x87.png" align="right" hspace="20" vspace="6"></a>
 
+* [ ] `create: label`
 * [ ] `create: wiki page`
 * [ ] `add: var/img/*-box-icon.[png,jpg,gif]`
 * [ ] `init-repo: deos-*`
@@ -211,6 +221,7 @@ $ git-crypt add-gpg-user <email>
 ### `Monero` Driver
 <a href="https://deoscore.metaptr.com"><img src="https://github.com/zerotier/ZeroTierOne/raw/master/artwork/AppIcon_87x87.png" align="right" hspace="20" vspace="6"></a>
 
+* [ ] `create: label`
 * [ ] `create: wiki page`
 * [ ] `add: var/img/*-box-icon.[png,jpg,gif]`
 * [ ] `init-repo: deos-**
@@ -224,6 +235,7 @@ $ git-crypt add-gpg-user <email>
 ### `README.wiki` Interface
 <a href="https://deoscore.metaptr.com"><img src="https://github.com/zerotier/ZeroTierOne/raw/master/artwork/AppIcon_87x87.png" align="right" hspace="20" vspace="6"></a>
 
+* [ ] `create: label`
 * [ ] `create: wiki page`
 * [ ] `add: var/img/*-box-icon.[png,jpg,gif]`
 * [ ] `init-repo: deos-*`
@@ -238,6 +250,7 @@ $ git-crypt add-gpg-user <email>
 ### `RSKSmart` Driver
 <a href="https://deoscore.metaptr.com"><img src="https://github.com/zerotier/ZeroTierOne/raw/master/artwork/AppIcon_87x87.png" align="right" hspace="20" vspace="6"></a>
 
+* [ ] `create: label`
 * [ ] `create: wiki page`
 * [ ] `add: var/img/*-box-icon.[png,jpg,gif]`
 * [ ] `init-repo: deos-*`
@@ -252,6 +265,7 @@ $ git-crypt add-gpg-user <email>
 ### `Terminal` Interface
 <a href="https://deoscore.metaptr.com"><img src="https://github.com/zerotier/ZeroTierOne/raw/master/artwork/AppIcon_87x87.png" align="right" hspace="20" vspace="6"></a>
 
+* [ ] `create: label`
 * [ ] `create: wiki page`
 * [ ] `add: var/img/*-box-icon.[png,jpg,gif]`
 * [ ] `init-repo: deos-*`
@@ -266,6 +280,7 @@ $ git-crypt add-gpg-user <email>
 ### `TREZOR` Driver
 <a href="https://deoscore.metaptr.com"><img src="https://github.com/zerotier/ZeroTierOne/raw/master/artwork/AppIcon_87x87.png" align="right" hspace="20" vspace="6"></a>
 
+* [ ] `create: label`
 * [ ] `create: wiki page`
 * [ ] `add: var/img/*-box-icon.[png,jpg,gif]`
 * [ ] `init-repo: deos-*`
@@ -280,6 +295,7 @@ $ git-crypt add-gpg-user <email>
 ### `Urbit` Driver
 <a href="https://deoscore.metaptr.com"><img src="https://github.com/zerotier/ZeroTierOne/raw/master/artwork/AppIcon_87x87.png" align="right" hspace="20" vspace="6"></a>
 
+* [ ] `create: label`
 * [ ] `create: wiki page`
 * [ ] `add: var/img/*-box-icon.[png,jpg,gif]`
 * [ ] `init-repo: deos-*`
@@ -294,6 +310,7 @@ $ git-crypt add-gpg-user <email>
 ### `Vault` Interface
 <a href="https://deoscore.metaptr.com"><img src="https://github.com/zerotier/ZeroTierOne/raw/master/artwork/AppIcon_87x87.png" align="right" hspace="20" vspace="6"></a>
 
+* [ ] `create: label`
 * [ ] `create: wiki page`
 * [ ] `add: var/img/*-box-icon.[png,jpg,gif]`
 * [ ] `init-repo: deos-*`
@@ -308,6 +325,7 @@ $ git-crypt add-gpg-user <email>
 ### `wikid` Interface for HTML
 <a href="https://deoscore.metaptr.com"><img src="https://github.com/zerotier/ZeroTierOne/raw/master/artwork/AppIcon_87x87.png" align="right" hspace="20" vspace="6"></a>
 
+* [ ] `create: label`
 * [ ] `create: wiki page`
 * [ ] `add: var/img/*-box-icon.[png,jpg,gif]`
 * [ ] `init-repo: deos-*`
@@ -322,6 +340,7 @@ $ git-crypt add-gpg-user <email>
 ### `wikid` Interface for Markdown
 <a href="https://deoscore.metaptr.com"><img src="https://github.com/zerotier/ZeroTierOne/raw/master/artwork/AppIcon_87x87.png" align="right" hspace="20" vspace="6"></a>
 
+* [ ] `create: label`
 * [ ] `create: wiki page`
 * [ ] `add: var/img/*-box-icon.[png,jpg,gif]`
 * [ ] `init-repo: deos-*`
@@ -336,6 +355,7 @@ $ git-crypt add-gpg-user <email>
 ### `Zcash` Driver
 <a href="https://deoscore.metaptr.com"><img src="https://github.com/zerotier/ZeroTierOne/raw/master/artwork/AppIcon_87x87.png" align="right" hspace="20" vspace="6"></a>
 
+* [ ] `create: label`
 * [ ] `create: wiki page`
 * [ ] `add: var/img/*-box-icon.[png,jpg,gif]`
 * [ ] `init-repo: deos-*`
@@ -350,6 +370,7 @@ $ git-crypt add-gpg-user <email>
 ### `ZeroTier` Driver
 <a href="https://deoscore.metaptr.com"><img src="https://github.com/zerotier/ZeroTierOne/raw/master/artwork/AppIcon_87x87.png" align="right" hspace="20" vspace="6"></a>
 
+* [ ] `create: label`
 * [ ] `create: wiki page`
 * [ ] `add: var/img/*-box-icon.[png,jpg,gif]`
 * [ ] `init-repo: deos-*`
