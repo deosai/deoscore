@@ -56,6 +56,24 @@ $ git-crypt add-gpg-user <email>
 
 ---
 
+### Filesystem
+
+* `make all`
+* `make build`
+* `make clean`
+* `make docs.build`
+* `make docs.start`
+* `make graphviz`
+* `make msg="add: var/asset/img/*.png" push`
+* `make run`
+* `make sync`
+* `make venv`
+* `make wiki.pull`
+* `make wiki.push`
+* `make wikid`
+
+---
+
 ### Release Schedule
 
 * [x] **`ΔOS`** [`v0.8.11`](https://github.com/libdeos/deoscore/releases/tag/v0.8-alpha.11) -- **Complete**
