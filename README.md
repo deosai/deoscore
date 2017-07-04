@@ -155,7 +155,7 @@ $ git-crypt add-gpg-user <email>
 ### `iPython` Interface
 <a href="https://deoscore.metaptr.com"><img src="https://github.com/zerotier/ZeroTierOne/raw/master/artwork/AppIcon_87x87.png" align="right" hspace="20" vspace="6"></a>
 
-* [ ] `Create Wiki Page`
+* [ ] `create: wiki page`
 * [ ] `that: two`
 * [ ] `then: three`
 * [ ] `and: four`
@@ -179,7 +179,7 @@ $ git-crypt add-gpg-user <email>
 ### `Lightning` Driver
 <a href="https://deoscore.metaptr.com"><img src="https://github.com/zerotier/ZeroTierOne/raw/master/artwork/AppIcon_87x87.png" align="right" hspace="20" vspace="6"></a>
 
-* [ ] `this: one`
+* [ ] `create: wiki page`
 * [ ] `that: two`
 * [ ] `then: three`
 * [ ] `and: four`
@@ -191,7 +191,7 @@ $ git-crypt add-gpg-user <email>
 ### `Monero` Driver
 <a href="https://deoscore.metaptr.com"><img src="https://github.com/zerotier/ZeroTierOne/raw/master/artwork/AppIcon_87x87.png" align="right" hspace="20" vspace="6"></a>
 
-* [ ] `this: one`
+* [ ] `create: wiki page`
 * [ ] `that: two`
 * [ ] `then: three`
 * [ ] `and: four`
@@ -203,7 +203,7 @@ $ git-crypt add-gpg-user <email>
 ### `README.wiki` Interface
 <a href="https://deoscore.metaptr.com"><img src="https://github.com/zerotier/ZeroTierOne/raw/master/artwork/AppIcon_87x87.png" align="right" hspace="20" vspace="6"></a>
 
-* [ ] `this: one`
+* [ ] `create: wiki page`
 * [ ] `that: two`
 * [ ] `then: three`
 * [ ] `and: four`
@@ -215,7 +215,7 @@ $ git-crypt add-gpg-user <email>
 ### `RSKSmart` Driver
 <a href="https://deoscore.metaptr.com"><img src="https://github.com/zerotier/ZeroTierOne/raw/master/artwork/AppIcon_87x87.png" align="right" hspace="20" vspace="6"></a>
 
-* [ ] `this: one`
+* [ ] `create: wiki page`
 * [ ] `that: two`
 * [ ] `then: three`
 * [ ] `and: four`
@@ -227,7 +227,7 @@ $ git-crypt add-gpg-user <email>
 ### `Terminal` Interface
 <a href="https://deoscore.metaptr.com"><img src="https://github.com/zerotier/ZeroTierOne/raw/master/artwork/AppIcon_87x87.png" align="right" hspace="20" vspace="6"></a>
 
-* [ ] `this: one`
+* [ ] `create: wiki page`
 * [ ] `that: two`
 * [ ] `then: three`
 * [ ] `and: four`
@@ -239,7 +239,7 @@ $ git-crypt add-gpg-user <email>
 ### `TREZOR` Driver
 <a href="https://deoscore.metaptr.com"><img src="https://github.com/zerotier/ZeroTierOne/raw/master/artwork/AppIcon_87x87.png" align="right" hspace="20" vspace="6"></a>
 
-* [ ] `this: one`
+* [ ] `create: wiki page`
 * [ ] `that: two`
 * [ ] `then: three`
 * [ ] `and: four`
@@ -251,7 +251,7 @@ $ git-crypt add-gpg-user <email>
 ### `Urbit` Driver
 <a href="https://deoscore.metaptr.com"><img src="https://github.com/zerotier/ZeroTierOne/raw/master/artwork/AppIcon_87x87.png" align="right" hspace="20" vspace="6"></a>
 
-* [ ] `this: one`
+* [ ] `create: wiki page`
 * [ ] `that: two`
 * [ ] `then: three`
 * [ ] `and: four`
@@ -263,7 +263,7 @@ $ git-crypt add-gpg-user <email>
 ### `Vault` Interface
 <a href="https://deoscore.metaptr.com"><img src="https://github.com/zerotier/ZeroTierOne/raw/master/artwork/AppIcon_87x87.png" align="right" hspace="20" vspace="6"></a>
 
-* [ ] `this: one`
+* [ ] `create: wiki page`
 * [ ] `that: two`
 * [ ] `then: three`
 * [ ] `and: four`
@@ -275,7 +275,7 @@ $ git-crypt add-gpg-user <email>
 ### `wikid` Interface for HTML
 <a href="https://deoscore.metaptr.com"><img src="https://github.com/zerotier/ZeroTierOne/raw/master/artwork/AppIcon_87x87.png" align="right" hspace="20" vspace="6"></a>
 
-* [ ] `this: one`
+* [ ] `create: wiki page`
 * [ ] `that: two`
 * [ ] `then: three`
 * [ ] `and: four`
@@ -287,7 +287,7 @@ $ git-crypt add-gpg-user <email>
 ### `wikid` Interface for Markdown
 <a href="https://deoscore.metaptr.com"><img src="https://github.com/zerotier/ZeroTierOne/raw/master/artwork/AppIcon_87x87.png" align="right" hspace="20" vspace="6"></a>
 
-* [ ] `this: one`
+* [ ] `create: wiki page`
 * [ ] `that: two`
 * [ ] `then: three`
 * [ ] `and: four`
@@ -299,7 +299,7 @@ $ git-crypt add-gpg-user <email>
 ### `Zcash` Driver
 <a href="https://deoscore.metaptr.com"><img src="https://github.com/zerotier/ZeroTierOne/raw/master/artwork/AppIcon_87x87.png" align="right" hspace="20" vspace="6"></a>
 
-* [ ] `this: one`
+* [ ] `create: wiki page`
 * [ ] `that: two`
 * [ ] `then: three`
 * [ ] `and: four`
@@ -311,7 +311,7 @@ $ git-crypt add-gpg-user <email>
 ### `ZeroTier` Driver
 <a href="https://deoscore.metaptr.com"><img src="https://github.com/zerotier/ZeroTierOne/raw/master/artwork/AppIcon_87x87.png" align="right" hspace="20" vspace="6"></a>
 
-* [ ] `this: one`
+* [ ] `create: wiki page`
 * [ ] `that: two`
 * [ ] `then: three`
 * [ ] `and: four`
