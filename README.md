@@ -79,7 +79,7 @@ $ git-crypt add-gpg-user <email>
 * `etc`
   - `nginx`
   - `python`
-  - `pytho3`
+  - `python3`
 * `include`
   - `.macro`
 * `lib`
