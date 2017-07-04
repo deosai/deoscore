@@ -84,7 +84,7 @@ $ git-crypt add-gpg-user <email>
   - `python`
   - `python3`
 * `include`
-  - `.macro`
+  - `.macros`
   - `atdlib.h`
   - `deArray.h`
   - `deTree.c`
@@ -114,6 +114,8 @@ $ git-crypt add-gpg-user <email>
 
 #### ***Interfaces***
 
+* `app/terminal`
+* `app/vault`
 * `btc.slack.com`
 * `chain.wiki`
 * `deos.ai`
