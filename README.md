@@ -38,6 +38,17 @@ $ git-crypt add-gpg-user <email>
 ```
 ---
 
+### Release Schedule
+
+* [x] **`ΔOS`** [`v0.8.11`](https://github.com/libdeos/deoscore/releases/tag/v0.8-alpha.11) -- **Complete**
+* [ ] **`ΔOS`** `v0.8.12` -- [**Due:** `Today`](https://github.com/libdeos/deoscore/milestone/2) -- `create: label` && `create: wiki page`
+* [ ] **`ΔOS`** `v0.8.13` -- [**Due:** `Today`](https://github.com/libdeos/deoscore/milestone/3) -- `init-repo: deos-*` && `add-submodule: deos-*`
+* [ ] **`ΔOS`** `v0.8.14` -- [**Due:** `Today`](https://github.com/libdeos/deoscore/milestone/4) -- `add: docs/*` && `add: var/img/*-box-icon.[png,jpg,gif]`
+* [ ] **`ΔOS`** `v0.8.15` -- [**Due:** `Today`](https://github.com/libdeos/deoscore/milestone/5) -- `set-dns: *.deos.ai` && `assign: type`
+* [ ] **`ΔOS`** `v0.8.16` -- [**Due:** `Today`](https://github.com/libdeos/deoscore/milestone/6) -- `add-cmd: cd * && make`
+
+---
+
 ### Commands
 
 * `make all`
@@ -66,18 +77,18 @@ $ git-crypt add-gpg-user <email>
 
 ### Filesystem
 
-* `make all`
-* `make build`
-* `make clean`
-* `make docs.build`
-* `make docs.start`
-* `make graphviz`
-* `make msg="add: var/asset/img/*.png" push`
-* `make run`
-* `make sync`
-* `make venv`
-* `make wiki.pull`
-* `make wiki.push`
+* `.git`
+* `.git-crypt`
+* `.github`
+* `app`
+* `docs`
+* `etc`
+* `include`
+* `lib`
+* `private`
+* `src`
+* `templates`
+* `test`
 * `make wikid`
 
 ---
@@ -97,17 +108,6 @@ $ git-crypt add-gpg-user <email>
 * `make wiki.pull`
 * `make wiki.push`
 * `make wikid`
-
----
-
-### Release Schedule
-
-* [x] **`ΔOS`** [`v0.8.11`](https://github.com/libdeos/deoscore/releases/tag/v0.8-alpha.11) -- **Complete**
-* [ ] **`ΔOS`** `v0.8.12` -- [**Due:** `Today`](https://github.com/libdeos/deoscore/milestone/2) -- `create: label` && `create: wiki page`
-* [ ] **`ΔOS`** `v0.8.13` -- [**Due:** `Today`](https://github.com/libdeos/deoscore/milestone/3) -- `init-repo: deos-*` && `add-submodule: deos-*`
-* [ ] **`ΔOS`** `v0.8.14` -- [**Due:** `Today`](https://github.com/libdeos/deoscore/milestone/4) -- `add: docs/*` && `add: var/img/*-box-icon.[png,jpg,gif]`
-* [ ] **`ΔOS`** `v0.8.15` -- [**Due:** `Today`](https://github.com/libdeos/deoscore/milestone/5) -- `set-dns: *.deos.ai` && `assign: type`
-* [ ] **`ΔOS`** `v0.8.16` -- [**Due:** `Today`](https://github.com/libdeos/deoscore/milestone/6) -- `add-cmd: cd * && make`
 
 ---
 
