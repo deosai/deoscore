@@ -60,6 +60,8 @@ $ git-crypt add-gpg-user <email>
 
 * `Bitcoin`
 * `BitTorrent`
+* `Blockstack`
+* `Urbit`
 * `ZeroTier`
 
 #### ***Filesystem***
