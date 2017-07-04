@@ -70,6 +70,8 @@ $ git-crypt add-gpg-user <email>
 * `app/`
 * `docs/`
   - `_site/`
+  - `assets/`
+  - `profile/`
 * `etc/`
 * `include/`
 * `lib/`
