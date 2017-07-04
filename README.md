@@ -63,8 +63,8 @@ $ git-crypt add-gpg-user <email>
 * [ ] **`ΔOS`** `v0.8.12` --- [**Due:** `Today`](https://github.com/libdeos/deoscore/milestone/2) -- `create: wiki page`
 * [ ] **`ΔOS`** `v0.8.13` --- [**Due:** `Today`](https://github.com/libdeos/deoscore/milestone/3) -- `init-repo: deos-*` && `add-submodule: deos-*`
 * [ ] **`ΔOS`** `v0.8.14` --- [**Due:** `Today`](https://github.com/libdeos/deoscore/milestone/4) -- `add: docs/*` && `add: var/img/*-box-icon.[png,jpg,gif]`
-* [ ] **`ΔOS`** `v0.8.15` --- [**Due:** `Today`](https://github.com/libdeos/deoscore/milestone/5) -- `set-dns: *.deos.ai`
-* [ ] **`ΔOS`** `v0.8.16` --- [**Due:** `Today`](https://github.com/libdeos/deoscore/milestone/6) -- `assign: type`
+* [ ] **`ΔOS`** `v0.8.15` --- [**Due:** `Today`](https://github.com/libdeos/deoscore/milestone/5) -- `set-dns: *.deos.ai` && `assign: type`
+* [ ] **`ΔOS`** `v0.8.16` --- [**Due:** `Today`](https://github.com/libdeos/deoscore/milestone/6) -- `add-cmd: cd * && make`
 
 ---
 
@@ -78,6 +78,7 @@ $ git-crypt add-gpg-user <email>
 * [ ] `add: docs/*`
 * [ ] `set-dns: *.deos.ai`
 * [ ] `assign: type`
+* [ ] `add-cmd: cd * && make`
 
 ---
 
@@ -91,6 +92,7 @@ $ git-crypt add-gpg-user <email>
 * [ ] `add: docs/*`
 * [ ] `set-dns: *.deos.ai`
 * [ ] `assign: type`
+* [ ] `add-cmd: cd * && make`
 
 ---
 
@@ -104,6 +106,7 @@ $ git-crypt add-gpg-user <email>
 * [ ] `add: docs/*`
 * [ ] `set-dns: *.deos.ai`
 * [ ] `assign: type`
+* [ ] `add-cmd: cd * && make`
 
 ---
 
@@ -117,6 +120,7 @@ $ git-crypt add-gpg-user <email>
 * [ ] `add: docs/*`
 * [ ] `set-dns: *.deos.ai`
 * [ ] `assign: type`
+* [ ] `add-cmd: cd * && make`
 
 ---
 
@@ -130,6 +134,7 @@ $ git-crypt add-gpg-user <email>
 * [ ] `add: docs/*`
 * [ ] `set-dns: *.deos.ai`
 * [ ] `assign: type`
+* [ ] `add-cmd: cd * && make`
 
 ---
 
@@ -143,6 +148,7 @@ $ git-crypt add-gpg-user <email>
 * [ ] `add: docs/*`
 * [ ] `set-dns: *.deos.ai`
 * [ ] `assign: type`
+* [ ] `add-cmd: cd * && make`
 
 ---
 
@@ -156,6 +162,7 @@ $ git-crypt add-gpg-user <email>
 * [ ] `add: docs/*`
 * [ ] `set-dns: *.deos.ai`
 * [ ] `assign: type`
+* [ ] `add-cmd: cd * && make`
 
 ---
 
@@ -169,6 +176,7 @@ $ git-crypt add-gpg-user <email>
 * [ ] `add: docs/*`
 * [ ] `set-dns: *.deos.ai`
 * [ ] `assign: type`
+* [ ] `add-cmd: cd * && make`
 
 ---
 
@@ -182,6 +190,7 @@ $ git-crypt add-gpg-user <email>
 * [ ] `add: docs/*`
 * [ ] `set-dns: *.deos.ai`
 * [ ] `assign: type`
+* [ ] `add-cmd: cd * && make`
 
 ---
 
@@ -195,6 +204,7 @@ $ git-crypt add-gpg-user <email>
 * [ ] `add: docs/*`
 * [ ] `set-dns: *.deos.ai`
 * [ ] `assign: type`
+* [ ] `add-cmd: cd * && make`
 
 ---
 
@@ -207,6 +217,7 @@ $ git-crypt add-gpg-user <email>
 * [ ] `add: docs/*`
 * [ ] `set-dns: *.deos.ai`
 * [ ] `assign: type`
+* [ ] `add-cmd: cd * && make`
 
 ---
 
@@ -220,6 +231,7 @@ $ git-crypt add-gpg-user <email>
 * [ ] `add: docs/*`
 * [ ] `set-dns: *.deos.ai`
 * [ ] `assign: type`
+* [ ] `add-cmd: cd * && make`
 
 ---
 
@@ -233,6 +245,7 @@ $ git-crypt add-gpg-user <email>
 * [ ] `add: docs/*`
 * [ ] `set-dns: *.deos.ai`
 * [ ] `assign: type`
+* [ ] `add-cmd: cd * && make`
 
 ---
 
@@ -246,6 +259,7 @@ $ git-crypt add-gpg-user <email>
 * [ ] `add: docs/*`
 * [ ] `set-dns: *.deos.ai`
 * [ ] `assign: type`
+* [ ] `add-cmd: cd * && make`
 
 ---
 
@@ -259,6 +273,7 @@ $ git-crypt add-gpg-user <email>
 * [ ] `add: docs/*`
 * [ ] `set-dns: *.deos.ai`
 * [ ] `assign: type`
+* [ ] `add-cmd: cd * && make`
 
 ---
 
@@ -272,6 +287,7 @@ $ git-crypt add-gpg-user <email>
 * [ ] `add: docs/*`
 * [ ] `set-dns: *.deos.ai`
 * [ ] `assign: type`
+* [ ] `add-cmd: cd * && make`
 
 ---
 
@@ -285,6 +301,7 @@ $ git-crypt add-gpg-user <email>
 * [ ] `add: docs/*`
 * [ ] `set-dns: *.deos.ai`
 * [ ] `assign: type`
+* [ ] `add-cmd: cd * && make`
 
 ---
 
@@ -298,6 +315,7 @@ $ git-crypt add-gpg-user <email>
 * [ ] `add: docs/*`
 * [ ] `set-dns: *.deos.ai`
 * [ ] `assign: type`
+* [ ] `add-cmd: cd * && make`
 
 ---
 
@@ -311,6 +329,7 @@ $ git-crypt add-gpg-user <email>
 * [ ] `add: docs/*`
 * [ ] `set-dns: *.deos.ai`
 * [ ] `assign: type`
+* [ ] `add-cmd: cd * && make`
 
 ---
 
@@ -324,6 +343,7 @@ $ git-crypt add-gpg-user <email>
 * [ ] `add: docs/*`
 * [ ] `set-dns: *.deos.ai`
 * [ ] `assign: type`
+* [ ] `add-cmd: cd * && make`
 
 ---
 
@@ -337,6 +357,7 @@ $ git-crypt add-gpg-user <email>
 * [ ] `add: docs/*`
 * [ ] `set-dns: *.deos.ai`
 * [ ] `assign: type`
+* [ ] `add-cmd: cd * && make`
 
 ---
 
