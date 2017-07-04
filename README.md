@@ -75,7 +75,11 @@ $ git-crypt add-gpg-user <email>
   - `assets/`
   - `profile/`
 * `etc/`
+  - `nginx/`
+  - `python/`
+  - `pytho3/`
 * `include/`
+  - `.macro/`
 * `lib/`
 * `private/`
 * `src/`
