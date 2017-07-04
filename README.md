@@ -71,7 +71,7 @@ $ git-crypt add-gpg-user <email>
 ### `Bitcoin` Driver
 <a href="https://deoscore.metaptr.com"><img src="https://github.com/zerotier/ZeroTierOne/raw/master/artwork/AppIcon_87x87.png" align="right" hspace="20" vspace="6"></a>
 
-* [ ] `Create Wiki Page`
+* [ ] `create: wiki page`
 * [ ] `that: two`
 * [ ] `then: three`
 * [ ] `and: four`
@@ -83,7 +83,7 @@ $ git-crypt add-gpg-user <email>
 ### `BitTorrent` Driver
 <a href="https://deoscore.metaptr.com"><img src="https://github.com/zerotier/ZeroTierOne/raw/master/artwork/AppIcon_87x87.png" align="right" hspace="20" vspace="6"></a>
 
-* [ ] `Create Wiki Page`
+* [ ] `create: wiki page`
 * [ ] `that: two`
 * [ ] `then: three`
 * [ ] `and: four`
@@ -95,7 +95,7 @@ $ git-crypt add-gpg-user <email>
 ### `Blockstack` Driver
 <a href="https://deoscore.metaptr.com"><img src="https://github.com/zerotier/ZeroTierOne/raw/master/artwork/AppIcon_87x87.png" align="right" hspace="20" vspace="6"></a>
 
-* [ ] `Create Wiki Page`
+* [ ] `create: wiki page`
 * [ ] `that: two`
 * [ ] `then: three`
 * [ ] `and: four`
@@ -107,7 +107,7 @@ $ git-crypt add-gpg-user <email>
 ### `btc.slack.com` Interface
 <a href="https://deoscore.metaptr.com"><img src="https://github.com/zerotier/ZeroTierOne/raw/master/artwork/AppIcon_87x87.png" align="right" hspace="20" vspace="6"></a>
 
-* [ ] `Create Wiki Page`
+* [ ] `create: wiki page`
 * [ ] `that: two`
 * [ ] `then: three`
 * [ ] `and: four`
@@ -119,7 +119,7 @@ $ git-crypt add-gpg-user <email>
 ### `chain.wiki` Interface
 <a href="https://deoscore.metaptr.com"><img src="https://github.com/zerotier/ZeroTierOne/raw/master/artwork/AppIcon_87x87.png" align="right" hspace="20" vspace="6"></a>
 
-* [ ] `Create Wiki Page`
+* [ ] `create: wiki page`
 * [ ] `that: two`
 * [ ] `then: three`
 * [ ] `and: four`
@@ -131,7 +131,7 @@ $ git-crypt add-gpg-user <email>
 ### `deos.ai` Interface
 <a href="https://deoscore.metaptr.com"><img src="https://github.com/zerotier/ZeroTierOne/raw/master/artwork/AppIcon_87x87.png" align="right" hspace="20" vspace="6"></a>
 
-* [ ] `Create Wiki Page`
+* [ ] `create: wiki page`
 * [ ] `that: two`
 * [ ] `then: three`
 * [ ] `and: four`
@@ -143,7 +143,7 @@ $ git-crypt add-gpg-user <email>
 ### `freebird.im` Interface
 <a href="https://deoscore.metaptr.com"><img src="https://github.com/zerotier/ZeroTierOne/raw/master/artwork/AppIcon_87x87.png" align="right" hspace="20" vspace="6"></a>
 
-* [ ] `Create Wiki Page`
+* [ ] `create: wiki page`
 * [ ] `that: two`
 * [ ] `then: three`
 * [ ] `and: four`
@@ -167,7 +167,7 @@ $ git-crypt add-gpg-user <email>
 ### `Keybase` Driver
 <a href="https://deoscore.metaptr.com"><img src="https://github.com/zerotier/ZeroTierOne/raw/master/artwork/AppIcon_87x87.png" align="right" hspace="20" vspace="6"></a>
 
-* [ ] `Create Wiki Page`
+* [ ] `create: wiki page`
 * [ ] `that: two`
 * [ ] `then: three`
 * [ ] `and: four`
