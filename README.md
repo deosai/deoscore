@@ -111,6 +111,15 @@ $ git-crypt add-gpg-user <email>
   - `wikid`
 * `test`
 * `var`
+  - `archive`
+  - `assets`
+  - `data`
+  - `dot`
+  - `img`
+  - `json`
+  - `root`
+  - `static`
+  - `wiki`
 
 #### ***Interfaces***
 
