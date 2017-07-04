@@ -501,4 +501,4 @@ $ git-crypt add-gpg-user <email>
 [012]: https://github.com/libdeos/deoscore/wiki
 [013]: https://img.shields.io/badge/website-deos.ai-red.svg
 [014]: https://deos.ai/
-[015]: https://github.com/libdeos/deoscore/releases/tag/v0.8-alpha.11
+[015]: https://github.com/libdeos/deoscore/releases/tag/v0.8-alpha.12

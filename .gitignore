@@ -13,6 +13,7 @@ app/vault/ui_*py
 .venv/
 #[folders]
 app/vault/src/atdlib/
+dojo/*
 etc/blockstack/*
 etc/zerotier/*
 node_modules/
