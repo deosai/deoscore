@@ -61,6 +61,7 @@ $ git-crypt add-gpg-user <email>
 * `Bitcoin`
 * `BitTorrent`
 * `Blockstack`
+* `Lightning`
 * `Monero`
 * `TREZOR`
 * `Urbit`
@@ -84,7 +85,12 @@ $ git-crypt add-gpg-user <email>
   - `python3`
 * `include`
   - `.macro`
+  - `atdlib.h`
+  - `deArray.h`
+  - `deTree.c`
 * `lib`
+  - `deArray.c`
+  - `deTree.c`
 * `private`
 * `src`
   - `atdlib`
@@ -97,6 +103,7 @@ $ git-crypt add-gpg-user <email>
   - `style`
   - `trezor-agent`
   - `urbit`
+  - `webpy`
 * `templates`
   - `graphviz`
   - `pages`
