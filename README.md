@@ -86,6 +86,16 @@ $ git-crypt add-gpg-user <email>
 * `lib`
 * `private`
 * `src`
+  - `atdlib`
+  - `boot`
+  - `game`
+  - `law`
+  - `make`
+  - `pyboard`
+  - `scripts`
+  - `style`
+  - `trezor-agent`
+  - `urbit`
 * `templates`
 * `test`
 * `var`
