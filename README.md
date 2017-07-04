@@ -75,8 +75,7 @@ $ git-crypt add-gpg-user <email>
 * [ ] `init-repo: deos-*`
 * [ ] `add: docs/*`
 * [ ] `set-dns: *.deos.ai`
-* [ ] `here: five`
-* [ ] `now: six`
+* [ ] `assign: type`
 
 ---
 
@@ -87,8 +86,7 @@ $ git-crypt add-gpg-user <email>
 * [ ] `init-repo: deos-*`
 * [ ] `add: docs/*`
 * [ ] `set-dns: *.deos.ai`
-* [ ] `here: five`
-* [ ] `now: six`
+* [ ] `assign: type`
 
 ---
 
@@ -99,8 +97,7 @@ $ git-crypt add-gpg-user <email>
 * [ ] `init-repo: deos-*`
 * [ ] `add: docs/*`
 * [ ] `set-dns: *.deos.ai`
-* [ ] `here: five`
-* [ ] `now: six`
+* [ ] `assign: type`
 
 ---
 
@@ -111,8 +108,7 @@ $ git-crypt add-gpg-user <email>
 * [ ] `init-repo: deos-*`
 * [ ] `add: docs/*`
 * [ ] `set-dns: *.deos.ai`
-* [ ] `here: five`
-* [ ] `now: six`
+* [ ] `assign: type`
 
 ---
 
@@ -123,8 +119,7 @@ $ git-crypt add-gpg-user <email>
 * [ ] `init-repo: deos-*`
 * [ ] `add: docs/*`
 * [ ] `set-dns: *.deos.ai`
-* [ ] `here: five`
-* [ ] `now: six`
+* [ ] `assign: type`
 
 ---
 
@@ -135,8 +130,7 @@ $ git-crypt add-gpg-user <email>
 * [ ] `init-repo: deos-*`
 * [ ] `add: docs/*`
 * [ ] `set-dns: *.deos.ai`
-* [ ] `here: five`
-* [ ] `now: six`
+* [ ] `assign: type`
 
 ---
 
@@ -147,8 +141,7 @@ $ git-crypt add-gpg-user <email>
 * [ ] `init-repo: deos-*`
 * [ ] `add: docs/*`
 * [ ] `set-dns: *.deos.ai`
-* [ ] `here: five`
-* [ ] `now: six`
+* [ ] `assign: type`
 
 ---
 
@@ -159,8 +152,7 @@ $ git-crypt add-gpg-user <email>
 * [ ] `init-repo: deos-*`
 * [ ] `add: docs/*`
 * [ ] `set-dns: *.deos.ai`
-* [ ] `here: five`
-* [ ] `now: six`
+* [ ] `assign: type`
 
 ---
 
@@ -171,8 +163,7 @@ $ git-crypt add-gpg-user <email>
 * [ ] `init-repo: deos-*`
 * [ ] `add: docs/*`
 * [ ] `set-dns: *.deos.ai`
-* [ ] `here: five`
-* [ ] `now: six`
+* [ ] `assign: type`
 
 ---
 
@@ -183,8 +174,7 @@ $ git-crypt add-gpg-user <email>
 * [ ] `init-repo: deos-*`
 * [ ] `add: docs/*`
 * [ ] `set-dns: *.deos.ai`
-* [ ] `here: five`
-* [ ] `now: six`
+* [ ] `assign: type`
 
 ---
 
@@ -195,8 +185,7 @@ $ git-crypt add-gpg-user <email>
 * [ ] `init-repo: deos-**
 * [ ] `add: docs/*`
 * [ ] `set-dns: *.deos.ai`
-* [ ] `here: five`
-* [ ] `now: six`
+* [ ] `assign: type`
 
 ---
 
@@ -207,8 +196,7 @@ $ git-crypt add-gpg-user <email>
 * [ ] `init-repo: deos-*`
 * [ ] `add: docs/*`
 * [ ] `set-dns: *.deos.ai`
-* [ ] `here: five`
-* [ ] `now: six`
+* [ ] `assign: type`
 
 ---
 
@@ -219,8 +207,7 @@ $ git-crypt add-gpg-user <email>
 * [ ] `init-repo: deos-*`
 * [ ] `add: docs/*`
 * [ ] `set-dns: *.deos.ai`
-* [ ] `here: five`
-* [ ] `now: six`
+* [ ] `assign: type`
 
 ---
 
@@ -231,8 +218,7 @@ $ git-crypt add-gpg-user <email>
 * [ ] `init-repo: deos-*`
 * [ ] `add: docs/*`
 * [ ] `set-dns: *.deos.ai`
-* [ ] `here: five`
-* [ ] `now: six`
+* [ ] `assign: type`
 
 ---
 
@@ -243,8 +229,7 @@ $ git-crypt add-gpg-user <email>
 * [ ] `init-repo: deos-*`
 * [ ] `add: docs/*`
 * [ ] `set-dns: *.deos.ai`
-* [ ] `here: five`
-* [ ] `now: six`
+* [ ] `assign: type`
 
 ---
 
@@ -255,8 +240,7 @@ $ git-crypt add-gpg-user <email>
 * [ ] `init-repo: deos-*`
 * [ ] `add: docs/*`
 * [ ] `set-dns: *.deos.ai`
-* [ ] `here: five`
-* [ ] `now: six`
+* [ ] `assign: type`
 
 ---
 
@@ -267,8 +251,7 @@ $ git-crypt add-gpg-user <email>
 * [ ] `init-repo: deos-*`
 * [ ] `add: docs/*`
 * [ ] `set-dns: *.deos.ai`
-* [ ] `here: five`
-* [ ] `now: six`
+* [ ] `assign: type`
 
 ---
 
@@ -279,8 +262,7 @@ $ git-crypt add-gpg-user <email>
 * [ ] `init-repo: deos-*`
 * [ ] `add: docs/*`
 * [ ] `set-dns: *.deos.ai`
-* [ ] `here: five`
-* [ ] `now: six`
+* [ ] `assign: type`
 
 ---
 
@@ -291,8 +273,7 @@ $ git-crypt add-gpg-user <email>
 * [ ] `init-repo: deos-*`
 * [ ] `add: docs/*`
 * [ ] `set-dns: *.deos.ai`
-* [ ] `here: five`
-* [ ] `now: six`
+* [ ] `assign: type`
 
 ---
 
@@ -303,8 +284,7 @@ $ git-crypt add-gpg-user <email>
 * [ ] `init-repo: deos-*`
 * [ ] `add: docs/*`
 * [ ] `set-dns: *.deos.ai`
-* [ ] `here: five`
-* [ ] `now: six`
+* [ ] `assign: type`
 
 ---
 
@@ -315,8 +295,7 @@ $ git-crypt add-gpg-user <email>
 * [ ] `init-repo: deos-*`
 * [ ] `add: docs/*`
 * [ ] `set-dns: *.deos.ai`
-* [ ] `here: five`
-* [ ] `now: six`
+* [ ] `assign: type`
 
 ---
 
