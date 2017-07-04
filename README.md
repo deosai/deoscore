@@ -61,10 +61,10 @@ $ git-crypt add-gpg-user <email>
 
 * [x] **`ΔOS`** [`v0.8.11`](https://github.com/libdeos/deoscore/releases/tag/v0.8-alpha.11) --- **Complete**
 * [ ] **`ΔOS`** `v0.8.12` --- [**Due:** `Today`](https://github.com/libdeos/deoscore/milestone/2) -- `create: wiki page`
-* [ ] **`ΔOS`** `v0.8.13` --- [**Due:** `Today`](https://github.com/libdeos/deoscore/milestone/3)
-* [ ] **`ΔOS`** `v0.8.14` --- [**Due:** `Today`](https://github.com/libdeos/deoscore/milestone/4)
-* [ ] **`ΔOS`** `v0.8.15` --- [**Due:** `Today`](https://github.com/libdeos/deoscore/milestone/5)
-* [ ] **`ΔOS`** `v0.8.16` --- [**Due:** `Today`](https://github.com/libdeos/deoscore/milestone/6)
+* [ ] **`ΔOS`** `v0.8.13` --- [**Due:** `Today`](https://github.com/libdeos/deoscore/milestone/3) -- `init-repo: deos-*`
+* [ ] **`ΔOS`** `v0.8.14` --- [**Due:** `Today`](https://github.com/libdeos/deoscore/milestone/4) -- `add: docs/*`
+* [ ] **`ΔOS`** `v0.8.15` --- [**Due:** `Today`](https://github.com/libdeos/deoscore/milestone/5) -- `set-dns: *.deos.ai`
+* [ ] **`ΔOS`** `v0.8.16` --- [**Due:** `Today`](https://github.com/libdeos/deoscore/milestone/6) -- `assign: type`
 
 ---
 
