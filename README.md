@@ -73,8 +73,8 @@ $ git-crypt add-gpg-user <email>
 
 * [ ] `create: wiki page`
 * [ ] `init-repo: deos-*`
-* [ ] `then: three`
-* [ ] `and: four`
+* [ ] `add: docs/*`
+* [ ] `set-dns: *.deos.ai`
 * [ ] `here: five`
 * [ ] `now: six`
 
@@ -85,8 +85,8 @@ $ git-crypt add-gpg-user <email>
 
 * [ ] `create: wiki page`
 * [ ] `init-repo: deos-*`
-* [ ] `then: three`
-* [ ] `and: four`
+* [ ] `add: docs/*`
+* [ ] `set-dns: *.deos.ai`
 * [ ] `here: five`
 * [ ] `now: six`
 
@@ -97,8 +97,8 @@ $ git-crypt add-gpg-user <email>
 
 * [ ] `create: wiki page`
 * [ ] `init-repo: deos-*`
-* [ ] `then: three`
-* [ ] `and: four`
+* [ ] `add: docs/*`
+* [ ] `set-dns: *.deos.ai`
 * [ ] `here: five`
 * [ ] `now: six`
 
@@ -109,8 +109,8 @@ $ git-crypt add-gpg-user <email>
 
 * [ ] `create: wiki page`
 * [ ] `init-repo: deos-*`
-* [ ] `then: three`
-* [ ] `and: four`
+* [ ] `add: docs/*`
+* [ ] `set-dns: *.deos.ai`
 * [ ] `here: five`
 * [ ] `now: six`
 
@@ -121,8 +121,8 @@ $ git-crypt add-gpg-user <email>
 
 * [ ] `create: wiki page`
 * [ ] `init-repo: deos-*`
-* [ ] `then: three`
-* [ ] `and: four`
+* [ ] `add: docs/*`
+* [ ] `set-dns: *.deos.ai`
 * [ ] `here: five`
 * [ ] `now: six`
 
@@ -133,8 +133,8 @@ $ git-crypt add-gpg-user <email>
 
 * [ ] `create: wiki page`
 * [ ] `init-repo: deos-*`
-* [ ] `then: three`
-* [ ] `and: four`
+* [ ] `add: docs/*`
+* [ ] `set-dns: *.deos.ai`
 * [ ] `here: five`
 * [ ] `now: six`
 
@@ -145,8 +145,8 @@ $ git-crypt add-gpg-user <email>
 
 * [ ] `create: wiki page`
 * [ ] `init-repo: deos-*`
-* [ ] `then: three`
-* [ ] `and: four`
+* [ ] `add: docs/*`
+* [ ] `set-dns: *.deos.ai`
 * [ ] `here: five`
 * [ ] `now: six`
 
@@ -157,8 +157,8 @@ $ git-crypt add-gpg-user <email>
 
 * [ ] `create: wiki page`
 * [ ] `init-repo: deos-*`
-* [ ] `then: three`
-* [ ] `and: four`
+* [ ] `add: docs/*`
+* [ ] `set-dns: *.deos.ai`
 * [ ] `here: five`
 * [ ] `now: six`
 
@@ -169,8 +169,8 @@ $ git-crypt add-gpg-user <email>
 
 * [ ] `create: wiki page`
 * [ ] `init-repo: deos-*`
-* [ ] `then: three`
-* [ ] `and: four`
+* [ ] `add: docs/*`
+* [ ] `set-dns: *.deos.ai`
 * [ ] `here: five`
 * [ ] `now: six`
 
@@ -181,8 +181,8 @@ $ git-crypt add-gpg-user <email>
 
 * [ ] `create: wiki page`
 * [ ] `init-repo: deos-*`
-* [ ] `then: three`
-* [ ] `and: four`
+* [ ] `add: docs/*`
+* [ ] `set-dns: *.deos.ai`
 * [ ] `here: five`
 * [ ] `now: six`
 
@@ -193,8 +193,8 @@ $ git-crypt add-gpg-user <email>
 
 * [ ] `create: wiki page`
 * [ ] `init-repo: deos-**
-* [ ] `then: three`
-* [ ] `and: four`
+* [ ] `add: docs/*`
+* [ ] `set-dns: *.deos.ai`
 * [ ] `here: five`
 * [ ] `now: six`
 
@@ -205,8 +205,8 @@ $ git-crypt add-gpg-user <email>
 
 * [ ] `create: wiki page`
 * [ ] `init-repo: deos-*`
-* [ ] `then: three`
-* [ ] `and: four`
+* [ ] `add: docs/*`
+* [ ] `set-dns: *.deos.ai`
 * [ ] `here: five`
 * [ ] `now: six`
 
@@ -217,8 +217,8 @@ $ git-crypt add-gpg-user <email>
 
 * [ ] `create: wiki page`
 * [ ] `init-repo: deos-*`
-* [ ] `then: three`
-* [ ] `and: four`
+* [ ] `add: docs/*`
+* [ ] `set-dns: *.deos.ai`
 * [ ] `here: five`
 * [ ] `now: six`
 
@@ -229,8 +229,8 @@ $ git-crypt add-gpg-user <email>
 
 * [ ] `create: wiki page`
 * [ ] `init-repo: deos-*`
-* [ ] `then: three`
-* [ ] `and: four`
+* [ ] `add: docs/*`
+* [ ] `set-dns: *.deos.ai`
 * [ ] `here: five`
 * [ ] `now: six`
 
@@ -241,8 +241,8 @@ $ git-crypt add-gpg-user <email>
 
 * [ ] `create: wiki page`
 * [ ] `init-repo: deos-*`
-* [ ] `then: three`
-* [ ] `and: four`
+* [ ] `add: docs/*`
+* [ ] `set-dns: *.deos.ai`
 * [ ] `here: five`
 * [ ] `now: six`
 
@@ -253,8 +253,8 @@ $ git-crypt add-gpg-user <email>
 
 * [ ] `create: wiki page`
 * [ ] `init-repo: deos-*`
-* [ ] `then: three`
-* [ ] `and: four`
+* [ ] `add: docs/*`
+* [ ] `set-dns: *.deos.ai`
 * [ ] `here: five`
 * [ ] `now: six`
 
@@ -265,8 +265,8 @@ $ git-crypt add-gpg-user <email>
 
 * [ ] `create: wiki page`
 * [ ] `init-repo: deos-*`
-* [ ] `then: three`
-* [ ] `and: four`
+* [ ] `add: docs/*`
+* [ ] `set-dns: *.deos.ai`
 * [ ] `here: five`
 * [ ] `now: six`
 
@@ -277,8 +277,8 @@ $ git-crypt add-gpg-user <email>
 
 * [ ] `create: wiki page`
 * [ ] `init-repo: deos-*`
-* [ ] `then: three`
-* [ ] `and: four`
+* [ ] `add: docs/*`
+* [ ] `set-dns: *.deos.ai`
 * [ ] `here: five`
 * [ ] `now: six`
 
@@ -289,8 +289,8 @@ $ git-crypt add-gpg-user <email>
 
 * [ ] `create: wiki page`
 * [ ] `init-repo: deos-*`
-* [ ] `then: three`
-* [ ] `and: four`
+* [ ] `add: docs/*`
+* [ ] `set-dns: *.deos.ai`
 * [ ] `here: five`
 * [ ] `now: six`
 
@@ -301,8 +301,8 @@ $ git-crypt add-gpg-user <email>
 
 * [ ] `create: wiki page`
 * [ ] `init-repo: deos-*`
-* [ ] `then: three`
-* [ ] `and: four`
+* [ ] `add: docs/*`
+* [ ] `set-dns: *.deos.ai`
 * [ ] `here: five`
 * [ ] `now: six`
 
@@ -313,8 +313,8 @@ $ git-crypt add-gpg-user <email>
 
 * [ ] `create: wiki page`
 * [ ] `init-repo: deos-*`
-* [ ] `then: three`
-* [ ] `and: four`
+* [ ] `add: docs/*`
+* [ ] `set-dns: *.deos.ai`
 * [ ] `here: five`
 * [ ] `now: six`
 
