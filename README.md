@@ -140,7 +140,7 @@ $ git-crypt add-gpg-user <email>
 
 #### ***Layers***
 
-* `Law`
+* `Application`
 * `Physical`
 
 ---
