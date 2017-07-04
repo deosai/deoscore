@@ -49,7 +49,9 @@ $ git-crypt add-gpg-user <email>
 
 ---
 
-### Commands
+### Specification
+
+#### ***Commands***
 
 * `make all`
 * `make build`
@@ -65,17 +67,13 @@ $ git-crypt add-gpg-user <email>
 * `make wiki.push`
 * `make wikid`
 
----
-
-### Drivers
+#### ***Drivers***
 
 * `Bitcoin`
 * `BitTorrent`
 * `ZeroTier`
 
----
-
-### Filesystem
+#### ***Filesystem***
 
 * `.git`
 * `.git-crypt`
@@ -91,9 +89,7 @@ $ git-crypt add-gpg-user <email>
 * `test`
 * `var`
 
----
-
-### Interfaces
+#### ***Interfaces***
 
 * `btc.slack.com`
 * `chain.wiki`
