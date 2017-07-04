@@ -89,25 +89,15 @@ $ git-crypt add-gpg-user <email>
 * `src`
 * `templates`
 * `test`
-* `make wikid`
+* `var`
 
 ---
 
 ### Interfaces
 
-* `make all`
-* `make build`
-* `make clean`
-* `make docs.build`
-* `make docs.start`
-* `make graphviz`
-* `make msg="add: var/asset/img/*.png" push`
-* `make run`
-* `make sync`
-* `make venv`
-* `make wiki.pull`
-* `make wiki.push`
-* `make wikid`
+* `btc.slack.com`
+* `chain.wiki`
+* `deos.ai`
 
 ---
 
