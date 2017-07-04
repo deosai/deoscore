@@ -40,19 +40,19 @@ $ git-crypt add-gpg-user <email>
 
 ### Commands
 
-* [ ] `make all`
-* [ ] `make build`
-* [ ] `make clean`
-* [ ] `make docs.build`
-* [ ] `make docs.start`
-* [ ] `make graphviz`
-* [ ] `make msg="add: var/asset/img/*.png" push`
-* [ ] `make run`
-* [ ] `make sync`
-* [ ] `make venv`
-* [ ] `make wiki.pull`
-* [ ] `make wiki.push`
-* [ ] `make wikid`
+* `make all`
+* `make build`
+* `make clean`
+* `make docs.build`
+* `make docs.start`
+* `make graphviz`
+* `make msg="add: var/asset/img/*.png" push`
+* `make run`
+* `make sync`
+* `make venv`
+* `make wiki.pull`
+* `make wiki.push`
+* `make wikid`
 
 ---
 
