@@ -140,7 +140,19 @@ $ git-crypt add-gpg-user <email>
 
 #### ***Layers***
 
-* `Application`
+* `Information`
+* `HTML/CSS/JS`
+* `HTTP`
+* `ZeroTier`
+* `Python`
+* `C`
+* `Docker`
+* `VM`
+* `Vagrant`
+* `Terminal`
+* `Host`
+* `BIOS`
+* `Bootloader`
 * `Physical`
 
 ---
