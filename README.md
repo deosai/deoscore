@@ -224,7 +224,7 @@ $ git-crypt add-gpg-user <email>
 * [ ] `create: label`
 * [ ] `create: wiki page`
 * [ ] `add: var/img/*-box-icon.[png,jpg,gif]`
-* [ ] `init-repo: deos-**
+* [ ] `init-repo: deos-**`
 * [ ] `add: docs/*`
 * [ ] `set-dns: *.deos.ai`
 * [ ] `assign: type`
