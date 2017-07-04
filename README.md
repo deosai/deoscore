@@ -10,24 +10,6 @@
 > **[—DeSantis][004]**
 ---
 
-### Commands
-
-* [ ] `make all`
-* [ ] `make build`
-* [ ] `make clean`
-* [ ] `make docs.build`
-* [ ] `make docs.start`
-* [ ] `make graphviz`
-* [ ] `make msg="add: var/asset/img/*.png" push`
-* [ ] `make run`
-* [ ] `make sync`
-* [ ] `make venv`
-* [ ] `make wiki.pull`
-* [ ] `make wiki.push`
-* [ ] `make wikid`
-
----
-
 ### Configuration
 
 #### ***`.env-this`***
@@ -54,6 +36,24 @@ $ touch .fseventsd/no_log .metadata_never_index .Trashes
 $ git-crypt init
 $ git-crypt add-gpg-user <email>
 ```
+---
+
+### Commands
+
+* [ ] `make all`
+* [ ] `make build`
+* [ ] `make clean`
+* [ ] `make docs.build`
+* [ ] `make docs.start`
+* [ ] `make graphviz`
+* [ ] `make msg="add: var/asset/img/*.png" push`
+* [ ] `make run`
+* [ ] `make sync`
+* [ ] `make venv`
+* [ ] `make wiki.pull`
+* [ ] `make wiki.push`
+* [ ] `make wikid`
+
 ---
 
 ### Release Schedule
