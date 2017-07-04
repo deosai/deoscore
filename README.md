@@ -74,6 +74,9 @@ $ git-crypt add-gpg-user <email>
 * `.git-crypt`
 * `.github`
 * `app`
+  - `deos.ai`
+  - `terminal`
+  - `vault`
   - `wikid`
 * `docs`
   - `_site`
